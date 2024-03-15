@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EMI Calculator</string>
+    <string name="home_1">Equated Monthly Instalment</string>
+    <string name="home_2">The EMI calculator helps you arrive at the right home loan amount that best fits your monthly budget, by helping you decide the loan EMI and tenure most suitable to your financial position</string>
+</resources>
