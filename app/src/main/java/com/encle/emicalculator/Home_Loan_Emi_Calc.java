@@ -22,6 +22,7 @@ public class Home_Loan_Emi_Calc extends AppCompatActivity {
         CardView card_rd_calc = findViewById(R.id.rd_calc);
         CardView card_salary_calc = findViewById(R.id.salary_calc);
         CardView card_gst_calc = findViewById(R.id.gst_calc);
+        CardView card_insurance =findViewById(R.id.insurance);
 
 
         card_emi_calc.setOnClickListener(new View.OnClickListener() {
@@ -61,6 +62,12 @@ public class Home_Loan_Emi_Calc extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Home_Loan_Emi_Calc.this,GST_Calculator.class));
+            }
+        });
+        card_insurance.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Home_Loan_Emi_Calc.this,Insuarance_Main.class));
             }
         });
     }
