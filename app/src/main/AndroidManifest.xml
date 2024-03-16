@@ -13,31 +13,31 @@
         android:theme="@style/Theme.EMICalculator"
         tools:targetApi="31">
         <activity
-            android:name=".Recurring_Deposit_Calc"
+            android:name="com.encle.emicalculator.Recurring_Deposit_Calc"
             android:exported="true" />
         <activity
-            android:name=".Fixed_Deposit_Calc"
+            android:name="com.encle.emicalculator.Fixed_Deposit_Calc"
             android:exported="true" />
         <activity
-            android:name=".GST_Calculator"
+            android:name="com.encle.emicalculator.GST_Calculator"
             android:exported="true" />
         <activity
-            android:name=".Salary_Calculator"
+            android:name="com.encle.emicalculator.Salary_Calculator"
             android:exported="true" />
         <activity
-            android:name=".PPF_Calc"
+            android:name="com.encle.emicalculator.PPF_Calc"
             android:exported="true" />
         <activity
-            android:name=".Compound_Interest_Calc"
+            android:name="com.encle.emicalculator.Compound_Interest_Calc"
             android:exported="true" />
         <activity
-            android:name=".Business_Loan_Calc"
+            android:name="com.encle.emicalculator.Business_Loan_Calc"
             android:exported="true" />
         <activity
-            android:name=".EMI_Calc"
+            android:name="com.encle.emicalculator.EMI_Calc"
             android:exported="true" />
         <activity
-            android:name=".Splash_Screen_main"
+            android:name="com.encle.emicalculator.Splash_Screen_main"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,10 +46,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Home_Loan_Emi_Calc"
+            android:name="com.encle.emicalculator.Home_Loan_Emi_Calc"
             android:exported="true" />
         <activity
-            android:name=".Splash_Screen"
+            android:name="com.encle.emicalculator.Splash_Screen"
             android:exported="true" />
     </application>
 

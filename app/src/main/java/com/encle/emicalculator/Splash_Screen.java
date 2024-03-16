@@ -1,4 +1,4 @@
-package com.example.emicalculator;
+package com.encle.emicalculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,7 +8,7 @@ import android.view.View;
 
 import com.daimajia.androidanimations.library.Techniques;
 import com.daimajia.androidanimations.library.YoYo;
-import com.google.android.material.textview.MaterialTextView;
+import com.example.emicalculator.R;
 
 public class Splash_Screen extends AppCompatActivity {
 

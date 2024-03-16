@@ -1,4 +1,4 @@
-package com.example.emicalculator;
+package com.encle.emicalculator;
 
 import android.content.Context;
 

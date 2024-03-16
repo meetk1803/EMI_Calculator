@@ -1,4 +1,4 @@
-package com.example.emicalculator;
+package com.encle.emicalculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
+import com.example.emicalculator.R;
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
 import com.google.android.material.textfield.TextInputEditText;
 

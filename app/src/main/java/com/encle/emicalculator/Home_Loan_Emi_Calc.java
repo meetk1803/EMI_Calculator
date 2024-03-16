@@ -1,4 +1,4 @@
-package com.example.emicalculator;
+package com.encle.emicalculator;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
+
+import com.example.emicalculator.R;
 
 public class Home_Loan_Emi_Calc extends AppCompatActivity {
 
