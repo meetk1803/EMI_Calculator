@@ -210,10 +210,11 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:inputType="numberDecimal"
                         android:padding="@dimen/_1sdp"
-                        android:text="0"
-                        android:textColor="@color/app_bg_color"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:inputType="text"
+                        android:textColor="@color/answer_color"
                         android:textSize="@dimen/_15sdp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -241,11 +242,12 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:inputType="numberDecimal"
                         android:padding="@dimen/_1sdp"
-                        android:text="0"
-                        android:textColor="@color/app_bg_color"
-                        android:textSize="@dimen/_15sdp"  />
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:inputType="text"
+                        android:textColor="@color/answer_color"
+                        android:textSize="@dimen/_15sdp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -272,11 +274,12 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:inputType="numberDecimal"
                         android:padding="@dimen/_1sdp"
-                        android:text="0"
-                        android:textColor="@color/app_bg_color"
-                        android:textSize="@dimen/_15sdp" />
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:inputType="text"
+                        android:textColor="@color/answer_color"
+                        android:textSize="@dimen/_15sdp"  />
 
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
@@ -320,10 +323,11 @@
                         <com.google.android.material.textfield.TextInputEditText
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:inputType="numberDecimal"
                             android:padding="@dimen/_1sdp"
-                            android:text="0"
-                            android:textColor="@color/app_bg_color"
+                            android:clickable="false"
+                            android:focusable="false"
+                            android:inputType="text"
+                            android:textColor="@color/answer_color"
                             android:textSize="@dimen/_15sdp"  />
 
                     </com.google.android.material.textfield.TextInputLayout>
@@ -361,11 +365,12 @@
                         <com.google.android.material.textfield.TextInputEditText
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:inputType="numberDecimal"
                             android:padding="@dimen/_1sdp"
-                            android:text="0"
-                            android:textColor="@color/app_bg_color"
-                            android:textSize="@dimen/_15sdp" />
+                            android:clickable="false"
+                            android:focusable="false"
+                            android:inputType="text"
+                            android:textColor="@color/answer_color"
+                            android:textSize="@dimen/_15sdp"  />
 
                     </com.google.android.material.textfield.TextInputLayout>
 

@@ -203,7 +203,6 @@
                     app:boxCornerRadiusTopStart="@dimen/_5sdp">
 
                     <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/edt_monthly_ppf"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="@dimen/_1sdp"
@@ -241,10 +240,10 @@
                         android:layout_height="match_parent"
                         android:padding="@dimen/_1sdp"
                         android:clickable="false"
-                        android:textColor="@color/answer_color"
                         android:focusable="false"
-                        android:inputType="none"
-                        android:textSize="@dimen/_15sdp" />
+                        android:inputType="text"
+                        android:textColor="@color/answer_color"
+                        android:textSize="@dimen/_15sdp"  />
 
                 </com.google.android.material.textfield.TextInputLayout>
 
