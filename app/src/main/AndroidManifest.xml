@@ -13,6 +13,27 @@
         android:theme="@style/Theme.EMICalculator"
         tools:targetApi="31">
         <activity
+            android:name=".Recurring_Deposit_Calc"
+            android:exported="false" />
+        <activity
+            android:name=".Fixed_Deposit_Calc"
+            android:exported="false" />
+        <activity
+            android:name=".GST_Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".Salary_Calculator"
+            android:exported="false" />
+        <activity
+            android:name=".PPF_Calc"
+            android:exported="false" />
+        <activity
+            android:name=".Compound_Interest_Calc"
+            android:exported="false" />
+        <activity
+            android:name=".Business_Loan_Calc"
+            android:exported="false" />
+        <activity
             android:name=".EMI_Calc"
             android:exported="true" />
         <activity

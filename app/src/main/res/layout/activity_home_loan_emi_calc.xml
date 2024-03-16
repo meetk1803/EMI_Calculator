@@ -47,6 +47,7 @@
 
                 <!-- MaterialCardView -->
                 <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/emi_calc"
                     android:layout_width="@dimen/_90sdp"
                     android:layout_height="@dimen/_100sdp"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -81,6 +82,7 @@
 
                 <!-- MaterialCardView -->
                 <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/business_calc"
                     android:layout_width="@dimen/_90sdp"
                     android:layout_height="@dimen/_100sdp"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -115,6 +117,7 @@
 
                 <!-- MaterialCardView -->
                 <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/fd_calc"
                     android:layout_width="@dimen/_90sdp"
                     android:layout_height="@dimen/_100sdp"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -158,6 +161,7 @@
 
                 <!-- MaterialCardView -->
                 <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/rd_calc"
                     android:layout_width="@dimen/_90sdp"
                     android:layout_height="@dimen/_100sdp"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -192,6 +196,7 @@
 
                 <!-- MaterialCardView -->
                 <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/salary_calc"
                     android:layout_width="@dimen/_90sdp"
                     android:layout_height="@dimen/_100sdp"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -226,6 +231,7 @@
 
                 <!-- MaterialCardView -->
                 <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/gst_calc"
                     android:layout_width="@dimen/_90sdp"
                     android:layout_height="@dimen/_100sdp"
                     android:layout_marginTop="@dimen/_10sdp"
