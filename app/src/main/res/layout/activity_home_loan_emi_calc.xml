@@ -276,6 +276,7 @@
 
                 <!-- MaterialCardView -->
                 <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/ppf_calc"
                     android:layout_width="@dimen/_90sdp"
                     android:layout_height="@dimen/_100sdp"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -310,6 +311,7 @@
 
                 <!-- MaterialCardView -->
                 <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/simple_interest_calc"
                     android:layout_width="@dimen/_90sdp"
                     android:layout_height="@dimen/_100sdp"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -344,6 +346,7 @@
 
                 <!-- MaterialCardView -->
                 <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/compound_interest_calc"
                     android:layout_width="@dimen/_90sdp"
                     android:layout_height="@dimen/_100sdp"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -422,6 +425,7 @@
 
                 <!-- MaterialCardView -->
                 <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/bank_service"
                     android:layout_width="@dimen/_90sdp"
                     android:layout_height="@dimen/_100sdp"
                     android:layout_marginTop="@dimen/_10sdp"
@@ -456,6 +460,7 @@
 
                 <!-- MaterialCardView -->
                 <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/near_by_places"
                     android:layout_width="@dimen/_90sdp"
                     android:layout_height="@dimen/_100sdp"
                     android:layout_marginTop="@dimen/_10sdp"
