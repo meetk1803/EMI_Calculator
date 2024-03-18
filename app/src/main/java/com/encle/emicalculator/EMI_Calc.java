@@ -49,16 +49,16 @@ public class EMI_Calc extends AppCompatActivity {
     }
 
     //------------------------------------------------------------------------------------------------------
-    private  void reset(View view){
+    private void reset(View view) {
 
-                // Clear the text of all TextInputEditText fields
-                edt_principal_amt.setText("");
-                edt_rate.setText("");
-                edt_year.setText("");
-                edt_monthly_emi.setText("");
-                edt_t_interest.setText("");
-                edt_t_payment.setText("");
-            }
+        // Clear the text of all TextInputEditText fields
+        edt_principal_amt.setText("");
+        edt_rate.setText("");
+        edt_year.setText("");
+        edt_monthly_emi.setText("");
+        edt_t_interest.setText("");
+        edt_t_payment.setText("");
+    }
 
     private void calculate(View view) {
         // Hide the soft keyboard
@@ -92,8 +92,6 @@ public class EMI_Calc extends AppCompatActivity {
         edt_t_interest.setText("₹" + String.format("%.2f", totalInterest));
         edt_t_payment.setText("₹" + String.format("%.2f", totalPayment));
     }
-
-
 
     @Override
     public void onBackPressed() {

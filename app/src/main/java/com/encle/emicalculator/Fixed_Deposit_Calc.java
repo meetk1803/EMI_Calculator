@@ -15,6 +15,8 @@ import com.google.android.material.floatingactionbutton.ExtendedFloatingActionBu
 import com.google.android.material.textfield.MaterialAutoCompleteTextView;
 import com.google.android.material.textfield.TextInputEditText;
 
+import java.text.DecimalFormat;
+
 public class Fixed_Deposit_Calc extends AppCompatActivity {
     private TextInputEditText depositAmountEditText;
     private TextInputEditText interestRateEditText;
@@ -41,7 +43,7 @@ public class Fixed_Deposit_Calc extends AppCompatActivity {
 
         // Populate spinner options
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                    R.array.period_options, android.R.layout.simple_spinner_item);
+                R.array.period_options, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         periodSpinner.setAdapter(adapter);
 
@@ -71,7 +73,7 @@ public class Fixed_Deposit_Calc extends AppCompatActivity {
         });
 
     }
-    //-------------------------------------------------------------------------------------------------------
+
     private void reset() {
         // Clear the text of all TextInputEditText fields
         depositAmountEditText.setText("");
@@ -83,39 +85,29 @@ public class Fixed_Deposit_Calc extends AppCompatActivity {
     }
 
     private void calculate() {
-        // Hide the soft keyboard
-        InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-        imm.hideSoftInputFromWindow(depositAmountEditText.getWindowToken(), 0);
+        // Retrieve values entered by the user
+        double principal = Double.parseDouble(depositAmountEditText.getText().toString());
+        double rate = Double.parseDouble(interestRateEditText.getText().toString());
+        double time = Double.parseDouble(periodEditText.getText().toString());
 
-        // Check if input fields are empty
-        if (depositAmountEditText.getText().toString().isEmpty() ||
-                interestRateEditText.getText().toString().isEmpty() ||
-                periodEditText.getText().toString().isEmpty()) {
-            Toast.makeText(getApplicationContext(), "Please enter all inputs", Toast.LENGTH_SHORT).show();
-            return;
+        // Check if time is provided in years or months
+        // If time is provided in years, convert it to months
+        if (periodEditText.getText().toString().toLowerCase().contains("year")) {
+            time *= 12; // Convert years to months
         }
+        // Calculate total deposit, total interest, and maturity amount
+        double annualRate = rate / 100; // Convert percentage to decimal
+        // Calculate total interest using compound interest formula
+        double totalInterest = principal * (Math.pow(1 + (annualRate / 12), time) - 1);
+        double maturityAmount = principal + totalInterest;
 
-        // Perform fixed deposit calculation
-        double depositAmount = Double.parseDouble(depositAmountEditText.getText().toString());
-        double interestRate = Double.parseDouble(interestRateEditText.getText().toString());
-        double period = Double.parseDouble(periodEditText.getText().toString());
-
-        // Convert period from months to years if selected
-        if (!isPeriodInYears) {
-            period /= 12;
-        }
-
-        // Calculate total interest and maturity amount for simple interest
-        double interest = (depositAmount * interestRate * period) / 100;
-        double maturityAmount = depositAmount + interest;
-
-        // Display the results
-        totalDepositEditText.setText(String.valueOf(depositAmount));
-        totalInterestEditText.setText(String.valueOf(interest));
-        maturityAmountEditText.setText(String.valueOf(maturityAmount));
+        // Format the results to display with two decimal places
+        DecimalFormat decimalFormat = new DecimalFormat("#.#");
+        // Display the formatted results
+        totalDepositEditText.setText(String.format("₹%.1f", principal));
+        totalInterestEditText.setText(String.format("₹%.1f", totalInterest));
+        maturityAmountEditText.setText(String.format("₹%.1f", maturityAmount));
     }
-
-
 
     public void txt_back(View view) {
         finish();
