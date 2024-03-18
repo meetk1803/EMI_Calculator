@@ -25,7 +25,7 @@ public class Splash_Screen_main extends AppCompatActivity {
             @Override
             public void run() {
                 // Intent is used to switch from one activity to another.
-                Intent i = new Intent(Splash_Screen_main.this, Splash_Screen.class);
+                Intent i = new Intent(Splash_Screen_main.this, Splash_Screen_Privacy.class);
                 startActivity(i); // invoke the SecondActivity.
                 finish(); // the current activity will get finished.
             }

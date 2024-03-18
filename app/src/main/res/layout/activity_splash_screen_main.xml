@@ -14,11 +14,34 @@
         android:layout_marginTop="@dimen/_200sdp"
         android:layout_gravity="center"
         android:src="@drawable/app_icon" />
-
     <com.google.android.material.textview.MaterialTextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_150sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:gravity="center"
+        android:textSize="@dimen/_20sdp"
+        android:fontFamily="@font/kanit_medium"
+        android:textColor="@color/white"
+        android:text="Loan EMI Calculator" />
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/inter_regular"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="@color/white"
+        android:text="Calculate Your Loan EMIs with Confidence!" />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:progressTint="@color/white"
+        />
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_80sdp"
         android:gravity="center"
         android:textColor="@color/white"
         android:text="version 1.0" />
