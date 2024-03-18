@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/app_bg_color"
     android:orientation="vertical"
-    tools:context="com.encle.emicalculator.Home_Loan_Emi_Calc">
+    tools:context="com.encle.emicalculator.Insuarance_Main">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -64,7 +64,7 @@
 
                     <!-- MaterialCardView -->
                     <com.google.android.material.card.MaterialCardView
-                        android:id="@+id/emi_calc"
+                        android:id="@+id/health_card"
                         android:layout_width="@dimen/_90sdp"
                         android:layout_height="@dimen/_100sdp"
                         android:layout_marginTop="@dimen/_10sdp"
@@ -99,7 +99,7 @@
 
                     <!-- MaterialCardView -->
                     <com.google.android.material.card.MaterialCardView
-                        android:id="@+id/business_calc"
+                        android:id="@+id/motor_card"
                         android:layout_width="@dimen/_90sdp"
                         android:layout_height="@dimen/_100sdp"
                         android:layout_marginTop="@dimen/_10sdp"
@@ -134,7 +134,7 @@
 
                     <!-- MaterialCardView -->
                     <com.google.android.material.card.MaterialCardView
-                        android:id="@+id/fd_calc"
+                        android:id="@+id/home_card"
                         android:layout_width="@dimen/_90sdp"
                         android:layout_height="@dimen/_100sdp"
                         android:layout_marginTop="@dimen/_10sdp"
@@ -179,7 +179,7 @@
 
                     <!-- MaterialCardView -->
                     <com.google.android.material.card.MaterialCardView
-                        android:id="@+id/rd_calc"
+                        android:id="@+id/fire_card"
                         android:layout_width="@dimen/_90sdp"
                         android:layout_height="@dimen/_100sdp"
                         android:layout_marginTop="@dimen/_10sdp"
@@ -214,7 +214,7 @@
 
                     <!-- MaterialCardView -->
                     <com.google.android.material.card.MaterialCardView
-                        android:id="@+id/salary_calc"
+                        android:id="@+id/travel_card"
                         android:layout_width="@dimen/_90sdp"
                         android:layout_height="@dimen/_100sdp"
                         android:layout_marginTop="@dimen/_10sdp"
@@ -249,7 +249,7 @@
 
                     <!-- MaterialCardView -->
                     <com.google.android.material.card.MaterialCardView
-                        android:id="@+id/gst_calc"
+                        android:id="@+id/property_card"
                         android:layout_width="@dimen/_90sdp"
                         android:layout_height="@dimen/_100sdp"
                         android:layout_marginTop="@dimen/_10sdp"
@@ -304,6 +304,7 @@
 
                     <!-- MaterialCardView -->
                     <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/term_life_card"
                         android:layout_width="@dimen/_90sdp"
                         android:layout_height="@dimen/_100sdp"
                         android:layout_marginTop="@dimen/_10sdp"
@@ -338,6 +339,7 @@
 
                     <!-- MaterialCardView -->
                     <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/whole_life_card"
                         android:layout_width="@dimen/_90sdp"
                         android:layout_height="@dimen/_100sdp"
                         android:layout_marginTop="@dimen/_10sdp"
@@ -372,6 +374,7 @@
 
                     <!-- MaterialCardView -->
                     <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/endowment_plans_card"
                         android:layout_width="@dimen/_90sdp"
                         android:layout_height="@dimen/_100sdp"
                         android:layout_marginTop="@dimen/_10sdp"
@@ -415,6 +418,7 @@
 
                     <!-- MaterialCardView -->
                     <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/unit_linked_Card"
                         android:layout_width="@dimen/_90sdp"
                         android:layout_height="@dimen/_100sdp"
                         android:layout_marginTop="@dimen/_10sdp"
@@ -449,6 +453,7 @@
 
                     <!-- MaterialCardView -->
                     <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/child_plans_card"
                         android:layout_width="@dimen/_90sdp"
                         android:layout_height="@dimen/_100sdp"
                         android:layout_marginTop="@dimen/_10sdp"
@@ -483,6 +488,7 @@
 
                     <!-- MaterialCardView -->
                     <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/pension_plans_card"
                         android:layout_width="@dimen/_90sdp"
                         android:layout_height="@dimen/_100sdp"
                         android:layout_marginTop="@dimen/_10sdp"
