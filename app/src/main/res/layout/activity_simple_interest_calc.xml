@@ -89,17 +89,16 @@
                         app:boxCornerRadiusTopStart="@dimen/_5sdp">
 
                         <com.google.android.material.textfield.TextInputEditText
-                            android:id="@+id/txt_d_amt"
+                            android:id="@+id/edt_investment_amount"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
+                            android:inputType="numberDecimal"
                             android:padding="@dimen/_1sdp"
                             android:text="0"
-                            android:inputType="numberDecimal"
                             android:textColor="@color/app_bg_color"
                             android:textSize="@dimen/_15sdp" />
 
                     </com.google.android.material.textfield.TextInputLayout>
-
 
                 </LinearLayout>
 
@@ -131,12 +130,12 @@
                         app:boxCornerRadiusTopStart="@dimen/_5sdp">
 
                         <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/edt_rate_of_interest"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:id="@+id/txt_d_rate"
+                            android:inputType="numberDecimal"
                             android:padding="@dimen/_1sdp"
                             android:text="0"
-                            android:inputType="numberDecimal"
                             android:textColor="@color/app_bg_color"
                             android:textSize="@dimen/_15sdp" />
 
@@ -173,13 +172,13 @@
                     app:boxCornerRadiusTopStart="@dimen/_5sdp">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edt_period"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_35sdp"
+                        android:inputType="numberDecimal"
                         android:padding="@dimen/_1sdp"
                         android:text="0"
-                        android:id="@+id/txt_d_period"
                         android:textColor="@color/app_bg_color"
-                        android:inputType="numberDecimal"
                         android:textSize="@dimen/_15sdp" />
 
 
@@ -199,7 +198,7 @@
                     app:boxCornerRadiusTopStart="@dimen/_5sdp">
 
                     <com.google.android.material.textfield.MaterialAutoCompleteTextView
-                        android:id="@+id/txt_spinner_period"
+                        android:id="@+id/periodSpinner"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_30sdp"
                         android:padding="@dimen/_1sdp"
@@ -239,7 +238,7 @@
                     app:boxCornerRadiusTopStart="@dimen/_5sdp">
 
                     <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/txt_total_d"
+                        android:id="@+id/txt_simple_investment"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="@dimen/_1sdp"
@@ -272,7 +271,7 @@
                     app:boxCornerRadiusTopStart="@dimen/_5sdp">
 
                     <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/total_d_interest"
+                        android:id="@+id/txt_principal_interest_value"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="@dimen/_1sdp"
@@ -305,7 +304,7 @@
                     app:boxCornerRadiusTopStart="@dimen/_5sdp">
 
                     <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/total_d_maturity_amt"
+                        android:id="@+id/txt_total_amount"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="@dimen/_1sdp"
@@ -350,7 +349,6 @@
                     android:text="Calculate"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_20sdp" />
-
             </LinearLayout>
         </LinearLayout>
 
