@@ -171,14 +171,14 @@
                     app:boxCornerRadiusTopStart="@dimen/_5sdp">
 
                     <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/txt_d_period"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:inputType="numberDecimal"
+                        android:layout_height="@dimen/_35sdp"
                         android:padding="@dimen/_1sdp"
                         android:text="0"
+                        android:id="@+id/txt_d_period"
                         android:textColor="@color/app_bg_color"
-                        android:textSize="@dimen/_15sdp"  />
+                        android:inputType="numberDecimal"
+                        android:textSize="@dimen/_15sdp" />
 
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -187,6 +187,7 @@
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
                     android:layout_width="0dp"
                     android:layout_weight="1"
+                    app:endIconTint="@color/app_bg_color"
                     android:layout_marginStart="@dimen/_10sdp"
                     android:layout_height="@dimen/_35sdp"
                     android:layout_marginTop="@dimen/_5sdp"
@@ -198,7 +199,7 @@
                     <com.google.android.material.textfield.MaterialAutoCompleteTextView
                         android:id="@+id/txt_spinner_period"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="@dimen/_30sdp"
                         android:padding="@dimen/_1sdp"
                         android:text="Select"
                         android:inputType="none"
@@ -208,6 +209,7 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
             </LinearLayout>
+
 
             <LinearLayout
                 android:layout_width="@dimen/_250sdp"
