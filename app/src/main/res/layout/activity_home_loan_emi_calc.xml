@@ -25,476 +25,478 @@
             android:textStyle="bold" />
 
     </FrameLayout>
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <GridLayout
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="@dimen/_10sdp"
-        android:paddingBottom="@dimen/_40sdp"
-        android:columnCount="1">
+        android:layout_height="match_parent">
 
-        <LinearLayout
+        <GridLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:columnCount="1"
+            android:paddingBottom="@dimen/_40sdp">
 
-            <FrameLayout
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp">
+                android:gravity="center"
+                android:orientation="horizontal">
 
-                <!-- MaterialCardView -->
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/emi_calc"
-                    android:layout_width="@dimen/_90sdp"
-                    android:layout_height="@dimen/_100sdp"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    android:backgroundTint="#04C3FF"
-                    app:cardCornerRadius="@dimen/_15sdp">
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp">
 
-                    <com.google.android.material.textview.MaterialTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="bottom"
-                        android:layout_marginBottom="@dimen/_10sdp"
-                        android:fontFamily="@font/inter_regular"
-                        android:gravity="center"
-                        android:text="EMI Calculator"
-                        android:textColor="@color/black"
-                        android:textSize="@dimen/_15=3sdp"
-                        android:textStyle="bold" />
-                </com.google.android.material.card.MaterialCardView>
+                    <!-- MaterialCardView -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/emi_calc"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:backgroundTint="#04C3FF"
+                        app:cardCornerRadius="@dimen/_15sdp">
 
-                <!-- ShapeableImageView -->
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:layout_width="@dimen/_60sdp"
-                    android:layout_height="@dimen/_60sdp"
-                    android:layout_gravity="top|center"
-                    android:src="@drawable/emi_calc" />
-            </FrameLayout>
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:text="EMI \nCalculator"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13sdp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.card.MaterialCardView>
 
-            <FrameLayout
-                android:layout_width="wrap_content"
+                    <!-- ShapeableImageView -->
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_gravity="top|center"
+                        android:src="@drawable/emi_calc" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp">
+
+                    <!-- MaterialCardView -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/business_calc"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:backgroundTint="#04C3FF"
+                        app:cardCornerRadius="@dimen/_15sdp">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="@dimen/_9sdp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:text="Business Loan Calculator"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_11sdp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- ShapeableImageView -->
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_gravity="top|center"
+                        android:src="@drawable/bussiness" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp">
+
+                    <!-- MaterialCardView -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/fd_calc"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:backgroundTint="#04C3FF"
+                        app:cardCornerRadius="@dimen/_15sdp">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="@dimen/_7sdp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:text="FD \nCalculator"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13sdp"
+
+                            android:textStyle="bold" />
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- ShapeableImageView -->
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_gravity="top|center"
+                        android:src="@drawable/fd_calculator" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp">
+                android:gravity="center"
+                android:orientation="horizontal">
 
-                <!-- MaterialCardView -->
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/business_calc"
-                    android:layout_width="@dimen/_90sdp"
-                    android:layout_height="@dimen/_100sdp"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    android:backgroundTint="#04C3FF"
-                    app:cardCornerRadius="@dimen/_15sdp">
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp">
 
-                    <com.google.android.material.textview.MaterialTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="bottom"
-                        android:layout_marginBottom="@dimen/_9sdp"
-                        android:fontFamily="@font/inter_regular"
-                        android:gravity="center"
-                        android:text="Business Loan Calculator"
-                        android:textColor="@color/black"
-                        android:textSize="@dimen/_13sdp"
-                        android:textStyle="bold" />
-                </com.google.android.material.card.MaterialCardView>
+                    <!-- MaterialCardView -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/rd_calc"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:backgroundTint="#04C3FF"
+                        app:cardCornerRadius="@dimen/_15sdp">
 
-                <!-- ShapeableImageView -->
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:layout_width="@dimen/_60sdp"
-                    android:layout_height="@dimen/_60sdp"
-                    android:layout_gravity="top|center"
-                    android:src="@drawable/bussiness" />
-            </FrameLayout>
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:text="RD \nCalculator"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13sdp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.card.MaterialCardView>
 
-            <FrameLayout
-                android:layout_width="wrap_content"
+                    <!-- ShapeableImageView -->
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_gravity="top|center"
+                        android:src="@drawable/rd_calculator" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp">
+
+                    <!-- MaterialCardView -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/salary_calc"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:backgroundTint="#04C3FF"
+                        app:cardCornerRadius="@dimen/_15sdp">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:text="Salary \nCalculator"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13sdp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- ShapeableImageView -->
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_gravity="top|center"
+                        android:src="@drawable/salary_calculator" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp">
+
+                    <!-- MaterialCardView -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/gst_calc"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:backgroundTint="#04C3FF"
+                        app:cardCornerRadius="@dimen/_15sdp">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:text="GST \nCalculator"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13sdp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- ShapeableImageView -->
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_gravity="top|center"
+                        android:src="@drawable/gst_calculator" />
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp">
+                android:gravity="center"
+                android:orientation="horizontal">
 
-                <!-- MaterialCardView -->
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/fd_calc"
-                    android:layout_width="@dimen/_90sdp"
-                    android:layout_height="@dimen/_100sdp"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    android:backgroundTint="#04C3FF"
-                    app:cardCornerRadius="@dimen/_15sdp">
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp">
 
-                    <com.google.android.material.textview.MaterialTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="bottom"
-                        android:layout_marginBottom="@dimen/_7sdp"
-                        android:fontFamily="@font/inter_regular"
-                        android:gravity="center"
-                        android:text="FD Calculator"
-                        android:textColor="@color/black"
-                        android:textSize="@dimen/_16sdp"
+                    <!-- MaterialCardView -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/ppf_calc"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:backgroundTint="#04C3FF"
+                        app:cardCornerRadius="@dimen/_15sdp">
 
-                        android:textStyle="bold" />
-                </com.google.android.material.card.MaterialCardView>
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:text="PPF \nCalculator"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13sdp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.card.MaterialCardView>
 
-                <!-- ShapeableImageView -->
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:layout_width="@dimen/_60sdp"
-                    android:layout_height="@dimen/_60sdp"
-                    android:layout_gravity="top|center"
-                    android:src="@drawable/fd_calculator" />
-            </FrameLayout>
+                    <!-- ShapeableImageView -->
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_gravity="top|center"
+                        android:src="@drawable/ppf_calculator" />
+                </FrameLayout>
 
-        </LinearLayout>
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
+                    <!-- MaterialCardView -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/simple_interest_calc"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:backgroundTint="#04C3FF"
+                        app:cardCornerRadius="@dimen/_15sdp">
 
-            <FrameLayout
-                android:layout_width="wrap_content"
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="@dimen/_1sdp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:text="Simple \nInterest Calculator"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- ShapeableImageView -->
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_gravity="top|center"
+                        android:src="@drawable/simple_interest_calculator" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp">
+
+                    <!-- MaterialCardView -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/compound_interest_calc"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:backgroundTint="#04C3FF"
+                        app:cardCornerRadius="@dimen/_15sdp">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="@dimen/_1sdp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:text="Compound \nInterest Calculator"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <!-- ShapeableImageView -->
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_gravity="top|center"
+                        android:src="@drawable/emi_calc" />
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp">
+                android:gravity="center"
+                android:orientation="horizontal">
 
-                <!-- MaterialCardView -->
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/rd_calc"
-                    android:layout_width="@dimen/_90sdp"
-                    android:layout_height="@dimen/_100sdp"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    android:backgroundTint="#04C3FF"
-                    app:cardCornerRadius="@dimen/_15sdp">
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp">
 
-                    <com.google.android.material.textview.MaterialTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="bottom"
-                        android:layout_marginBottom="@dimen/_10sdp"
-                        android:fontFamily="@font/inter_regular"
-                        android:gravity="center"
-                        android:text="RD Calculator"
-                        android:textColor="@color/black"
-                        android:textSize="@dimen/_15sdp"
-                        android:textStyle="bold" />
-                </com.google.android.material.card.MaterialCardView>
+                    <!-- MaterialCardView -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/insurance"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:backgroundTint="#04C3FF"
+                        app:cardCornerRadius="@dimen/_15sdp">
 
-                <!-- ShapeableImageView -->
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:layout_width="@dimen/_60sdp"
-                    android:layout_height="@dimen/_60sdp"
-                    android:layout_gravity="top|center"
-                    android:src="@drawable/rd_calculator" />
-            </FrameLayout>
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="@dimen/_18sdp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:text="Insurance"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13sdp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.card.MaterialCardView>
 
-            <FrameLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp">
+                    <!-- ShapeableImageView -->
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_gravity="top|center"
+                        android:src="@drawable/insurance" />
+                </FrameLayout>
 
-                <!-- MaterialCardView -->
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/salary_calc"
-                    android:layout_width="@dimen/_90sdp"
-                    android:layout_height="@dimen/_100sdp"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    android:backgroundTint="#04C3FF"
-                    app:cardCornerRadius="@dimen/_15sdp">
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp">
 
-                    <com.google.android.material.textview.MaterialTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="bottom"
-                        android:layout_marginBottom="@dimen/_10sdp"
-                        android:fontFamily="@font/inter_regular"
-                        android:gravity="center"
-                        android:text="Salary Calculator"
-                        android:textColor="@color/black"
-                        android:textSize="@dimen/_15sdp"
-                        android:textStyle="bold" />
-                </com.google.android.material.card.MaterialCardView>
+                    <!-- MaterialCardView -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/bank_service"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:backgroundTint="#04C3FF"
+                        app:cardCornerRadius="@dimen/_15sdp">
 
-                <!-- ShapeableImageView -->
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:layout_width="@dimen/_60sdp"
-                    android:layout_height="@dimen/_60sdp"
-                    android:layout_gravity="top|center"
-                    android:src="@drawable/salary_calculator" />
-            </FrameLayout>
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="@dimen/_10sdp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:text="Bank\nService"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_13sdp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.card.MaterialCardView>
 
-            <FrameLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp">
+                    <!-- ShapeableImageView -->
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_gravity="top|center"
+                        android:src="@drawable/bank_service" />
+                </FrameLayout>
 
-                <!-- MaterialCardView -->
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/gst_calc"
-                    android:layout_width="@dimen/_90sdp"
-                    android:layout_height="@dimen/_100sdp"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    android:backgroundTint="#04C3FF"
-                    app:cardCornerRadius="@dimen/_15sdp">
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_5sdp">
 
-                    <com.google.android.material.textview.MaterialTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="bottom"
-                        android:layout_marginBottom="@dimen/_10sdp"
-                        android:fontFamily="@font/inter_regular"
-                        android:gravity="center"
-                        android:text="GST Calculator"
-                        android:textColor="@color/black"
-                        android:textSize="@dimen/_15sdp"
-                        android:textStyle="bold" />
-                </com.google.android.material.card.MaterialCardView>
+                    <!-- MaterialCardView -->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/near_by_places"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:backgroundTint="#04C3FF"
+                        app:cardCornerRadius="@dimen/_15sdp">
 
-                <!-- ShapeableImageView -->
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:layout_width="@dimen/_60sdp"
-                    android:layout_height="@dimen/_60sdp"
-                    android:layout_gravity="top|center"
-                    android:src="@drawable/gst_calculator" />
-            </FrameLayout>
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="@dimen/_9sdp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:text="Near by \nPlaces"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold" />
+                    </com.google.android.material.card.MaterialCardView>
 
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <FrameLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp">
-
-                <!-- MaterialCardView -->
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/ppf_calc"
-                    android:layout_width="@dimen/_90sdp"
-                    android:layout_height="@dimen/_100sdp"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    android:backgroundTint="#04C3FF"
-                    app:cardCornerRadius="@dimen/_15sdp">
-
-                    <com.google.android.material.textview.MaterialTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="bottom"
-                        android:layout_marginBottom="@dimen/_10sdp"
-                        android:fontFamily="@font/inter_regular"
-                        android:gravity="center"
-                        android:text="PPF Calculator"
-                        android:textColor="@color/black"
-                        android:textSize="@dimen/_15sdp"
-                        android:textStyle="bold" />
-                </com.google.android.material.card.MaterialCardView>
-
-                <!-- ShapeableImageView -->
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:layout_width="@dimen/_60sdp"
-                    android:layout_height="@dimen/_60sdp"
-                    android:layout_gravity="top|center"
-                    android:src="@drawable/ppf_calculator" />
-            </FrameLayout>
-
-            <FrameLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp">
-
-                <!-- MaterialCardView -->
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/simple_interest_calc"
-                    android:layout_width="@dimen/_90sdp"
-                    android:layout_height="@dimen/_100sdp"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    android:backgroundTint="#04C3FF"
-                    app:cardCornerRadius="@dimen/_15sdp">
-
-                    <com.google.android.material.textview.MaterialTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="bottom"
-                        android:layout_marginBottom="@dimen/_1sdp"
-                        android:fontFamily="@font/inter_regular"
-                        android:gravity="center"
-                        android:text="Simple \nInterest Calculator"
-                        android:textColor="@color/black"
-                        android:textSize="@dimen/_13sdp"
-                        android:textStyle="bold" />
-                </com.google.android.material.card.MaterialCardView>
-
-                <!-- ShapeableImageView -->
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:layout_width="@dimen/_60sdp"
-                    android:layout_height="@dimen/_60sdp"
-                    android:layout_gravity="top|center"
-                    android:src="@drawable/simple_interest_calculator" />
-            </FrameLayout>
-
-            <FrameLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp">
-
-                <!-- MaterialCardView -->
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/compound_interest_calc"
-                    android:layout_width="@dimen/_90sdp"
-                    android:layout_height="@dimen/_100sdp"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    android:backgroundTint="#04C3FF"
-                    app:cardCornerRadius="@dimen/_15sdp">
-
-                    <com.google.android.material.textview.MaterialTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="bottom"
-                        android:layout_marginBottom="@dimen/_1sdp"
-                        android:fontFamily="@font/inter_regular"
-                        android:gravity="center"
-                        android:text="Compound Interest Calculator"
-                        android:textColor="@color/black"
-                        android:textSize="@dimen/_13sdp"
-                        android:textStyle="bold" />
-                </com.google.android.material.card.MaterialCardView>
-
-                <!-- ShapeableImageView -->
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:layout_width="@dimen/_60sdp"
-                    android:layout_height="@dimen/_60sdp"
-                    android:layout_gravity="top|center"
-                    android:src="@drawable/emi_calc" />
-            </FrameLayout>
+                    <!-- ShapeableImageView -->
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_gravity="top|center"
+                        android:src="@drawable/near_by_places" />
+                </FrameLayout>
 
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <FrameLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp">
-
-                <!-- MaterialCardView -->
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/insurance"
-                    android:layout_width="@dimen/_90sdp"
-                    android:layout_height="@dimen/_100sdp"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    android:backgroundTint="#04C3FF"
-                    app:cardCornerRadius="@dimen/_15sdp">
-
-                    <com.google.android.material.textview.MaterialTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="bottom"
-                        android:layout_marginBottom="@dimen/_18sdp"
-                        android:fontFamily="@font/inter_regular"
-                        android:gravity="center"
-                        android:text="Insurance"
-                        android:textColor="@color/black"
-                        android:textSize="@dimen/_15sdp"
-                        android:textStyle="bold" />
-                </com.google.android.material.card.MaterialCardView>
-
-                <!-- ShapeableImageView -->
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:layout_width="@dimen/_60sdp"
-                    android:layout_height="@dimen/_60sdp"
-                    android:layout_gravity="top|center"
-                    android:src="@drawable/insurance" />
-            </FrameLayout>
-
-            <FrameLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp">
-
-                <!-- MaterialCardView -->
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/bank_service"
-                    android:layout_width="@dimen/_90sdp"
-                    android:layout_height="@dimen/_100sdp"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    android:backgroundTint="#04C3FF"
-                    app:cardCornerRadius="@dimen/_15sdp">
-
-                    <com.google.android.material.textview.MaterialTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="bottom"
-                        android:layout_marginBottom="@dimen/_12sdp"
-                        android:fontFamily="@font/inter_regular"
-                        android:gravity="center"
-                        android:text="Bank\nService"
-                        android:textColor="@color/black"
-                        android:textSize="@dimen/_15sdp"
-                        android:textStyle="bold" />
-                </com.google.android.material.card.MaterialCardView>
-
-                <!-- ShapeableImageView -->
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:layout_width="@dimen/_60sdp"
-                    android:layout_height="@dimen/_60sdp"
-                    android:layout_gravity="top|center"
-                    android:src="@drawable/bank_service" />
-            </FrameLayout>
-
-            <FrameLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/_5sdp">
-
-                <!-- MaterialCardView -->
-                <com.google.android.material.card.MaterialCardView
-                    android:id="@+id/near_by_places"
-                    android:layout_width="@dimen/_90sdp"
-                    android:layout_height="@dimen/_100sdp"
-                    android:layout_marginTop="@dimen/_10sdp"
-                    android:backgroundTint="#04C3FF"
-                    app:cardCornerRadius="@dimen/_15sdp">
-
-                    <com.google.android.material.textview.MaterialTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="bottom"
-                        android:layout_marginBottom="@dimen/_9sdp"
-                        android:fontFamily="@font/inter_regular"
-                        android:gravity="center"
-                        android:text="Near by Places"
-                        android:textColor="@color/black"
-                        android:textSize="@dimen/_15sdp"
-                        android:textStyle="bold" />
-                </com.google.android.material.card.MaterialCardView>
-
-                <!-- ShapeableImageView -->
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:layout_width="@dimen/_60sdp"
-                    android:layout_height="@dimen/_60sdp"
-                    android:layout_gravity="top|center"
-                    android:src="@drawable/near_by_places" />
-            </FrameLayout>
+            </LinearLayout>
 
 
-        </LinearLayout>
+        </GridLayout>
 
-
-    </GridLayout>
-
-</ScrollView>
+    </ScrollView>
 
 
 </LinearLayout>

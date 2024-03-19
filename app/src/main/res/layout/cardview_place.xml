@@ -26,7 +26,7 @@
             android:maxLines="2"
             android:paddingHorizontal="@dimen/_5sdp"
             android:layout_marginBottom="@dimen/_10sdp"
-            android:autoSizeMaxTextSize="@dimen/_14sdp"
+            android:autoSizeMaxTextSize="@dimen/_16sdp"
             android:autoSizeMinTextSize="@dimen/_12sdp"
             android:autoSizeTextType="uniform"
             android:text="Health Insurance"
