@@ -12,7 +12,7 @@ import com.example.emicalculator.R;
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
 
 public class Splash_Screen_Privacy extends AppCompatActivity {
-    ExtendedFloatingActionButton BTN_accept;
+    ExtendedFloatingActionButton BTN_accept,BTN_decline;
     CheckBox chk_privacy;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +21,16 @@ public class Splash_Screen_Privacy extends AppCompatActivity {
 
         chk_privacy=findViewById(R.id.chk_privacy);
         BTN_accept =findViewById(R.id.BTN_accept);
+        BTN_decline =findViewById(R.id.BTN_decline);
+
+        BTN_decline.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Splash_Screen_Privacy.this, Rate_us_Screen.class);
+                i.putExtra("privacy", "privacy");
+                startActivity(i);
+            }
+        });
 
 
         BTN_accept.setOnClickListener(new View.OnClickListener() {

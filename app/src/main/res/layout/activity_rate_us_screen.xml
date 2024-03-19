@@ -106,7 +106,54 @@
                android:backgroundTint="@color/answer_color"
                android:text="Send us a feedback" />
 
-       </LinearLayout>
+           <LinearLayout
+               android:id="@+id/layout_rate_yesno"
+               android:layout_width="@dimen/_250sdp"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginTop="@dimen/_15sdp"
+               android:gravity="center"
+               android:visibility="gone"
+               android:orientation="horizontal"
+               android:weightSum="2">
+
+               <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                   android:id="@+id/BTN_NO"
+                   android:layout_width="0dp"
+                   android:layout_height="@dimen/_35sdp"
+                   android:layout_marginHorizontal="@dimen/_15sdp"
+                   android:layout_weight="1"
+                   android:backgroundTint="@color/btn_color"
+                   android:padding="@dimen/_5sdp"
+                   android:paddingVertical="@dimen/_10sdp"
+                   android:text="NO"
+                   android:elevation="0dp"
+                   app:elevation="0dp"
+                   android:outlineSpotShadowColor="#00FFFFFF"
+                   android:textColor="@color/white"
+                   android:textSize="@dimen/_15sdp"
+                   app:shapeAppearanceOverlay="@style/RoundedCornerOverlay"
+                   app:strokeColor="@color/white"
+                   app:strokeWidth="@dimen/_2sdp" />
+
+               <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                   android:id="@+id/BTN_YES"
+                   android:layout_width="0dp"
+                   android:layout_height="@dimen/_35sdp"
+                   android:layout_marginHorizontal="@dimen/_15sdp"
+                   android:layout_weight="1"
+                   android:backgroundTint="@color/white"
+                   android:padding="@dimen/_5sdp"
+                   android:paddingVertical="@dimen/_10sdp"
+                   android:text="YES"
+                   android:elevation="0dp"
+                   app:elevation="0dp"
+                   android:outlineSpotShadowColor="#00FFFFFF"
+                   android:textColor="@color/app_bg_color"
+                   android:textSize="@dimen/_15sdp"
+                   app:shapeAppearanceOverlay="@style/RoundedCornerOverlay" />
+
+           </LinearLayout>       </LinearLayout>
 
 
 

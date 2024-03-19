@@ -75,23 +75,24 @@
                 android:id="@+id/chk_privacy"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_20sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:button="@drawable/custom_checkbox_selector"
                 android:paddingLeft="@dimen/_10sdp"
                 android:text="I agree with Terms &amp; Conditions"
                 android:textColor="@color/white"
-                android:layout_marginStart="@dimen/_20sdp"
                 android:textSize="@dimen/_12sdp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
                 android:layout_marginTop="@dimen/_15sdp"
+                android:gravity="center"
                 android:orientation="horizontal"
                 android:weightSum="2">
 
                 <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                    android:id="@+id/BTN_decline"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_35sdp"
                     android:layout_marginHorizontal="@dimen/_15sdp"
