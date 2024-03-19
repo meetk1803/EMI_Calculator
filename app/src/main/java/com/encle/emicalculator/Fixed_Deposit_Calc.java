@@ -1,5 +1,6 @@
 package com.encle.emicalculator;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
@@ -16,6 +17,7 @@ import com.google.android.material.textfield.MaterialAutoCompleteTextView;
 import com.google.android.material.textfield.TextInputEditText;
 
 import java.text.DecimalFormat;
+import java.util.Objects;
 
 public class Fixed_Deposit_Calc extends AppCompatActivity {
     private TextInputEditText depositAmountEditText;
@@ -84,29 +86,37 @@ public class Fixed_Deposit_Calc extends AppCompatActivity {
         maturityAmountEditText.setText("");
     }
 
+    @SuppressLint("DefaultLocale")
     private void calculate() {
-        // Retrieve values entered by the user
-        double principal = Double.parseDouble(depositAmountEditText.getText().toString());
-        double rate = Double.parseDouble(interestRateEditText.getText().toString());
-        double time = Double.parseDouble(periodEditText.getText().toString());
+            // Retrieve values entered by the user
+            double principal = Double.parseDouble(depositAmountEditText.getText().toString());
+            double rate = Double.parseDouble(interestRateEditText.getText().toString());
+            double time = Double.parseDouble(periodEditText.getText().toString());
 
-        // Check if time is provided in years or months
-        // If time is provided in years, convert it to months
-        if (periodEditText.getText().toString().toLowerCase().contains("year")) {
-            time *= 12; // Convert years to months
-        }
-        // Calculate total deposit, total interest, and maturity amount
-        double annualRate = rate / 100; // Convert percentage to decimal
-        // Calculate total interest using compound interest formula
-        double totalInterest = principal * (Math.pow(1 + (annualRate / 12), time) - 1);
-        double maturityAmount = principal + totalInterest;
+            // Check if time is provided in years or months
+            boolean isYearly = periodSpinner.getText().toString().toLowerCase().contains("year");
 
-        // Format the results to display with two decimal places
-        DecimalFormat decimalFormat = new DecimalFormat("#.#");
-        // Display the formatted results
-        totalDepositEditText.setText(String.format("₹%.1f", principal));
-        totalInterestEditText.setText(String.format("₹%.1f", totalInterest));
-        maturityAmountEditText.setText(String.format("₹%.1f", maturityAmount));
+            // If time is provided in years, convert it to months
+            if (isYearly) {
+                time *= 12; // Convert years to months
+            }
+
+            // Calculate total deposit, total interest, and maturity amount
+            double annualRate = rate / 100; // Convert percentage to decimal
+
+            // Calculate total interest using compound interest formula
+
+            double totalInterest = principal * (Math.pow(1 + (annualRate / 12), time ) - 1);
+
+            double maturityAmount = principal + totalInterest;
+
+            // Format the results to display with two decimal places
+           // DecimalFormat decimalFormat = new DecimalFormat("#.##");
+
+            // Display the formatted results
+            totalDepositEditText.setText(String.format("₹%.2f", principal));
+            totalInterestEditText.setText(String.format("₹%.2f", totalInterest));
+            maturityAmountEditText.setText(String.format("₹%.2f", maturityAmount));
     }
 
     public void txt_back(View view) {

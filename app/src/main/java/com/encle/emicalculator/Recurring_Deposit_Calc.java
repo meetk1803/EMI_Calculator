@@ -81,41 +81,35 @@ public class Recurring_Deposit_Calc extends AppCompatActivity {
         maturityAmountEditText.setText("");
     }
 
-    private void calculate() {
-        // Retrieve values entered by the user
-        double depositAmount = Double.parseDouble(depositAmountEditText.getText().toString());
-        double interestRate = Double.parseDouble(interestRateEditText.getText().toString()) / 100;
-        double period = Double.parseDouble(periodEditText.getText().toString());
+private void calculate() {
 
-        // Convert period from years to months if necessary
-        if (!isPeriodInYears) {
-            period *= 12;
-        }
+    // Retrieve values entered by the user
+    double depositAmount = Double.parseDouble(depositAmountEditText.getText().toString());
+    double interestRate = Double.parseDouble(interestRateEditText.getText().toString()) / 100;
+    double period = Double.parseDouble(periodEditText.getText().toString());
 
-        // Calculate maturity amount for recurring deposit (using the formula for compound interest)
-        // Formula: M = P * [(1 + r)^n - 1] / r * (1 + r)
-        // Where:
-        // M = Maturity amount
-        // P = Monthly deposit amount
-        // r = Monthly interest rate
-        // n = Number of periods (months)
-        double monthlyInterestRate = interestRate / 12;
-        double maturityAmount = depositAmount * (((Math.pow(1 + monthlyInterestRate, period) - 1) / monthlyInterestRate) * (1 + monthlyInterestRate));
-
-        // Calculate total deposit
-        double totalDeposit = depositAmount * period;
-
-        // Calculate total interest
-        double totalInterest = maturityAmount - totalDeposit;
-
-        // Display the results
-        totalDepositEditText.setText(String.format("₹%.2f", totalDeposit));
-        totalInterestEditText.setText(String.format("₹%.2f", totalInterest));
-        maturityAmountEditText.setText(String.format("₹%.2f", maturityAmount));
+    // Convert period to months
+    if (!isPeriodInYears) {
+        period *= 12;
     }
 
+    double monthlyInterestRate = interestRate / 12;
+    double maturityAmount = depositAmount * (((Math.pow(1 + monthlyInterestRate, period /12) - 1) / monthlyInterestRate) * (1 + monthlyInterestRate));
+
+    // Calculate total deposit
+    double totalDeposit = depositAmount * (period/12);
+
+    // Calculate total interest
+    double totalInterest = maturityAmount - totalDeposit;
+
+    // Display the results
+    totalDepositEditText.setText(String.format("₹%.2f", totalDeposit));
+    totalInterestEditText.setText(String.format("₹%.2f", totalInterest));
+    maturityAmountEditText.setText(String.format("₹%.2f", maturityAmount));
+}
 
     public void txt_back(View view) {
+
         finish();
     }
 }
