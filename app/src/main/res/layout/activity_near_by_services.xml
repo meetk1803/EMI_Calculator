@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/app_bg_color"
-    tools:context="com.encle.emicalculator.Bank_Services">
+    tools:context="com.encle.emicalculator.Near_by_Services">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -35,7 +35,7 @@
             android:layout_gravity="bottom"
             android:layout_marginBottom="@dimen/_15sdp"
             android:gravity="center"
-            android:text="Bank Services"
+            android:text="Near by Places"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
             android:textStyle="bold" />
@@ -43,7 +43,7 @@
     </FrameLayout>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_view"
+        android:id="@+id/recycler_view_places"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="@dimen/_10sdp"

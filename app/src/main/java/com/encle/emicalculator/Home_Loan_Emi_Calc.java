@@ -104,7 +104,7 @@ public class Home_Loan_Emi_Calc extends AppCompatActivity {
         card_near_by_places.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Home_Loan_Emi_Calc.this, Home_Loan_Emi_Calc.class));
+                startActivity(new Intent(Home_Loan_Emi_Calc.this, Near_by_Services.class));
             }
         });
     }
