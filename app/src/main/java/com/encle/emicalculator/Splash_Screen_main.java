@@ -7,14 +7,22 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.example.emicalculator.R;
 
 public class Splash_Screen_main extends AppCompatActivity {
+    private LottieAnimationView loadingAnimationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen_main);
+
+
+        loadingAnimationView = findViewById(R.id.loadingAnimationView);
+
+        // Start the animation
+        loadingAnimationView.playAnimation();
 
         // This method is used so that your splash activity can cover the entire screen.
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
