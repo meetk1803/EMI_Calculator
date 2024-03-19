@@ -81,26 +81,27 @@ public class Recurring_Deposit_Calc extends AppCompatActivity {
         maturityAmountEditText.setText("");
     }
 
+    @SuppressLint("DefaultLocale")
     private void calculate() {
         // Retrieve values entered by the user
         double depositAmount = Double.parseDouble(depositAmountEditText.getText().toString());
-        double interestRate = Double.parseDouble(interestRateEditText.getText().toString()) / 100;
+        double interestRate = Double.parseDouble(interestRateEditText.getText().toString());
         double period = Double.parseDouble(periodEditText.getText().toString());
 
-        // Convert period from years to months if necessary
-        if (!isPeriodInYears) {
-            period *= 12;
+        // Check if the user selected years or months
+        boolean isYearly = isPeriodInYears; // Assuming isPeriodInYears represents yearly selection
+
+        // Convert period to months if yearly selected
+        if (isYearly) {
+            period *= 12; // Convert years to months
         }
 
-        // Calculate maturity amount for recurring deposit (using the formula for compound interest)
-        // Formula: M = P * [(1 + r)^n - 1] / r * (1 + r)
-        // Where:
-        // M = Maturity amount
-        // P = Monthly deposit amount
-        // r = Monthly interest rate
-        // n = Number of periods (months)
-        double monthlyInterestRate = interestRate / 12;
-        double maturityAmount = depositAmount * (((Math.pow(1 + monthlyInterestRate, period) - 1) / monthlyInterestRate) * (1 + monthlyInterestRate));
+        // Convert interest rate from percentage to decimal
+        double annualRate = interestRate / 100.0;
+        double monthlyRate = annualRate / 12.0;
+
+        // Calculate maturity amount for recurring deposit
+        double maturityAmount = depositAmount * (((Math.pow(1 + monthlyRate, period) - 1) / monthlyRate) * (1 + monthlyRate));
 
         // Calculate total deposit
         double totalDeposit = depositAmount * period;
@@ -115,7 +116,9 @@ public class Recurring_Deposit_Calc extends AppCompatActivity {
     }
 
 
+
     public void txt_back(View view) {
+
         finish();
     }
 }
