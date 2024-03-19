@@ -127,7 +127,7 @@
                 android:layout_marginTop="@dimen/_5sdp"
                 android:gravity="center"
                 android:orientation="horizontal"
-                android:visibility="visible"
+                android:visibility="gone"
                 android:weightSum="2">
 
                 <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
