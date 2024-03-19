@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="@dimen/_5sdp">
+
+    <!-- MaterialCardView -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_bank"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:backgroundTint="#04C3FF"
+        app:cardCornerRadius="@dimen/_15sdp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/bank_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:fontFamily="sans-serif"
+            android:gravity="top|center"
+            android:maxLines="2"
+            android:paddingHorizontal="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:autoSizeMaxTextSize="@dimen/_16sdp"
+            android:autoSizeMinTextSize="@dimen/_12sdp"
+            android:autoSizeTextType="uniform"
+            android:text="Health Insurance"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- ShapeableImageView -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/bank_logo"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_gravity="top|center"
+        android:src="@drawable/img_health_insurance" />
+</FrameLayout>

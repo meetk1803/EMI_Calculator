@@ -42,15 +42,11 @@
 
     </FrameLayout>
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    <GridLayout
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="@dimen/_10sdp"
-        android:paddingBottom="@dimen/_40sdp"
-        android:columnCount="1">
-    </GridLayout>
-    </ScrollView>
+        android:paddingHorizontal="@dimen/_10sdp"/>
+
 </LinearLayout>

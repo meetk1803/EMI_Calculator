@@ -80,7 +80,7 @@
                             android:gravity="center"
                             android:text="Health Insurance"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/_15sdp"
+                            android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
                     </com.google.android.material.card.MaterialCardView>
 
@@ -113,9 +113,9 @@
                             android:layout_marginBottom="@dimen/_9sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Motor Insurance"
+                            android:text="Motor \nInsurance"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/_15sdp"
+                            android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
                     </com.google.android.material.card.MaterialCardView>
 
@@ -148,9 +148,9 @@
                             android:layout_marginBottom="@dimen/_7sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Home Insrance"
+                            android:text="Home \nInsrance"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/_16sdp"
+                            android:textSize="@dimen/_12sdp"
 
                             android:textStyle="bold" />
                     </com.google.android.material.card.MaterialCardView>
@@ -193,9 +193,9 @@
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Fire Insurance"
+                            android:text="Fire \nInsurance"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/_15sdp"
+                            android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
                     </com.google.android.material.card.MaterialCardView>
 
@@ -228,9 +228,9 @@
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Travel Insurance"
+                            android:text="Travel \nInsurance"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/_15sdp"
+                            android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
                     </com.google.android.material.card.MaterialCardView>
 
@@ -265,7 +265,7 @@
                             android:gravity="center"
                             android:text="Property Insurance"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/_15sdp"
+                            android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
                     </com.google.android.material.card.MaterialCardView>
 
@@ -288,7 +288,7 @@
                 android:layout_marginStart="@dimen/_15sdp"
                 android:text="Life Insurance"
                 android:textColor="@color/white"
-                android:textSize="@dimen/_15sdp"
+                android:textSize="@dimen/_12sdp"
                 android:textStyle="bold" />
             <LinearLayout
                 android:layout_width="match_parent"
@@ -320,7 +320,7 @@
                             android:gravity="center"
                             android:text="Term Life Insurance"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/_15sdp"
+                            android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
                     </com.google.android.material.card.MaterialCardView>
 
@@ -355,7 +355,7 @@
                             android:gravity="center"
                             android:text="Whole Life Insurance"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/_15sdp"
+                            android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
                     </com.google.android.material.card.MaterialCardView>
 
@@ -390,7 +390,7 @@
                             android:gravity="center"
                             android:text="Endowment Plans"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/_15sdp"
+                            android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
                     </com.google.android.material.card.MaterialCardView>
 
@@ -434,7 +434,7 @@
                             android:gravity="center"
                             android:text="Unit-Linked Insurance"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/_15sdp"
+                            android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
                     </com.google.android.material.card.MaterialCardView>
 
@@ -464,12 +464,12 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom"
-                            android:layout_marginBottom="@dimen/_15sdp"
+                            android:layout_marginBottom="@dimen/_12sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Child Plans"
+                            android:text="Child \nPlans"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/_15sdp"
+                            android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
                     </com.google.android.material.card.MaterialCardView>
 
@@ -502,9 +502,9 @@
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Pension Plans"
+                            android:text="Pension \nPlans"
                             android:textColor="@color/black"
-                            android:textSize="@dimen/_15sdp"
+                            android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
                     </com.google.android.material.card.MaterialCardView>
 

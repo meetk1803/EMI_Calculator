@@ -70,10 +70,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginStart="@dimen/_22sdp"
             android:drawableEnd="@drawable/round_arrow_forward_24"
             android:drawableTint="@color/white"
-            android:paddingRight="@dimen/_15sdp"
+            android:fontFamily="@font/kanit_medium"
+            android:paddingRight="@dimen/_13sdp"
+            android:letterSpacing="0.03"
             android:text="Get Started"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
@@ -125,10 +127,10 @@
                     android:gravity="center"
                     android:layout_gravity="bottom"
                     android:text="Share"
-                    android:fontFamily="@font/kanit_regular"
+                    android:fontFamily="@font/kanit_medium"
                     android:layout_marginBottom="@dimen/_10sdp"
                     android:textColor="@color/app_bg_color"
-                    android:textSize="@dimen/_20sdp" />
+                    android:textSize="@dimen/_18sdp" />
             </com.google.android.material.card.MaterialCardView>
 
         </LinearLayout>
@@ -169,10 +171,10 @@
                     android:gravity="center"
                     android:layout_gravity="bottom"
                     android:text="Rate us"
-                    android:fontFamily="@font/kanit_regular"
+                    android:fontFamily="@font/kanit_medium"
                     android:layout_marginBottom="@dimen/_10sdp"
                     android:textColor="@color/app_bg_color"
-                    android:textSize="@dimen/_20sdp" />
+                    android:textSize="@dimen/_18sdp" />
             </com.google.android.material.card.MaterialCardView>
 
         </LinearLayout>
@@ -212,10 +214,10 @@
                     android:gravity="center"
                     android:layout_gravity="bottom"
                     android:text="Privacy"
-                    android:fontFamily="@font/kanit_regular"
+                    android:fontFamily="@font/kanit_medium"
                     android:layout_marginBottom="@dimen/_10sdp"
                     android:textColor="@color/app_bg_color"
-                    android:textSize="@dimen/_20sdp" />
+                    android:textSize="@dimen/_18sdp" />
             </com.google.android.material.card.MaterialCardView>
 
         </LinearLayout>
