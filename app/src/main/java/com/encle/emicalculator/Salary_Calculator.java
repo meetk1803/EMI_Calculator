@@ -71,24 +71,40 @@ public class Salary_Calculator extends AppCompatActivity {
         // Calculate base salary (CTC minus bonus amount)
         double baseSalary = CTC - bonusAmount;
 
+        // Initialize variables for monthly and yearly salaries
+        double monthlySalary;
+        double yearlySalary;
+
         // Calculate monthly salary (base salary divided by 12)
-        double monthlySalary = baseSalary / 12;
+        monthlySalary = baseSalary / 12;
 
         // Format monthly salary in INR
         DecimalFormat decimalFormat = new DecimalFormat("###,###,##0.00");
         String formattedMonthlySalary = "₹" + decimalFormat.format(monthlySalary);
 
-        // Calculate total months (assuming each year has 12 months)
-        double totalMonths = 12;
+        // Check if the user has selected the yearly calculation
+        if (isPeriodInYears) {
+            // Calculate yearly salary
+            yearlySalary = monthlySalary * 12;
 
-        // Calculate total salary per year (monthly salary multiplied by total months)
-        double totalSalaryPerYear = monthlySalary * totalMonths;
+            // Display the results
+            M_salary.setText(formattedMonthlySalary);
+            total_months.setText("12");
+            per_year.setText(String.format("₹%.2f", yearlySalary));
+        } else {
+            // Calculate total months (assuming each year has 12 months)
+            double totalMonths = 12;
 
-        // Display the results
-        M_salary.setText(formattedMonthlySalary);
-        total_months.setText(String.valueOf((int) totalMonths));
-        per_year.setText(String.format("₹%.2f", totalSalaryPerYear));
+            // Calculate total salary per year (monthly salary multiplied by total months)
+            double totalSalaryPerYear = monthlySalary * totalMonths;
+
+            // Display the results
+            M_salary.setText(formattedMonthlySalary);
+            total_months.setText(String.valueOf((int) totalMonths));
+            per_year.setText(String.format("₹%.2f", totalSalaryPerYear));
+        }
     }
+
 
     public void txt_back(View view) {
         finish();

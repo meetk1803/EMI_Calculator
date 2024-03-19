@@ -88,36 +88,35 @@ public class Fixed_Deposit_Calc extends AppCompatActivity {
 
     @SuppressLint("DefaultLocale")
     private void calculate() {
-            // Retrieve values entered by the user
-            double principal = Double.parseDouble(depositAmountEditText.getText().toString());
-            double rate = Double.parseDouble(interestRateEditText.getText().toString());
-            double time = Double.parseDouble(periodEditText.getText().toString());
+        // Retrieve values entered by the user
+        double principal = Double.parseDouble(depositAmountEditText.getText().toString());
+        double rate = Double.parseDouble(interestRateEditText.getText().toString());
+        double time = Double.parseDouble(periodEditText.getText().toString());
 
-            // Check if time is provided in years or months
-            boolean isYearly = periodSpinner.getText().toString().toLowerCase().contains("year");
+        // Check if time is provided in years or months
+        boolean isYearly = periodSpinner.getText().toString().toLowerCase().contains("year");
 
-            // If time is provided in years, convert it to months
-            if (isYearly) {
-                time *= 12; // Convert years to months
-            }
+        // If time is provided in years, convert it to months
+        if (isYearly) {
+            time *= 12; // Convert years to months
+        }
 
-            // Calculate total deposit, total interest, and maturity amount
-            double annualRate = rate / 100; // Convert percentage to decimal
+        // Calculate total deposit, total interest, and maturity amount
+        double annualRate = rate / 100; // Convert percentage to decimal
 
-            // Calculate total interest using compound interest formula
+        // Calculate total interest using compound interest formula
+        double totalInterest = principal * (Math.pow(1 + (annualRate / 12), time) - 1);
+        double maturityAmount = principal + totalInterest;
 
-            double totalInterest = principal * (Math.pow(1 + (annualRate / 12), time ) - 1);
+        // Format the results to display with two decimal places
+        DecimalFormat decimalFormat = new DecimalFormat("#.##");
 
-            double maturityAmount = principal + totalInterest;
-
-            // Format the results to display with two decimal places
-           // DecimalFormat decimalFormat = new DecimalFormat("#.##");
-
-            // Display the formatted results
-            totalDepositEditText.setText(String.format("₹%.2f", principal));
-            totalInterestEditText.setText(String.format("₹%.2f", totalInterest));
-            maturityAmountEditText.setText(String.format("₹%.2f", maturityAmount));
+        // Display the formatted results
+        totalDepositEditText.setText(String.format("₹%.2f", principal));
+        totalInterestEditText.setText(String.format("₹%.2f", totalInterest));
+        maturityAmountEditText.setText(String.format("₹%.2f", maturityAmount));
     }
+
 
     public void txt_back(View view) {
         finish();
