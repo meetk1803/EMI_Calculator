@@ -2,6 +2,7 @@ package com.encle.emicalculator;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -45,5 +46,14 @@ public class Splash_Screen_Privacy extends AppCompatActivity {
 
             }
         });
+    }
+
+
+    @SuppressLint("MissingSuperCall")
+    @Override
+    public void onBackPressed() {
+        Intent i = new Intent(Splash_Screen_Privacy.this, Rate_us_Screen.class);
+        i.putExtra("privacy", "privacy");
+        startActivity(i);
     }
 }
