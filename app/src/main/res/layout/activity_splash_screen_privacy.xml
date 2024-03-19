@@ -59,7 +59,7 @@
                     android:padding="@dimen/_15sdp"
                     android:text="@string/privacy_policy"
                     android:textColor="@color/white"
-                    android:textSize="@dimen/_15sdp" />
+                    android:textSize="@dimen/_12sdp" />
 
             </ScrollView>
         </LinearLayout>
@@ -68,29 +68,31 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1.4"
-            android:background="@drawable/home_shadow_gradient_top"
+            android:background="@drawable/home_shadow_gradient_bottom"
             android:orientation="vertical">
 
             <CheckBox
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_20sdp"
                 android:layout_marginTop="@dimen/_10sdp"
-                android:buttonTint="@color/white"
+                android:button="@drawable/custom_checkbox_selector"
+                android:paddingLeft="@dimen/_10sdp"
                 android:text="I agree with Terms &amp; Conditions"
                 android:textColor="@color/white"
+                android:layout_marginStart="@dimen/_20sdp"
                 android:textSize="@dimen/_12sdp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_15sdp"
                 android:orientation="horizontal"
                 android:weightSum="2">
 
                 <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="@dimen/_35sdp"
                     android:layout_marginHorizontal="@dimen/_15sdp"
                     android:layout_weight="1"
                     android:backgroundTint="#05FFFFFF"
@@ -106,7 +108,7 @@
                 <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
                     android:id="@+id/BTN_accept"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="@dimen/_35sdp"
                     android:layout_marginHorizontal="@dimen/_15sdp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/white"
