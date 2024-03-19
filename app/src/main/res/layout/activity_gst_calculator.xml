@@ -15,6 +15,9 @@
 
 
         <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/txt_back_emi"
+            android:onClick="txt_back"
+            android:clickable="true"
             android:layout_width="@dimen/_30sdp"
             android:layout_height="@dimen/_30sdp"
             android:layout_gravity="bottom"
@@ -85,6 +88,7 @@
                         app:boxCornerRadiusTopStart="@dimen/_5sdp">
 
                         <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/initial_amount_edit_text"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:inputType="numberDecimal"
@@ -95,9 +99,7 @@
 
                     </com.google.android.material.textfield.TextInputLayout>
 
-
                 </LinearLayout>
-
 
                 <LinearLayout
                     android:layout_width="0dp"
@@ -127,6 +129,7 @@
                         app:boxCornerRadiusTopStart="@dimen/_5sdp">
 
                         <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/gst_rate_edit_text"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:inputType="numberDecimal"
@@ -156,6 +159,7 @@
                     android:layout_height="wrap_content">
 
                     <RadioButton
+                        android:id="@+id/add_gst_radio_button"
                         android:layout_width="wrap_content"
                         android:layout_height="@dimen/_25sdp"
                         android:fontFamily="@font/opensans_regular"
@@ -167,6 +171,7 @@
                         android:paddingLeft="@dimen/_5sdp" />
 
                     <RadioButton
+                        android:id="@+id/subtract_gst_radio_button"
                         android:layout_width="wrap_content"
                         android:layout_height="@dimen/_25sdp"
                         android:fontFamily="@font/opensans_regular"
@@ -209,6 +214,7 @@
                     app:boxCornerRadiusTopStart="@dimen/_5sdp">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/net_amount_edit_text"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="@dimen/_1sdp"
@@ -241,6 +247,7 @@
                     app:boxCornerRadiusTopStart="@dimen/_5sdp">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/gst_amount_edit_text"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="@dimen/_1sdp"
@@ -273,6 +280,7 @@
                     app:boxCornerRadiusTopStart="@dimen/_5sdp">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/total_gst_involves"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:padding="@dimen/_1sdp"
@@ -322,6 +330,7 @@
                         app:boxCornerRadiusTopStart="@dimen/_5sdp">
 
                         <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/cgst_amount"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:padding="@dimen/_1sdp"
@@ -346,7 +355,6 @@
                     <com.google.android.material.textview.MaterialTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-
                         android:fontFamily="@font/opensans_regular"
                         android:gravity="start"
                         android:text="SGST :"
@@ -364,6 +372,7 @@
                         app:boxCornerRadiusTopStart="@dimen/_5sdp">
 
                         <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/Sgst_amount"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:padding="@dimen/_1sdp"
@@ -387,6 +396,7 @@
                 android:weightSum="2">
 
                 <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                    android:id="@+id/btn_emi_reset"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_40sdp"
                     android:layout_margin="@dimen/_10sdp"
@@ -399,6 +409,7 @@
                     android:textSize="@dimen/_20sdp" />
 
                 <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+                    android:id="@+id/btn_emi_calculate"
                     android:layout_width="0dp"
                     android:layout_height="@dimen/_40sdp"
                     android:layout_margin="@dimen/_10sdp"
