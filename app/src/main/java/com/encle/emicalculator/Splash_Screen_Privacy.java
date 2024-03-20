@@ -28,7 +28,6 @@ public class Splash_Screen_Privacy extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Splash_Screen_Privacy.this, Rate_us_Screen.class);
-                i.putExtra("privacy", "privacy");
                 startActivity(i);
             }
         });
@@ -40,6 +39,7 @@ public class Splash_Screen_Privacy extends AppCompatActivity {
                 if(chk_privacy.isChecked()){
 
                     startActivity(new Intent(Splash_Screen_Privacy.this,Splash_Screen.class));
+                    finish();
                 }else {
                     Toast.makeText(Splash_Screen_Privacy.this, "Please accept terms & conditions", Toast.LENGTH_SHORT).show();
                 }
@@ -53,7 +53,6 @@ public class Splash_Screen_Privacy extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         Intent i = new Intent(Splash_Screen_Privacy.this, Rate_us_Screen.class);
-        i.putExtra("privacy", "privacy");
         startActivity(i);
     }
 }

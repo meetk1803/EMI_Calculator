@@ -72,26 +72,41 @@ public class Business_Loan_Calc extends AppCompatActivity {
             return;
         }
 
-        // Perform EMI calculation
-        double principalAmt = Double.parseDouble(edt_principal_amt.getText().toString());
-        double rate = Double.parseDouble(edt_rate.getText().toString());
-        double year = Double.parseDouble(edt_year.getText().toString());
+        // Perform business loan calculation
+        double loanAmount = Double.parseDouble(edt_principal_amt.getText().toString());
+        double interestRate = Double.parseDouble(edt_rate.getText().toString());
+        double loanTerm = Double.parseDouble(edt_year.getText().toString());
 
-        double monthlyRate = rate / 1200; // Convert annual rate to monthly rate
-        double totalMonths = year * 12; // Convert years to total months
+        // Check if interest rate or loan term is zero
+        if (loanAmount == 0 || interestRate == 0 || loanTerm == 0) {
+            // Display appropriate message and return
+            Toast.makeText(getApplicationContext(), "Input values must be greater than 0", Toast.LENGTH_SHORT).show();
+            return;
+        }
 
-        double numerator = principalAmt * monthlyRate * Math.pow(1 + monthlyRate, totalMonths);
-        double denominator = Math.pow(1 + monthlyRate, totalMonths) - 1;
-        double monthlyEMI = numerator / denominator;
-        double totalPayment = monthlyEMI * totalMonths;
-        double totalInterest = totalPayment - principalAmt;
+        double monthlyInterestRate = interestRate / 1200; // Convert annual rate to monthly rate
+        double totalMonths = loanTerm * 12; // Convert years to total months
+
+        double monthlyPayment;
+        if (monthlyInterestRate == 0) {
+            // For zero interest rate, use simple interest formula
+            monthlyPayment = loanAmount / totalMonths;
+        } else {
+            // For non-zero interest rate, use compound interest formula
+            double numerator = loanAmount * monthlyInterestRate * Math.pow(1 + monthlyInterestRate, totalMonths);
+            double denominator = Math.pow(1 + monthlyInterestRate, totalMonths) - 1;
+            monthlyPayment = numerator / denominator;
+        }
+
+        // Calculate total payment
+        double totalPayment = monthlyPayment * totalMonths;
+        double totalInterest = totalPayment - loanAmount;
 
         // Display the results
-        edt_monthly_business.setText("₹" + String.format("%.2f", monthlyEMI));
+        edt_monthly_business.setText("₹" + String.format("%.2f", monthlyPayment));
         edt_t_interest.setText("₹" + String.format("%.2f", totalInterest));
         edt_t_payment.setText("₹" + String.format("%.2f", totalPayment));
     }
-
 
 
     @Override

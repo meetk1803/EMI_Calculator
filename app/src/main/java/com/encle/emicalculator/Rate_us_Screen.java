@@ -26,16 +26,7 @@ public class Rate_us_Screen extends AppCompatActivity {
         layout_rate_yesno = findViewById(R.id.layout_rate_yesno);
         BTN_YES =findViewById(R.id.BTN_YES);
         BTN_NO =findViewById(R.id.BTN_NO);
-        txt_exit=findViewById(R.id.txt_exit);
 
-        Intent intent = getIntent();
-        if (intent != null && intent.getStringExtra("privacy") != null) {
-            String source = intent.getStringExtra("privacy");
-            if (source.equals("privacy")) {
-                txt_exit.setVisibility(View.VISIBLE);
-                layout_rate_yesno.setVisibility(View.VISIBLE);
-            }
-        }
 
         BTN_YES.setOnClickListener(new View.OnClickListener() {
             @Override
