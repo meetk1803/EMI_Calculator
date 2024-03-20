@@ -2,6 +2,7 @@ package com.encle.emicalculator;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatTextView;
@@ -37,5 +38,8 @@ public class inDetails_Bank_Services extends AppCompatActivity {
             getMiniStatementNumber.setText(statementNumber);
             customerCareNumber.setText(careNumber);
         }
+    }
+    public void txt_back(View view) {
+        finish();
     }
 }

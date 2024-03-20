@@ -1,20 +1,14 @@
 package com.encle.emicalculator.Model;
 
-public class places {
-    private int id;
+public class Language {
     private String name;
     private int logo;
+    private boolean isSelected;
 
-    public places(int id, String name, int logo) {
-        this.id = id;
+    public Language(String name, int logo) {
         this.name = name;
         this.logo = logo;
-    }
-    public int getId() {
-        return id;
-    }
-    public void setId(int id) {
-        this.id = id;
+        this.isSelected = false;
     }
 
     public String getName() {
@@ -31,5 +25,13 @@ public class places {
 
     public void setLogo(int logo) {
         this.logo = logo;
+    }
+
+    public boolean isSelected() {
+        return isSelected;
+    }
+
+    public void setSelected(boolean selected) {
+        isSelected = selected;
     }
 }

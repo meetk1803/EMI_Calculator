@@ -3,17 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/app_bg_color"
-    tools:context="com.encle.emicalculator.Near_by_Services">
-
+    android:layout_height="match_parent"
+    tools:context="com.encle.emicalculator.LanguageActivity">
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/_100sdp"
-        android:background="@drawable/home_shadow_gradient_top">
-
-
+        android:background="@drawable/home_shadow_gradient_top"
+        tools:ignore="MissingConstraints">
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/txt_back_emi"
             android:layout_width="@dimen/_30sdp"
@@ -27,26 +25,21 @@
             android:drawableTint="@color/white"
             android:gravity="center"
             android:textStyle="bold" />
-
-
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_marginBottom="@dimen/_15sdp"
             android:gravity="center"
-            android:text="Near by Places"
+            android:text="Select Language"
+            android:fontFamily="@font/opensans_semibold"
             android:textColor="@color/white"
-            android:textSize="@dimen/_20sdp"
+            android:textSize="@dimen/_15sdp"
             android:textStyle="bold" />
-
     </FrameLayout>
-
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_view_places"
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="@dimen/_10sdp"
-        android:paddingHorizontal="@dimen/_5sdp"/>
-
+        tools:listitem="@layout/languageitem" />
 </LinearLayout>
