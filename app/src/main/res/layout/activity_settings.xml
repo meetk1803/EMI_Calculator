@@ -17,6 +17,7 @@
             android:id="@+id/txt_back_emi"
             android:layout_width="@dimen/_30sdp"
             android:clickable="true"
+
             android:onClick="txt_back"
             android:layout_height="@dimen/_30sdp"
             android:layout_gravity="bottom"
