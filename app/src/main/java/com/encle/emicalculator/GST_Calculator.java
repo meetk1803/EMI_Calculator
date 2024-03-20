@@ -91,7 +91,6 @@ public class GST_Calculator extends AppCompatActivity {
         sgstEditText.setText(String.format("₹%.2f", sgst));
     }
 
-
     // Method to reset all input fields
     private void resetFields() {
         initialAmountEditText.setText("");

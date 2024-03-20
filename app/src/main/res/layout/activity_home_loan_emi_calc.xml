@@ -13,6 +13,7 @@
         android:layout_height="@dimen/_100sdp"
         android:background="@drawable/home_shadow_gradient_top">
 
+
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -24,6 +25,15 @@
             android:textSize="@dimen/_20sdp"
             android:textStyle="bold" />
 
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/BTN_setting"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center|end"
+            android:onClick="open_settings"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:src="@drawable/round_settings_24"
+            tools:ignore="OnClick" />
     </FrameLayout>
 
     <ScrollView

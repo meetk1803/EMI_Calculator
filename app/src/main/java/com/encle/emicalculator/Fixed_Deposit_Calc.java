@@ -100,7 +100,6 @@ public class Fixed_Deposit_Calc extends AppCompatActivity {
         if (isYearly) {
             time *= 12; // Convert years to months
         }
-
         // Calculate total deposit, total interest, and maturity amount
         double annualRate = rate / 100; // Convert percentage to decimal
 
@@ -108,15 +107,11 @@ public class Fixed_Deposit_Calc extends AppCompatActivity {
         double totalInterest = principal * (Math.pow(1 + (annualRate / 12), time) - 1);
         double maturityAmount = principal + totalInterest;
 
-        // Format the results to display with two decimal places
-        DecimalFormat decimalFormat = new DecimalFormat("#.##");
-
         // Display the formatted results
         totalDepositEditText.setText(String.format("₹%.2f", principal));
         totalInterestEditText.setText(String.format("₹%.2f", totalInterest));
         maturityAmountEditText.setText(String.format("₹%.2f", maturityAmount));
     }
-
 
     public void txt_back(View view) {
         finish();
