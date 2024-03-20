@@ -109,7 +109,11 @@ public class Home_Loan_Emi_Calc extends AppCompatActivity {
             }
         });
     }
+    public void open_settings(View view) {
 
+        Intent intent = new Intent(Home_Loan_Emi_Calc.this,Settings.class);
+        startActivity(intent);
+    }
     @SuppressLint("MissingSuperCall")
     @Override
     public void onBackPressed() {
