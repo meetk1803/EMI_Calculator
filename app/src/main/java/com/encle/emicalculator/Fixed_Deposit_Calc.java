@@ -1,10 +1,8 @@
 package com.encle.emicalculator;
 
 import android.annotation.SuppressLint;
-import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
@@ -17,7 +15,6 @@ import com.google.android.material.textfield.MaterialAutoCompleteTextView;
 import com.google.android.material.textfield.TextInputEditText;
 
 import java.text.DecimalFormat;
-import java.util.Objects;
 
 public class Fixed_Deposit_Calc extends AppCompatActivity {
     private TextInputEditText depositAmountEditText;
@@ -63,7 +60,7 @@ public class Fixed_Deposit_Calc extends AppCompatActivity {
         btn_emi_calculate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                calculate();
+                calculateDeposit();
             }
         });
 
@@ -87,31 +84,60 @@ public class Fixed_Deposit_Calc extends AppCompatActivity {
     }
 
     @SuppressLint("DefaultLocale")
-    private void calculate() {
-        // Retrieve values entered by the user
-        double principal = Double.parseDouble(depositAmountEditText.getText().toString());
-        double rate = Double.parseDouble(interestRateEditText.getText().toString());
-        double time = Double.parseDouble(periodEditText.getText().toString());
-
-        // Check if time is provided in years or months
-        boolean isYearly = periodSpinner.getText().toString().toLowerCase().contains("year");
-
-        // If time is provided in years, convert it to months
-        if (isYearly) {
-            time *= 12; // Convert years to months
+    private void calculateDeposit() {
+        // Check if input fields are empty
+        if (depositAmountEditText.getText().toString().isEmpty() ||
+                interestRateEditText.getText().toString().isEmpty() ||
+                periodEditText.getText().toString().isEmpty()) {
+            Toast.makeText(getApplicationContext(), "Please enter all inputs", Toast.LENGTH_SHORT).show();
+            return;
         }
-        // Calculate total deposit, total interest, and maturity amount
-        double annualRate = rate / 100; // Convert percentage to decimal
 
-        // Calculate total interest using compound interest formula
-        double totalInterest = principal * (Math.pow(1 + (annualRate / 12), time) - 1);
-        double maturityAmount = principal + totalInterest;
+        try {
+            // Retrieve values entered by the user
+            double principal = Double.parseDouble(depositAmountEditText.getText().toString());
+            double rate = Double.parseDouble(interestRateEditText.getText().toString());
+            double time = Double.parseDouble(periodEditText.getText().toString());
 
-        // Display the formatted results
-        totalDepositEditText.setText(String.format("₹%.2f", principal));
-        totalInterestEditText.setText(String.format("₹%.2f", totalInterest));
-        maturityAmountEditText.setText(String.format("₹%.2f", maturityAmount));
+            // Check if time is provided in years or months
+            boolean isYearly = periodSpinner.getText().toString().toLowerCase().contains("year");
+
+            // If time is provided in years, convert it to months
+            if (isYearly) {
+                time *= 12; // Convert years to months
+            }
+
+            // Check if rate is zero
+            if (principal ==0||rate == 0||time==0) {
+                // Display appropriate message and return
+                Toast.makeText(getApplicationContext(), "Input values must be greater than 0", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+            // Calculate total interest using compound interest formula
+            double annualRate = rate / 100; // Convert percentage to decimal
+            double totalInterest = principal * (Math.pow(1 + (annualRate / 12), time) - 1);
+            double maturityAmount = principal + totalInterest;
+
+            // Format the results to display with two decimal places
+            DecimalFormat decimalFormat = new DecimalFormat("#.##");
+
+            // Display the formatted results
+            totalDepositEditText.setText(String.format("₹%.2f", principal));
+            totalInterestEditText.setText(String.format("₹%.2f", totalInterest));
+            maturityAmountEditText.setText(String.format("₹%.2f", maturityAmount));
+        } catch (NumberFormatException e) {
+            // Handle NumberFormatException (e.g., if input is not a valid number)
+            Toast.makeText(getApplicationContext(), "Please enter valid numbers", Toast.LENGTH_SHORT).show();
+        } catch (Exception e) {
+            // Handle other exceptions
+            Toast.makeText(getApplicationContext(), "An error occurred", Toast.LENGTH_SHORT).show();
+            e.printStackTrace();
+        }
     }
+
+
+
 
     public void txt_back(View view) {
         finish();

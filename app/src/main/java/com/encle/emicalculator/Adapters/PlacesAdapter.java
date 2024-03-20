@@ -1,8 +1,6 @@
 package com.encle.emicalculator.Adapters;
 
 
-import static androidx.core.content.ContextCompat.startActivity;
-
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -11,14 +9,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.encle.emicalculator.Model.Bank;
 import com.encle.emicalculator.Model.places;
-import com.encle.emicalculator.inDetails_Bank_Services;
 import com.example.emicalculator.R;
 
 import java.util.List;
@@ -35,13 +30,13 @@ public class PlacesAdapter extends RecyclerView.Adapter<PlacesAdapter.ViewHolder
 
     @NonNull
     @Override
-    public PlacesAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.cardview_place, parent, false);
-        return new PlacesAdapter.ViewHolder(view);
+        return new ViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull PlacesAdapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         places places = placesList.get(position);
         holder.bankName.setText(places.getName());
         holder.bankLogo.setImageResource(places.getLogo());

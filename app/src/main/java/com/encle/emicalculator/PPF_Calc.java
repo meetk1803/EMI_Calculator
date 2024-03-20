@@ -7,12 +7,9 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.emicalculator.R;
-import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
 import com.google.android.material.textfield.TextInputEditText;
-import com.google.android.material.textview.MaterialTextView;
 
 import java.util.Locale;
-import java.util.Objects;
 
 public class PPF_Calc extends AppCompatActivity {
     private TextInputEditText edt_investment_amount;

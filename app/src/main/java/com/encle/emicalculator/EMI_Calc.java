@@ -1,19 +1,16 @@
 package com.encle.emicalculator;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
-import android.widget.RadioButton;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.emicalculator.R;
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
 import com.google.android.material.textfield.TextInputEditText;
-
-import kotlin.text.MatchGroup;
 
 public class EMI_Calc extends AppCompatActivity {
     private TextInputEditText edt_principal_amt, edt_rate, edt_year, edt_monthly_emi, edt_t_interest, edt_t_payment;

@@ -1,17 +1,15 @@
 package com.encle.emicalculator;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RadioButton;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.emicalculator.R;
 import com.google.android.material.textfield.TextInputEditText;
-
-import java.util.Objects;
 
 public class GST_Calculator extends AppCompatActivity {
 
@@ -60,36 +58,59 @@ public class GST_Calculator extends AppCompatActivity {
     }
 
     private void calculateGST() {
-        // Retrieve values entered by the user
-        double initialAmount = Double.parseDouble(Objects.requireNonNull(initialAmountEditText.getText()).toString());
-        double gstRate = Double.parseDouble(Objects.requireNonNull(gstRateEditText.getText()).toString());
-        boolean isAddGST = addGSTRadioButton.isChecked(); // Check if user selected "Add GST +"
-
-        // Calculate GST amount based on the GST rate
-        double gstAmount = (gstRate / 100) * initialAmount;
-
-        // Calculate CGST and SGST (assuming equal division)
-        double cgst = gstAmount / 2;
-        double sgst = gstAmount / 2;
-
-        // Calculate the net amount after adding or subtracting GST
-        double netAmount;
-        if (isAddGST) {
-            netAmount = initialAmount + gstAmount;
-        } else {
-            netAmount = initialAmount - gstAmount;
+        // Check if input fields are empty
+        if (initialAmountEditText.getText().toString().isEmpty() || gstRateEditText.getText().toString().isEmpty()) {
+            Toast.makeText(getApplicationContext(), "Please enter all inputs", Toast.LENGTH_SHORT).show();
+            return;
         }
 
-        // Calculate the total amount including GST
-        double totalAmount = netAmount;
+        try {
+            // Retrieve values entered by the user
+            double initialAmount = Double.parseDouble(initialAmountEditText.getText().toString());
+            double gstRate = Double.parseDouble(gstRateEditText.getText().toString());
+            boolean isAddGST = addGSTRadioButton.isChecked(); // Check if user selected "Add GST +"
 
-        // Display the calculated values in the respective TextInputEditText fields
-        gstAmountEditText.setText(String.format("₹%.2f", gstAmount));
-        netAmountEditText.setText(String.format("₹%.2f", netAmount));
-        totalAmountEditText.setText(String.format("₹%.2f", totalAmount));
-        cgstEditText.setText(String.format("₹%.2f", cgst));
-        sgstEditText.setText(String.format("₹%.2f", sgst));
+            // Check if gstRate is zero
+            if (initialAmount==0||gstRate == 0) {
+                Toast.makeText(getApplicationContext(), "Input values must be greater than 0", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+            // Calculate GST amount based on the GST rate
+            double gstAmount = (gstRate / 100) * initialAmount;
+
+            // Calculate CGST and SGST (assuming equal division)
+            double cgst = gstAmount / 2;
+            double sgst = gstAmount / 2;
+
+            // Calculate the net amount after adding or subtracting GST
+            double netAmount;
+            if (isAddGST) {
+                netAmount = initialAmount + gstAmount;
+            } else {
+                netAmount = initialAmount - gstAmount;
+            }
+
+            // Calculate the total amount including GST
+            double totalAmount = netAmount;
+
+            // Display the calculated values in the respective TextInputEditText fields
+            gstAmountEditText.setText(String.format("₹%.2f", gstAmount));
+            netAmountEditText.setText(String.format("₹%.2f", netAmount));
+            totalAmountEditText.setText(String.format("₹%.2f", totalAmount));
+            cgstEditText.setText(String.format("₹%.2f", cgst));
+            sgstEditText.setText(String.format("₹%.2f", sgst));
+        } catch (NumberFormatException e) {
+            // Handle NumberFormatException (e.g., if input is not a valid number)
+            Toast.makeText(getApplicationContext(), "Please enter valid numbers", Toast.LENGTH_SHORT).show();
+        } catch (Exception e) {
+            // Handle other exceptions
+            Toast.makeText(getApplicationContext(), "An error occurred", Toast.LENGTH_SHORT).show();
+            e.printStackTrace();
+        }
     }
+
+
 
     // Method to reset all input fields
     private void resetFields() {

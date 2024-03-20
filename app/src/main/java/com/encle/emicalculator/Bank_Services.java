@@ -1,11 +1,11 @@
 package com.encle.emicalculator;
 
+import android.os.Bundle;
+import android.view.View;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import android.os.Bundle;
-import android.view.View;
 
 import com.encle.emicalculator.Adapters.BankAdapter;
 import com.encle.emicalculator.Model.Bank;
