@@ -24,8 +24,8 @@
             android:drawableStart="@drawable/round_arrow_back_ios_24"
             android:drawableTint="@color/white"
             android:gravity="center"
-            android:textStyle="bold"
-            android:onClick="txt_back"/>
+            android:onClick="txt_back"
+            android:textStyle="bold" />
 
 
         <com.google.android.material.textview.MaterialTextView
@@ -44,6 +44,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -65,19 +66,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                app:boxBackgroundColor="#D6F8FF"
                 app:boxBackgroundMode="filled"
                 app:boxCornerRadiusTopEnd="@dimen/_5sdp"
-                app:boxCornerRadiusTopStart="@dimen/_5sdp">
+                app:boxCornerRadiusTopStart="@dimen/_5sdp"
+                app:boxStrokeColor="@color/white"
+                app:cursorColor="@color/white">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/CTCannual"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:backgroundTint="#0FFFFFFF"
                     android:inputType="numberDecimal"
                     android:padding="@dimen/_1sdp"
                     android:text="0"
-                    android:textColor="@color/app_bg_color"
+                    android:textColor="@color/btn_color"
                     android:textSize="@dimen/_15sdp" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -97,20 +100,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_35sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                app:boxBackgroundColor="#D6F8FF"
                 app:boxBackgroundMode="filled"
                 app:boxCornerRadiusTopEnd="@dimen/_5sdp"
-                app:boxCornerRadiusTopStart="@dimen/_5sdp">
+                app:boxCornerRadiusTopStart="@dimen/_5sdp"
+                app:boxStrokeColor="@color/white"
+                app:cursorColor="@color/white">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/bonus"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:backgroundTint="#0FFFFFFF"
                     android:inputType="numberDecimal"
                     android:padding="@dimen/_1sdp"
                     android:text="0"
-                    android:textColor="@color/app_bg_color"
-                    android:textSize="@dimen/_15sdp"  />
+                    android:textColor="@color/btn_color"
+                    android:textSize="@dimen/_15sdp" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -138,18 +143,20 @@
                     app:boxBackgroundColor="#D6F8FF"
                     app:boxBackgroundMode="filled"
                     app:boxCornerRadiusTopEnd="@dimen/_5sdp"
-                    app:boxCornerRadiusTopStart="@dimen/_5sdp">
+                    app:boxCornerRadiusTopStart="@dimen/_5sdp"
+                    app:cursorColor="#00FFFFFF">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/M_salary"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:padding="@dimen/_1sdp"
                         android:clickable="false"
+                        android:editable="false"
                         android:focusable="false"
                         android:inputType="text"
+                        android:padding="@dimen/_1sdp"
                         android:textColor="@color/answer_color"
-                        android:textSize="@dimen/_15sdp"  />
+                        android:textSize="@dimen/_15sdp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -171,18 +178,20 @@
                     app:boxBackgroundColor="#D6F8FF"
                     app:boxBackgroundMode="filled"
                     app:boxCornerRadiusTopEnd="@dimen/_5sdp"
-                    app:boxCornerRadiusTopStart="@dimen/_5sdp">
+                    app:boxCornerRadiusTopStart="@dimen/_5sdp"
+                    app:cursorColor="#00FFFFFF">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/total_months"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:padding="@dimen/_1sdp"
                         android:clickable="false"
+                        android:editable="false"
                         android:focusable="false"
                         android:inputType="text"
+                        android:padding="@dimen/_1sdp"
                         android:textColor="@color/answer_color"
-                        android:textSize="@dimen/_15sdp"   />
+                        android:textSize="@dimen/_15sdp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -204,18 +213,20 @@
                     app:boxBackgroundColor="#D6F8FF"
                     app:boxBackgroundMode="filled"
                     app:boxCornerRadiusTopEnd="@dimen/_5sdp"
-                    app:boxCornerRadiusTopStart="@dimen/_5sdp">
+                    app:boxCornerRadiusTopStart="@dimen/_5sdp"
+                    app:cursorColor="#00FFFFFF">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/per_year"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:padding="@dimen/_1sdp"
                         android:clickable="false"
+                        android:editable="false"
                         android:focusable="false"
                         android:inputType="text"
+                        android:padding="@dimen/_1sdp"
                         android:textColor="@color/answer_color"
-                        android:textSize="@dimen/_15sdp"  />
+                        android:textSize="@dimen/_15sdp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>

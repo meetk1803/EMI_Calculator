@@ -1,5 +1,6 @@
 package com.encle.emicalculator;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -107,5 +108,12 @@ public class Home_Loan_Emi_Calc extends AppCompatActivity {
                 startActivity(new Intent(Home_Loan_Emi_Calc.this, Near_by_Services.class));
             }
         });
+    }
+
+    @SuppressLint("MissingSuperCall")
+    @Override
+    public void onBackPressed() {
+        Intent i = new Intent(Home_Loan_Emi_Calc.this, Rate_us_Screen.class);
+        startActivity(i);
     }
 }

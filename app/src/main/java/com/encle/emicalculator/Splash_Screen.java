@@ -1,5 +1,6 @@
 package com.encle.emicalculator;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -22,7 +23,6 @@ public class Splash_Screen extends AppCompatActivity {
 
 
         card_share = findViewById(R.id.card_share);
-        card_rateus = findViewById(R.id.card_rateus);
         card_privacy = findViewById(R.id.card_privacy);
 
 
@@ -44,12 +44,6 @@ public class Splash_Screen extends AppCompatActivity {
             }
         });
 
-        card_rateus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Splash_Screen.this, Rate_us_Screen.class));
-            }
-        });
         card_privacy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -65,5 +59,12 @@ public class Splash_Screen extends AppCompatActivity {
 
     public void getStarted(View view) {
         startActivity(new Intent(Splash_Screen.this, Home_Loan_Emi_Calc.class));
+        finish();
+    }
+    @SuppressLint("MissingSuperCall")
+    @Override
+    public void onBackPressed() {
+        Intent i = new Intent(Splash_Screen.this, Rate_us_Screen.class);
+        startActivity(i);
     }
 }

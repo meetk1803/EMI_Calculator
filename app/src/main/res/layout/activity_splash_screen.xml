@@ -94,6 +94,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/_15sdp"
             android:layout_gravity="center">
 
             <com.google.android.material.card.MaterialCardView
@@ -134,50 +135,7 @@
             </com.google.android.material.card.MaterialCardView>
 
         </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center">
 
-            <com.google.android.material.card.MaterialCardView
-                android:id="@+id/card_rateus"
-                android:layout_width="@dimen/_90sdp"
-                android:layout_height="@dimen/_98sdp"
-                app:cardBackgroundColor="#04C3FF"
-                android:layout_marginHorizontal="@dimen/_10sdp"
-                app:cardCornerRadius="@dimen/_15sdp">
-
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:layout_width="@dimen/_65sdp"
-                    android:layout_height="@dimen/_65sdp"
-                    android:layout_gravity="top|center"
-                    android:padding="@dimen/_6sdp"
-                    android:src="@drawable/home_round2"
-                    app:shapeAppearance="@style/circleImageView" />
-
-                <com.google.android.material.imageview.ShapeableImageView
-                    android:layout_width="@dimen/_40sdp"
-                    android:layout_height="@dimen/_45sdp"
-                    android:layout_gravity="top|center"
-                    android:layout_marginTop="@dimen/_8sdp"
-                    android:padding="@dimen/_6sdp"
-                    android:src="@drawable/home_rate_us"
-                    android:tint="@color/white"
-                    app:shapeAppearance="@style/circleImageView" />
-
-                <com.google.android.material.textview.MaterialTextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:layout_gravity="bottom"
-                    android:text="Rate us"
-                    android:fontFamily="@font/kanit_medium"
-                    android:layout_marginBottom="@dimen/_10sdp"
-                    android:textColor="@color/app_bg_color"
-                    android:textSize="@dimen/_18sdp" />
-            </com.google.android.material.card.MaterialCardView>
-
-        </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -187,6 +145,7 @@
                 android:id="@+id/card_privacy"
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="@dimen/_98sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
                 app:cardBackgroundColor="#04C3FF"
                 app:cardCornerRadius="@dimen/_15sdp">
 

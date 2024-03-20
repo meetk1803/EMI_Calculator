@@ -18,11 +18,22 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_marginBottom="@dimen/_10sdp"
-            android:gravity="center"
+            android:gravity="start"
+            android:layout_marginStart="@dimen/_20sdp"
             android:text="Loan EMI Calculator"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
             android:textStyle="bold" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/BTN_setting"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:onClick="open_settings"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:src="@drawable/round_settings_24" />
 
     </FrameLayout>
 
