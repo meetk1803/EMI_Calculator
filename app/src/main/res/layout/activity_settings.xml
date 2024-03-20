@@ -33,7 +33,7 @@
             android:layout_gravity="bottom"
             android:layout_marginBottom="@dimen/_15sdp"
             android:gravity="center"
-            android:text="Setting"
+            android:text="@string/title_setting"
             android:fontFamily="@font/opensans_semibold"
             android:textColor="@color/white"
             android:textSize="@dimen/_15sdp"
@@ -43,7 +43,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Language"
+        android:text="@string/header_language"
         android:layout_marginStart="@dimen/_10sdp"
         android:textSize="@dimen/_14sdp"
         android:textColor="@color/white"
@@ -85,7 +85,7 @@
                     android:fontFamily="@font/inter_regular"
                     android:gravity="start"
                     app:fontFamily="@font/opensans_semibold"
-                    android:text="Select Language"
+                    android:text="@string/header_select_language"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_13sdp"
                     android:textStyle="bold" />
@@ -100,7 +100,7 @@
                     android:autoLink="phone"
                     android:paddingEnd="@dimen/_15sdp"
                     android:textColorLink="@color/white"
-                    android:text="Select Language For App"
+                    android:text="@string/header_select_language_for_app"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_11sdp" />
             </LinearLayout>
@@ -122,7 +122,7 @@
                     android:text="English"
                     android:textColor="#67D0FF"
                     android:textColorLink="@color/white"
-                    android:textSize="@dimen/_10sdp"
+                    android:textSize="@dimen/_15sdp"
                     android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
@@ -131,7 +131,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="General"
+        android:text="@string/header_general"
         android:layout_marginStart="@dimen/_10sdp"
         android:textSize="@dimen/_14sdp"
         android:textColor="@color/white"

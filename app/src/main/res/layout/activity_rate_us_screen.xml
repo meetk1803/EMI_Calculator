@@ -16,7 +16,7 @@
         android:layout_marginTop="@dimen/_20sdp"
         android:fontFamily="@font/kanit_medium"
         android:gravity="center"
-        android:text="Exit This App !!!"
+        android:text="@string/title_exit_this_app"
         android:textColor="@color/white"
         android:textSize="@dimen/_25sdp" />
 
@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/kanit_medium"
                 android:gravity="center"
-                android:text="EMI Calculator"
+                android:text="@string/app_name_emi_calculator"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_20sdp" />
 
@@ -45,7 +45,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="@dimen/_14sdp"
                 android:fontFamily="@font/kanit_regular"
-                android:text="Are You Sure You Want To Exit ?"
+                android:text="@string/header_are_you_sure_you_want_to_exit"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_15sdp"
                 android:textStyle="bold" />
@@ -74,7 +74,7 @@
                     android:outlineSpotShadowColor="#00FFFFFF"
                     android:padding="@dimen/_5sdp"
                     android:paddingVertical="@dimen/_10sdp"
-                    android:text="No"
+                    android:text="@string/BTN_no"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_15sdp"
                     app:elevation="0dp"
@@ -93,7 +93,7 @@
                     android:outlineSpotShadowColor="#00FFFFFF"
                     android:padding="@dimen/_5sdp"
                     android:paddingVertical="@dimen/_10sdp"
-                    android:text="Yes"
+                    android:text="@string/BTN_yes"
                     android:textColor="@color/app_bg_color"
                     android:textSize="@dimen/_15sdp"
                     app:elevation="0dp"

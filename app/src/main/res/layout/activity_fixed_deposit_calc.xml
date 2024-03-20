@@ -35,7 +35,7 @@
             android:layout_gravity="bottom"
             android:layout_marginBottom="@dimen/_15sdp"
             android:gravity="center"
-            android:text="Fixed Deposit Calculator"
+            android:text="@string/title_fixed_deposit_calculator"
             android:textColor="@color/white"
             android:textSize="@dimen/_15sdp"
             android:textStyle="bold" />
@@ -73,7 +73,7 @@
                         android:layout_marginTop="@dimen/_10sdp"
                         android:fontFamily="@font/opensans_regular"
                         android:gravity="start"
-                        android:text="Deposit Amount"
+                        android:text="@string/header_deposit_amount"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_13sdp"
                         android:textStyle="bold" />
@@ -117,7 +117,7 @@
                         android:layout_marginTop="@dimen/_10sdp"
                         android:fontFamily="@font/opensans_regular"
                         android:gravity="start"
-                        android:text="Rate of Interest (%)"
+                        android:text="@string/header_rate_of_interest"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_13sdp"
                         android:textStyle="bold" />
@@ -155,7 +155,7 @@
                 android:layout_marginTop="@dimen/_10sdp"
                 android:fontFamily="@font/opensans_regular"
                 android:gravity="start"
-                android:text="Period of Deposit"
+                android:text="@string/title_period_of_deposit"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_13sdp"
                 android:textStyle="bold" />
@@ -233,7 +233,7 @@
                     android:layout_marginTop="@dimen/_10sdp"
                     android:fontFamily="@font/opensans_regular"
                     android:gravity="start"
-                    android:text="Total Deposit :"
+                    android:text="@string/header_total_deposit"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_13sdp"
                     android:textStyle="bold" />
@@ -268,7 +268,7 @@
                     android:layout_marginTop="@dimen/_10sdp"
                     android:fontFamily="@font/opensans_regular"
                     android:gravity="start"
-                    android:text="Total Interest Value :"
+                    android:text="@string/header_total_interest_value"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_13sdp"
                     android:textStyle="bold" />
@@ -303,7 +303,7 @@
                     android:layout_marginTop="@dimen/_10sdp"
                     android:fontFamily="@font/opensans_regular"
                     android:gravity="start"
-                    android:text="Maturity Amount"
+                    android:text="@string/header_maturity_amount"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_13sdp"
                     android:textStyle="bold" />
@@ -349,7 +349,7 @@
                     android:backgroundTint="@color/white"
                     android:fontFamily="@font/kanit_medium"
                     android:padding="@dimen/_1sdp"
-                    android:text="Reset"
+                    android:text="@string/btn_reset"
                     android:textColor="@color/btn_color"
                     android:textSize="@dimen/_20sdp" />
 
@@ -362,7 +362,7 @@
                     android:backgroundTint="@color/btn_color"
                     android:fontFamily="@font/kanit_medium"
                     android:padding="@dimen/_1sdp"
-                    android:text="Calculate"
+                    android:text="@string/btn_calculate"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_20sdp" />
 

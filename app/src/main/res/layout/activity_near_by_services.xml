@@ -35,7 +35,7 @@
             android:layout_gravity="bottom"
             android:layout_marginBottom="@dimen/_15sdp"
             android:gravity="center"
-            android:text="Near by Places"
+            android:text="@string/title_near_by_places"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
             android:textStyle="bold" />

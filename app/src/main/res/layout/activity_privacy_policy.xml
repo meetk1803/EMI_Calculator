@@ -35,7 +35,7 @@
             android:layout_gravity="bottom"
             android:layout_marginBottom="@dimen/_15sdp"
             android:gravity="center"
-            android:text="Privacy Policy"
+            android:text="@string/title_privacy_policy"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
             android:textStyle="bold" />
