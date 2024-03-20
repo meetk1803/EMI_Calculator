@@ -34,7 +34,7 @@
             android:layout_gravity="bottom"
             android:layout_marginBottom="@dimen/_15sdp"
             android:gravity="center"
-            android:text="GST Calculator"
+            android:text="@string/title_gst_calculator"
             android:textColor="@color/white"
             android:textSize="@dimen/_15sdp"
             android:textStyle="bold" />
@@ -73,7 +73,7 @@
 
                         android:fontFamily="@font/opensans_regular"
                         android:gravity="start"
-                        android:text="Initial Amount"
+                        android:text="@string/header_initial_amount"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_13sdp"
                         android:textStyle="bold" />
@@ -116,7 +116,7 @@
 
                         android:fontFamily="@font/opensans_regular"
                         android:gravity="start"
-                        android:text="Rate of GST (%)"
+                        android:text="@string/header_rate_of_gst"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_13sdp"
                         android:textStyle="bold" />
@@ -167,7 +167,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="@dimen/_25sdp"
                         android:fontFamily="@font/opensans_regular"
-                        android:text="Add GST +"
+                        android:text="@string/header_add_gst"
                         android:buttonTintMode="multiply"
                         android:buttonTint="@color/white"
                         android:textColor="@color/app_bg_color"
@@ -179,7 +179,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="@dimen/_25sdp"
                         android:fontFamily="@font/opensans_regular"
-                        android:text="Subtract GST -"
+                        android:text="@string/header_subtract_gst"
                         android:buttonTintMode="multiply"
                         android:buttonTint="@color/white"
                         android:textColor="@color/app_bg_color"
@@ -203,7 +203,7 @@
                     android:layout_marginTop="@dimen/_1sdp"
                     android:fontFamily="@font/opensans_regular"
                     android:gravity="start"
-                    android:text="Net Amount :"
+                    android:text="@string/header_net_amount"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_13sdp"
                     android:textStyle="bold" />
@@ -238,7 +238,7 @@
                     android:layout_marginTop="@dimen/_5sdp"
                     android:fontFamily="@font/opensans_regular"
                     android:gravity="start"
-                    android:text="GST Amount :"
+                    android:text="@string/header_gst_amount"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_13sdp"
                     android:textStyle="bold" />
@@ -273,7 +273,7 @@
                     android:layout_marginTop="@dimen/_5sdp"
                     android:fontFamily="@font/opensans_regular"
                     android:gravity="start"
-                    android:text="Total Amount (GST Involves) :"
+                    android:text="@string/header_total_amount_gst_involves"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_13sdp"
                     android:textStyle="bold" />
@@ -324,7 +324,7 @@
 
                         android:fontFamily="@font/opensans_regular"
                         android:gravity="start"
-                        android:text="CGST :"
+                        android:text="@string/header_cgst"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_13sdp"
                         android:textStyle="bold" />
@@ -368,7 +368,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/opensans_regular"
                         android:gravity="start"
-                        android:text="SGST :"
+                        android:text="@string/header_sgst"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_13sdp"
                         android:textStyle="bold" />
@@ -417,7 +417,7 @@
                     android:backgroundTint="@color/white"
                     android:fontFamily="@font/kanit_medium"
                     android:padding="@dimen/_1sdp"
-                    android:text="Reset"
+                    android:text="@string/btn_reset"
                     android:textColor="@color/btn_color"
                     android:textSize="@dimen/_20sdp" />
 
@@ -430,7 +430,7 @@
                     android:backgroundTint="@color/btn_color"
                     android:fontFamily="@font/kanit_medium"
                     android:padding="@dimen/_1sdp"
-                    android:text="Calculate"
+                    android:text="@string/btn_calculate"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_20sdp" />
 

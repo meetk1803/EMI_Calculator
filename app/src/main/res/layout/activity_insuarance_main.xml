@@ -35,7 +35,7 @@
             android:layout_gravity="bottom"
             android:layout_marginBottom="@dimen/_15sdp"
             android:gravity="center"
-            android:text="Insurance"
+            android:text="@string/title_insurance"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
             android:textStyle="bold" />
@@ -78,7 +78,7 @@
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Health Insurance"
+                            android:text="@string/header_health_insurance"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
@@ -113,7 +113,7 @@
                             android:layout_marginBottom="@dimen/_9sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Motor \nInsurance"
+                            android:text="@string/header_motor_ninsurance"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
@@ -148,7 +148,7 @@
                             android:layout_marginBottom="@dimen/_7sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Home \nInsrance"
+                            android:text="@string/header_home_ninsrance"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp"
 
@@ -193,7 +193,7 @@
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Fire \nInsurance"
+                            android:text="@string/header_fire_ninsurance"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
@@ -228,7 +228,7 @@
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Travel \nInsurance"
+                            android:text="@string/header_travel_ninsurance"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
@@ -263,7 +263,7 @@
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Property Insurance"
+                            android:text="@string/header_property_insurance"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
@@ -286,7 +286,7 @@
                 android:fontFamily="sans-serif"
                 android:gravity="start"
                 android:layout_marginStart="@dimen/_15sdp"
-                android:text="Life Insurance"
+                android:text="@string/header_life_insurance"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_12sdp"
                 android:textStyle="bold" />
@@ -318,7 +318,7 @@
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Term Life Insurance"
+                            android:text="@string/header_term_life_insurance"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
@@ -353,7 +353,7 @@
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Whole Life Insurance"
+                            android:text="@string/header_whole_life_insurance"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
@@ -388,7 +388,7 @@
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Endowment Plans"
+                            android:text="@string/header_endowment_plans"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
@@ -432,7 +432,7 @@
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Unit-Linked Insurance"
+                            android:text="@string/header_unit_linked_insurance"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
@@ -467,7 +467,7 @@
                             android:layout_marginBottom="@dimen/_12sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Child \nPlans"
+                            android:text="@string/header_child_nplans"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
@@ -502,7 +502,7 @@
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Pension \nPlans"
+                            android:text="@string/header_pension_nplans"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />

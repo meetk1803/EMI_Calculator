@@ -74,8 +74,9 @@
                             android:layout_gravity="bottom"
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
+                            android:layout_marginHorizontal="@dimen/_5sdp"
                             android:gravity="center"
-                            android:text="EMI \nCalculator"
+                            android:text="@string/title_emi_calculator"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_13sdp"
                             android:textStyle="bold" />
@@ -110,7 +111,7 @@
                             android:layout_marginBottom="@dimen/_9sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Business Loan Calculator"
+                            android:text="@string/title_business_loan_calculator"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_11sdp"
                             android:textStyle="bold" />
@@ -145,7 +146,7 @@
                             android:layout_marginBottom="@dimen/_7sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="FD \nCalculator"
+                            android:text="@string/title_fd_ncalculator"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_13sdp"
 
@@ -189,7 +190,7 @@
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="RD \nCalculator"
+                            android:text="@string/title_rd_ncalculator"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_13sdp"
                             android:textStyle="bold" />
@@ -224,7 +225,7 @@
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Salary \nCalculator"
+                            android:text="@string/title_salary_calculator"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_13sdp"
                             android:textStyle="bold" />
@@ -259,7 +260,8 @@
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="GST \nCalculator"
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:text="@string/title_gst_calculator"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_13sdp"
                             android:textStyle="bold" />
@@ -303,7 +305,8 @@
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="PPF \nCalculator"
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:text="@string/title_ppf_calculator"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_13sdp"
                             android:textStyle="bold" />
@@ -338,7 +341,8 @@
                             android:layout_marginBottom="@dimen/_1sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Simple \nInterest Calculator"
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:text="@string/title_simple_interest_calculator"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
@@ -373,7 +377,7 @@
                             android:layout_marginBottom="@dimen/_1sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Compound \nInterest Calculator"
+                            android:text="@string/titile_compound_interest_calculator"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />
@@ -417,7 +421,7 @@
                             android:layout_marginBottom="@dimen/_18sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Insurance"
+                            android:text="@string/title_insurance"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_13sdp"
                             android:textStyle="bold" />
@@ -452,7 +456,8 @@
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Bank\nService"
+                            android:layout_marginHorizontal="@dimen/_10sdp"
+                            android:text="@string/title_bank_service"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_13sdp"
                             android:textStyle="bold" />
@@ -487,7 +492,8 @@
                             android:layout_marginBottom="@dimen/_9sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:text="Near by \nPlaces"
+                            android:layout_marginHorizontal="@dimen/_5sdp"
+                            android:text="@string/title_near_by_places"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp"
                             android:textStyle="bold" />

@@ -35,7 +35,7 @@
             android:layout_gravity="bottom"
             android:layout_marginBottom="@dimen/_15sdp"
             android:gravity="center"
-            android:text="Compound Interest Calculator"
+            android:text="@string/titile_compound_interest_calculator"
             android:textColor="@color/white"
             android:textSize="@dimen/_15sdp"
             android:textStyle="bold" />
@@ -74,7 +74,7 @@
                         android:layout_marginTop="@dimen/_10sdp"
                         android:fontFamily="@font/opensans_regular"
                         android:gravity="start"
-                        android:text="Principal Amount"
+                        android:text="@string/header_principal_amount"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_13sdp"
                         android:textStyle="bold" />
@@ -118,7 +118,7 @@
                         android:layout_marginTop="@dimen/_10sdp"
                         android:fontFamily="@font/opensans_regular"
                         android:gravity="start"
-                        android:text="Rate of Interest (%)"
+                        android:text="@string/header_rate_of_interest"
                         android:textColor="@color/white"
                         android:textSize="@dimen/_13sdp"
                         android:textStyle="bold" />
@@ -156,7 +156,7 @@
                 android:layout_marginTop="@dimen/_10sdp"
                 android:fontFamily="@font/opensans_regular"
                 android:gravity="start"
-                android:text="Period"
+                android:text="@string/header_period"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_13sdp"
                 android:textStyle="bold" />
@@ -233,7 +233,7 @@
                     android:layout_marginTop="@dimen/_10sdp"
                     android:fontFamily="@font/opensans_regular"
                     android:gravity="start"
-                    android:text="Compound Interest :"
+                    android:text="@string/header_compound_interest"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_13sdp"
                     android:textStyle="bold" />
@@ -268,7 +268,7 @@
                     android:layout_marginTop="@dimen/_10sdp"
                     android:fontFamily="@font/opensans_regular"
                     android:gravity="start"
-                    android:text="Principal Amount :"
+                    android:text="@string/header_principal_amount1"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_13sdp"
                     android:textStyle="bold" />
@@ -303,7 +303,7 @@
                     android:layout_marginTop="@dimen/_10sdp"
                     android:fontFamily="@font/opensans_regular"
                     android:gravity="start"
-                    android:text="Total Amount :"
+                    android:text="@string/header_total_amount"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_13sdp"
                     android:textStyle="bold" />
@@ -349,7 +349,7 @@
                     android:backgroundTint="@color/white"
                     android:fontFamily="@font/kanit_medium"
                     android:padding="@dimen/_1sdp"
-                    android:text="Reset"
+                    android:text="@string/btn_reset"
                     android:textColor="@color/btn_color"
                     android:textSize="@dimen/_20sdp" />
 
@@ -362,7 +362,7 @@
                     android:backgroundTint="@color/btn_color"
                     android:fontFamily="@font/kanit_medium"
                     android:padding="@dimen/_1sdp"
-                    android:text="Calculate"
+                    android:text="@string/btn_calculate"
                     android:textColor="@color/white"
                     android:textSize="@dimen/_20sdp" />
 
