@@ -78,11 +78,26 @@ public class EMI_Calc extends AppCompatActivity {
         double rate = Double.parseDouble(edt_rate.getText().toString());
         double year = Double.parseDouble(edt_year.getText().toString());
 
+        // Check if rate or year is zero
+        if (principalAmt==0||rate == 0 || year == 0) {
+            // Display appropriate message and return
+            Toast.makeText(getApplicationContext(), "Input values must be greater than 0", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
         double monthlyRate = rate / 1200; // Convert annual rate to monthly rate
         double totalMonths = year * 12; // Convert years to total months
 
         double numerator = principalAmt * monthlyRate * Math.pow(1 + monthlyRate, totalMonths);
         double denominator = Math.pow(1 + monthlyRate, totalMonths) - 1;
+
+        // Check if denominator is zero
+        if (denominator == 0) {
+            // Display appropriate message and return
+            Toast.makeText(getApplicationContext(), "Invalid input. Please ensure interest rate and loan duration are not zero", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
         double monthlyEMI = numerator / denominator;
         double totalPayment = monthlyEMI * totalMonths;
         double totalInterest = totalPayment - principalAmt;
@@ -92,6 +107,7 @@ public class EMI_Calc extends AppCompatActivity {
         edt_t_interest.setText("₹" + String.format("%.2f", totalInterest));
         edt_t_payment.setText("₹" + String.format("%.2f", totalPayment));
     }
+
 
     @Override
     public void onBackPressed() {

@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Toast;
 
 import com.example.emicalculator.R;
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
@@ -83,38 +84,63 @@ public class Recurring_Deposit_Calc extends AppCompatActivity {
 
     @SuppressLint("DefaultLocale")
     private void calculate() {
-        // Retrieve values entered by the user
-        double depositAmount = Double.parseDouble(depositAmountEditText.getText().toString());
-        double interestRate = Double.parseDouble(interestRateEditText.getText().toString());
-        double period = Double.parseDouble(periodEditText.getText().toString());
+        try {
+            // Retrieve values entered by the user
+            String depositAmountStr = depositAmountEditText.getText().toString().trim();
+            String interestRateStr = interestRateEditText.getText().toString().trim();
+            String periodStr = periodEditText.getText().toString().trim();
 
-        // Check if the user selected years or months
-        boolean isYearly = isPeriodInYears; // Assuming isPeriodInYears represents yearly selection
+            // Check if any input field is empty
+            if (depositAmountStr.isEmpty() || interestRateStr.isEmpty() || periodStr.isEmpty()) {
+                Toast.makeText(getApplicationContext(), "Please enter all inputs", Toast.LENGTH_SHORT).show();
+                return;
+            }
 
-        // Convert period to months if yearly selected
-        if (isYearly) {
-            period *= 12; // Convert years to months
+            // Convert input values to double
+            double depositAmount = Double.parseDouble(depositAmountStr);
+            double interestRate = Double.parseDouble(interestRateStr);
+            double period = Double.parseDouble(periodStr);
+
+            // Check if any of the input values is zero
+            if (depositAmount == 0 || interestRate == 0 || period == 0) {
+                Toast.makeText(getApplicationContext(), "Input values must be greater than 0", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+            // Check if the user selected years or months
+            boolean isYearly = isPeriodInYears; // Assuming isPeriodInYears represents yearly selection
+
+            // Convert period to months if yearly selected
+            if (isYearly) {
+                period *= 12; // Convert years to months
+            }
+
+            // Convert interest rate from percentage to decimal
+            double annualRate = interestRate / 100.0;
+            double monthlyRate = annualRate / 12.0;
+
+            // Calculate maturity amount for recurring deposit
+            double maturityAmount = depositAmount * (((Math.pow(1 + monthlyRate, period) - 1) / monthlyRate) * (1 + monthlyRate));
+
+            // Calculate total deposit
+            double totalDeposit = depositAmount * period;
+
+            // Calculate total interest
+            double totalInterest = maturityAmount - totalDeposit;
+
+            // Display the results
+            totalDepositEditText.setText(String.format("₹%.2f", totalDeposit));
+            totalInterestEditText.setText(String.format("₹%.2f", totalInterest));
+            maturityAmountEditText.setText(String.format("₹%.2f", maturityAmount));
+        } catch (NumberFormatException e) {
+            // Handle NumberFormatException (e.g., if input is not a valid number)
+            Toast.makeText(getApplicationContext(), "Please enter valid numbers", Toast.LENGTH_SHORT).show();
+        } catch (Exception e) {
+            // Handle other exceptions
+            Toast.makeText(getApplicationContext(), "An error occurred", Toast.LENGTH_SHORT).show();
+            e.printStackTrace();
         }
-
-        // Convert interest rate from percentage to decimal
-        double annualRate = interestRate / 100.0;
-        double monthlyRate = annualRate / 12.0;
-
-        // Calculate maturity amount for recurring deposit
-        double maturityAmount = depositAmount * (((Math.pow(1 + monthlyRate, period) - 1) / monthlyRate) * (1 + monthlyRate));
-
-        // Calculate total deposit
-        double totalDeposit = depositAmount * period;
-
-        // Calculate total interest
-        double totalInterest = maturityAmount - totalDeposit;
-
-        // Display the results
-        totalDepositEditText.setText(String.format("₹%.2f", totalDeposit));
-        totalInterestEditText.setText(String.format("₹%.2f", totalInterest));
-        maturityAmountEditText.setText(String.format("₹%.2f", maturityAmount));
     }
-
 
 
     public void txt_back(View view) {

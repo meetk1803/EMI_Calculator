@@ -2,6 +2,7 @@ package com.encle.emicalculator;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -49,30 +50,53 @@ public class PPF_Calc extends AppCompatActivity {
         });
     }
     private void calculateGST() {
-        // Get input values
-        String investmentAmountStr = edt_investment_amount.getText().toString().trim();
-        String rateOfInterestStr = edt_rate_of_interest.getText().toString().trim();
-        String monthlyEmiStr = edt_monthly_emi.getText().toString().trim();
+        try {
+            // Get input values
+            String investmentAmountStr = edt_investment_amount.getText().toString().trim();
+            String rateOfInterestStr = edt_rate_of_interest.getText().toString().trim();
+            String monthlyEmiStr = edt_monthly_emi.getText().toString().trim();
 
-        // Convert input values to double
-        double investmentAmount = Double.parseDouble(investmentAmountStr);
-        double rateOfInterest = Double.parseDouble(rateOfInterestStr);
-        double monthlyEmi = Double.parseDouble(monthlyEmiStr);
+            // Check if input fields are empty
+            if (investmentAmountStr.isEmpty() || rateOfInterestStr.isEmpty() || monthlyEmiStr.isEmpty()) {
+                Toast.makeText(getApplicationContext(), "Please enter all inputs", Toast.LENGTH_SHORT).show();
+                return;
+            }
 
-        // Calculate total investment
-        double totalInvestment = investmentAmount + (monthlyEmi * 12); // Assuming monthly EMI for 1 year
+            // Convert input values to double
+            double investmentAmount = Double.parseDouble(investmentAmountStr);
+            double rateOfInterest = Double.parseDouble(rateOfInterestStr);
+            double monthlyEmi = Double.parseDouble(monthlyEmiStr);
 
-        // Calculate total interest value
-        double totalInterestValue = (totalInvestment * rateOfInterest) / 100;
+            // Check if any of the input values is zero
+            if (investmentAmount == 0 || rateOfInterest == 0 || monthlyEmi == 0) {
+                Toast.makeText(getApplicationContext(), "Input values must be greater than 0", Toast.LENGTH_SHORT).show();
+                return;
+            }
 
-        // Calculate maturity amount
-        double maturityAmount = totalInvestment + totalInterestValue;
+            // Calculate total investment
+            double totalInvestment = investmentAmount + (monthlyEmi * 12); // Assuming monthly EMI for 1 year
 
-        // Display the calculated values
-        txt_total_investment.setText(String.format(Locale.getDefault(), "%.2f", totalInvestment));
-        txt_total_interest_value.setText(String.format(Locale.getDefault(), "%.2f", totalInterestValue));
-        txt_maturity_amount.setText(String.format(Locale.getDefault(), "%.2f", maturityAmount));
+            // Calculate total interest value
+            double totalInterestValue = (totalInvestment * rateOfInterest) / 100;
+
+            // Calculate maturity amount
+            double maturityAmount = totalInvestment + totalInterestValue;
+
+            // Display the calculated values
+            txt_total_investment.setText("₹" + String.format(Locale.getDefault(), "%.2f", totalInvestment));
+            txt_total_interest_value.setText("₹" + String.format(Locale.getDefault(), "%.2f", totalInterestValue));
+            txt_maturity_amount.setText("₹" + String.format(Locale.getDefault(), "%.2f", maturityAmount));
+        } catch (NumberFormatException e) {
+            // Handle NumberFormatException (e.g., if input is not a valid number)
+            Toast.makeText(getApplicationContext(), "Please enter valid numbers", Toast.LENGTH_SHORT).show();
+        } catch (Exception e) {
+            // Handle other exceptions
+            Toast.makeText(getApplicationContext(), "An error occurred", Toast.LENGTH_SHORT).show();
+            e.printStackTrace();
+        }
     }
+
+
 
 
 

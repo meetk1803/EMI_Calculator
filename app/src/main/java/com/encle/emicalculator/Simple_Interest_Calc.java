@@ -88,10 +88,28 @@ public class Simple_Interest_Calc extends AppCompatActivity {
         // Get input values
         double principal, rateOfInterest, period;
         try {
-            principal = Double.parseDouble(edt_investment_amount.getText().toString());
-            rateOfInterest = Double.parseDouble(edt_rate_of_interest.getText().toString());
-            period = Double.parseDouble(edt_period.getText().toString());
+            String principalStr = edt_investment_amount.getText().toString().trim();
+            String rateOfInterestStr = edt_rate_of_interest.getText().toString().trim();
+            String periodStr = edt_period.getText().toString().trim();
+
+            // Check if any input field is empty
+            if (principalStr.isEmpty() || rateOfInterestStr.isEmpty() || periodStr.isEmpty()) {
+                Toast.makeText(this, "Please enter all inputs", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
+            // Parse input values to double
+            principal = Double.parseDouble(principalStr);
+            rateOfInterest = Double.parseDouble(rateOfInterestStr);
+            period = Double.parseDouble(periodStr);
+
+            // Check if any of the input values is zero
+            if (principal == 0 || rateOfInterest == 0 || period == 0) {
+                Toast.makeText(this, "Input values must be greater than 0", Toast.LENGTH_SHORT).show();
+                return;
+            }
         } catch (NumberFormatException e) {
+            // Handle NumberFormatException (e.g., if input is not a valid number)
             Toast.makeText(this, "Please enter valid numbers", Toast.LENGTH_SHORT).show();
             return;
         }
@@ -115,8 +133,8 @@ public class Simple_Interest_Calc extends AppCompatActivity {
 
         // Format the values for display
         DecimalFormat decimalFormat = new DecimalFormat("#.##");
-        String formattedInterest = decimalFormat.format(interest);
-        String formattedTotalAmount = decimalFormat.format(totalAmount);
+        String formattedInterest = "₹" + decimalFormat.format(interest);
+        String formattedTotalAmount = "₹" + decimalFormat.format(totalAmount);
 
         // Display the results
         txt_simple_investment.setText(formattedInterest);

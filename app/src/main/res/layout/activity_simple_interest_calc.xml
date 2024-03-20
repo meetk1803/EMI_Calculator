@@ -258,7 +258,7 @@
                         android:focusable="false"
                         android:inputType="none"
                         android:padding="@dimen/_1sdp"
-                        android:textColor="@color/app_bg_color"
+                        android:textColor="@color/answer_color"
                         android:textSize="@dimen/_15sdp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -293,7 +293,7 @@
                         android:focusable="false"
                         android:inputType="none"
                         android:padding="@dimen/_1sdp"
-                        android:textColor="@color/app_bg_color"
+                        android:textColor="@color/answer_color"
                         android:textSize="@dimen/_15sdp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
@@ -328,7 +328,7 @@
                         android:focusable="false"
                         android:inputType="none"
                         android:padding="@dimen/_1sdp"
-                        android:textColor="@color/app_bg_color"
+                        android:textColor="@color/answer_color"
                         android:textSize="@dimen/_15sdp" />
 
                 </com.google.android.material.textfield.TextInputLayout>

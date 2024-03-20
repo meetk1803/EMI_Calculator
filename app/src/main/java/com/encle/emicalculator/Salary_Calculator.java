@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.example.emicalculator.R;
 import com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton;
@@ -61,49 +62,73 @@ public class Salary_Calculator extends AppCompatActivity {
 
     }
     private void calculate() {
-        // Retrieve values entered by the user
-        double CTC = Double.parseDouble(CTCannual.getText().toString());
-        double bonusPercentage = Double.parseDouble(bonus.getText().toString());
+        try {
+            // Retrieve values entered by the user
+            String CTCStr = CTCannual.getText().toString().trim();
+            String bonusPercentageStr = bonus.getText().toString().trim();
 
-        // Calculate bonus amount based on bonus percentage
-        double bonusAmount = (bonusPercentage / 100.0) * CTC;
+            // Check if any input field is empty
+            if (CTCStr.isEmpty() || bonusPercentageStr.isEmpty()) {
+                Toast.makeText(getApplicationContext(), "Please enter all inputs", Toast.LENGTH_SHORT).show();
+                return;
+            }
 
-        // Calculate base salary (CTC minus bonus amount)
-        double baseSalary = CTC - bonusAmount;
+            // Convert input values to double
+            double CTC = Double.parseDouble(CTCStr);
+            double bonusPercentage = Double.parseDouble(bonusPercentageStr);
 
-        // Initialize variables for monthly and yearly salaries
-        double monthlySalary;
-        double yearlySalary;
+            // Check if any of the input values is zero
+            if (CTC == 0 || bonusPercentage == 0) {
+                Toast.makeText(getApplicationContext(), "Input values must be greater than 0", Toast.LENGTH_SHORT).show();
+                return;
+            }
 
-        // Calculate monthly salary (base salary divided by 12)
-        monthlySalary = baseSalary / 12;
+            // Calculate bonus amount based on bonus percentage
+            double bonusAmount = (bonusPercentage / 100.0) * CTC;
 
-        // Format monthly salary in INR
-        DecimalFormat decimalFormat = new DecimalFormat("###,###,##0.00");
-        String formattedMonthlySalary = "₹" + decimalFormat.format(monthlySalary);
+            // Calculate base salary (CTC minus bonus amount)
+            double baseSalary = CTC - bonusAmount;
 
-        // Check if the user has selected the yearly calculation
-        if (isPeriodInYears) {
-            // Calculate yearly salary
-            yearlySalary = monthlySalary * 12;
+            // Calculate monthly salary (base salary divided by 12)
+            double monthlySalary = baseSalary / 12;
 
-            // Display the results
-            M_salary.setText(formattedMonthlySalary);
-            total_months.setText("12");
-            per_year.setText(String.format("₹%.2f", yearlySalary));
-        } else {
-            // Calculate total months (assuming each year has 12 months)
-            double totalMonths = 12;
+            // Initialize variables for total months and total salary per year
+            double totalMonths;
+            double totalSalaryPerYear;
 
-            // Calculate total salary per year (monthly salary multiplied by total months)
-            double totalSalaryPerYear = monthlySalary * totalMonths;
+            // Check if the user has selected the yearly calculation
+            if (isPeriodInYears) {
+                // Calculate total months (assuming each year has 12 months)
+                totalMonths = 12;
+
+                // Calculate total salary per year (monthly salary multiplied by total months)
+                totalSalaryPerYear = monthlySalary * totalMonths;
+            } else {
+                // If monthly calculation selected, total months is 12
+                totalMonths = 12;
+
+                // Total salary per year remains the same as monthly salary
+                totalSalaryPerYear = monthlySalary;
+            }
+
+            // Format monthly salary in INR
+            DecimalFormat decimalFormat = new DecimalFormat("###,###,##0.00");
+            String formattedMonthlySalary = "₹" + decimalFormat.format(monthlySalary);
 
             // Display the results
             M_salary.setText(formattedMonthlySalary);
             total_months.setText(String.valueOf((int) totalMonths));
             per_year.setText(String.format("₹%.2f", totalSalaryPerYear));
+        } catch (NumberFormatException e) {
+            // Handle NumberFormatException (e.g., if input is not a valid number)
+            Toast.makeText(getApplicationContext(), "Please enter valid numbers", Toast.LENGTH_SHORT).show();
+        } catch (Exception e) {
+            // Handle other exceptions
+            Toast.makeText(getApplicationContext(), "An error occurred", Toast.LENGTH_SHORT).show();
+            e.printStackTrace();
         }
     }
+
 
 
     public void txt_back(View view) {
