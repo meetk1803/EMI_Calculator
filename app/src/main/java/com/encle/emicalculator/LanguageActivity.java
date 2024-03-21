@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.View;
 
@@ -18,6 +19,7 @@ import com.example.emicalculator.R;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class LanguageActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
@@ -38,7 +40,17 @@ public class LanguageActivity extends AppCompatActivity {
         adapter = new LanguageAdapter(this, languageList);
         recyclerView.setAdapter(adapter);
     }
-
+    public void switchToHindi(View view) {
+        setLocale("hi"); // Set Hindi locale
+        recreate(); // Restart activity to apply changes
+    }
+    private void setLocale(String languageCode) {
+        Locale locale = new Locale(languageCode);
+        Locale.setDefault(locale);
+        Configuration configuration = new Configuration();
+        configuration.locale = locale;
+        getResources().updateConfiguration(configuration, getResources().getDisplayMetrics());
+    }
     private List<Language> createLanguageList() {
         List<Language> languages = new ArrayList<>();
 
