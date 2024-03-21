@@ -23,7 +23,6 @@ import java.util.List;
 import java.util.Locale;
 
 public class LanguageActivity extends AppCompatActivity {
-     private ImageView hindi, english, german,french;
     private static final String DEFAULT_LANGUAGE = "en";
 
     @SuppressLint("MissingInflatedId")
@@ -32,39 +31,43 @@ public class LanguageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_language);
 
-        hindi = findViewById(R.id.hindi);
-        english = findViewById(R.id.english);
-        german = findViewById(R.id.german);
-        french = findViewById(R.id.french);
-
-        english.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                LanguageActivity.setLanguage(LanguageActivity.this, LanguageActivity.DEFAULT_LANGUAGE);
-                LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
-            }
-        });
-        hindi.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                LanguageActivity.setLanguage(LanguageActivity.this, "hi");
-                LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
-            }
-        });
-        german.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                LanguageActivity.setLanguage(LanguageActivity.this, "de");
-                LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
-            }
-        });
-        french.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                LanguageActivity.setLanguage(LanguageActivity.this, "fr");
-                LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
-            }
-        });
+    }
+    public void english(View view) {
+        LanguageActivity.setLanguage(LanguageActivity.this, LanguageActivity.DEFAULT_LANGUAGE);
+        LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
+    }
+    public void hindi(View view) {
+        LanguageActivity.setLanguage(LanguageActivity.this, "hi");
+        LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
+    }
+    public void german(View view) {
+        LanguageActivity.setLanguage(LanguageActivity.this, "de");
+        LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
+    }
+    public void french(View view) {
+        LanguageActivity.setLanguage(LanguageActivity.this, "fr");
+        LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
+    }
+    public void spenish(View view) {
+        LanguageActivity.setLanguage(LanguageActivity.this, "es");
+        LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
+    }
+    //
+    public void italian(View view) {
+        LanguageActivity.setLanguage(LanguageActivity.this, "fr");
+        LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
+    }
+    public void korean(View view) {
+        LanguageActivity.setLanguage(LanguageActivity.this, "fr");
+        LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
+    }
+    public void malay(View view) {
+        LanguageActivity.setLanguage(LanguageActivity.this, "fr");
+        LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
+    }
+    public void polish(View view) {
+        LanguageActivity.setLanguage(LanguageActivity.this, "fr");
+        LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
     }
 
     public void txt_back(View view) {

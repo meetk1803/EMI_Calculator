@@ -17,76 +17,83 @@
     <string name="home_2">ईएमआई कैलकुलेटर आपको आपके मासिक बजट के अनुसार सबसे उपयुक्त गृह ऋण राशि तय करने में मदद करता है, आपको आपकी वित्तीय स्थिति के अनुसार सबसे उपयुक्त ऋण ईएमआई और कार्यकाल का निर्णय लेने में सहायक होता है</string>
 
 
-    <string name="privacy_policy"> <b>गोपनीयता नीति</b>\n\n
-    <b>अंतिम अपडेट: 20 मार्च, 2024</b>\n\n
-    यह गोपनीयता नीति हमारी सेवा का उपयोग करते समय व्यक्तिगत जानकारी के संग्रह, उपयोग, और खुलासा के बारे में नीतियों और अभ्यासों को स्पष्ट करती है। आपके गोपनीयता के अधिकार और हम आपकी जानकारी की सुरक्षा कैसे करते हैं, यहाँ विवरणित है।\n\n
-    हमारी सेवा का उपयोग करके, आप इस गोपनीयता नीति में विस्तृत रूप से आपकी जानकारी के संग्रह और उपयोग को स्वीकार करते हैं।\n\n
-    <b>व्याख्या और परिभाषाएँ</b>\n\n
-    <b>व्याख्या</b>\n\n
-    यहाँ प्रमुख शब्दों का अर्थ निम्नलिखित शर्तों के तहत परिभाषित है। प्रदान की गई परिभाषाएँ शब्दों की संख्या या रूप के बिना लागू होंगी।\n\n\n
-    <b>परिभाषाएँ</b>\n\n
-    इस गोपनीयता नीति के उद्देश्यों के लिए:\n\n
-    - "खाता" हमारी सेवा या उसके विशिष्ट भागों तक पहुँच के लिए बनाए गए एक अद्वितीय खाता का संकेत करता है।\n
-    - "संबंधी" हमारे साथ नियंत्रण करने वाले, हमारे अधीन रहने वाले, या सामान्य नियंत्रण के अधीन रहने वाले किसी एंटिटी को संदर्भित करता है, जहां नियंत्रण का अर्थ 50% या उससे अधिक शेयरों, पूंजी ब्याज, या अन्य मतदान अधिकारों के स्वामित्व को सूचित करता है।\n
-    - "एप्लिकेशन" हमारी द्वारा प्रदान किए गए सॉफ़्टवेयर प्रोग्राम को संदर्भित करता है, जिसे "Emi Loan Calculator" नाम से जाना जाता है।\n
-    - "कंपनी," "हम," "हम," या "हमारा" "Emi Loan Calculator" को संदर्भित करता है।\n
-    - "देश" गुजरात, भारत से संबंधित है, यदि अन्यथा निर्दिष्ट नहीं किया गया हो।\n
-    - "उपकरण" किसी भी उपकरण को संदर्भित करता है जो हमारी सेवा तक पहुंचने की क्षमता रखता है, जैसे कंप्यूटर, मोबाइल फोन, या टैबलेट।\n
-    - "व्यक्तिगत डेटा" किसी भी पहचानी या पहचाने जाने वाले व्यक्ति से संबंधित कोई भी जानकारी को समाहित करता है।\n
-    - "सेवा" "Emi Loan Calculator" एप्लिकेशन से संबंधित होता है।\n
+    <string name="privacy_policy"> <b>Privacy Policy</b>\n\n
+    <b>Last updated: March 20, 2024</b>\n\n
+    This Privacy Policy outlines the policies and practices regarding the collection, use, and disclosure of personal information when using our service. Your privacy rights and how we protect your information are described herein.\n\n
+    By utilizing our service, you consent to the collection and usage of your information as detailed in this Privacy Policy.\n\n
+    <b>Interpretation and Definitions</b>\n\n
+    <b>Interpretation</b>\n\n
+    Capitalized terms herein have meanings as defined under the following conditions. The definitions provided shall apply regardless of the number or form of the words.\n\n\n
+    <b>Definitions</b>\n\n
 
-    - "सेवा प्रदाता" किसी भी प्राकृतिक या कानूनी एंटिटी का संकेत करता है जो हमारे पक्ष में डेटा प्रसंस्करण करता है। इसमें तीसरे पक्ष कंपनियों या व्यक्तियों को शामिल किया जा सकता है जो हमें हमारी सेवा प्रदान, विश्लेषण, या सेवा को बेहतर बनाने में सहायक हों।\n
-    - "उपयोग डेटा" सेवा का उपयोग करने या सेवा के ढांचे से स्वचालित रूप से जनरेट किए गए डेटा को संदर्भित करता है, जिसमें पृष्ठ यात्रा की अवधि, ब्राउज़र प्रकार, आईपी पता, और उपकरण पहचानकर्ता शामिल हैं।\n
-    - "आप" व्यक्ति को संदर्भित करता है जो हमारी सेवा का उपयोग कर रहा है या हमारी सेवा का उपयोग करने वाले व्यक्ति के लिए कानूनी एंटिटी।\n\n
-    <b>आपके व्यक्तिगत डेटा को एकत्र करना और उपयोग करना</b>\n\n
-    <b>एकत्रित डेटा के प्रकार</b>\n\n
-    <b>व्यक्तिगत डेटा</b>\n\n
-    हमारी सेवा का उपयोग करते समय, हम आपसे कुछ व्यक्तिगत पहचाननीय जानकारी का अनुरोध कर सकते हैं, जिसमें शामिल हो सकता है, लेकिन इससे सीमित नहीं है:\n
-    - उपयोग डेटा: स्वचालित रूप से एकत्रित डेटा में आपके उपकरण का आईपी पता, ब्राउज़र प्रकार, दौरे की गई पृष्ठ, उन पृष्ठों पर बिताए गए समय, और अन्य नैदानिक डेटा शामिल हो सकता है।\n
-    - मोबाइल उपकरणों से संग्रहित जानकारी: मोबाइल उपकरण के माध्यम से हमारी सेवा तक पहुंचते समय, हम उपकरण के जानकारी जैसे प्रकार, अद्वितीय आईडी, आईपी पता, ऑपरेटिंग सिस्टम, और मोबाइल ब्राउज़र प्रकार को संग्रहित कर सकते हैं।\n
-    - ब्राउज़र जानकारी: हम जान सकते हैं कि आपका ब्राउज़र हमारी सेवा पर दौरा करते समय आपके ब्राउज़र द्वारा भेजी गई जानकारी को।\n\n
-    <b>एप्लिकेशन का उपयोग करते समय संग्रहित जानकारी</b>\n\n
-    हमारे एप्लिकेशन का उपयोग करते समय, हम आपकी पूर्व सहमति के साथ स्थान जानकारी को संग्रहित कर सकते हैं। यह जानकारी हमारी सेवा प्रदान और बेहतर बनाने के लिए उपयोग की जाती है और इसे हमारे सर्वरों या आपके उपकरण में संग्रहित किया जा सकता है।\n
-    आपको अपने उपकरण की सेटिंग के माध्यम से किसी भी समय इस जानकारी का उपयोग सक्षम या अक्षम करने का विकल्प है।\n\n
-    <b>आपके व्यक्तिगत डेटा का उपयोग</b>\n\n
-    हम आपके व्यक्तिगत डेटा का निम्नलिखित उद्देश्यों के लिए उपयोग कर सकते हैं:\n
-    - हमारी सेवा प्रदान और बनाए रखना, सेवा के उपयोग की निगरानी सहित।\n
-    - आपके खाते का प्रबंधन और उपयोगकर्ता के रूप में पंजीकरण।\n
-    - अनुबंधित कर्तव्यों का पूरा करना, उत्पादों या सेवाओं के लिए खरीद के अनुबंध।\n
-    - अपडेट या सेवा संबंधित संचार के बारे में ईमेल, फोन कॉल, एसएमएस, या पुश सूचनाओं के माध्यम से आपसे संपर्क करना।\n
-    - समाचार, विशेष प्रस्ताव, और उत्पादों या सेवाओं के बारे में जानकारी प्रदान करना, जब तक आप ऑप्ट-आउट नहीं करते।\n
-    - आपके अनुरोधों और पूछताछों का प्रबंधन।\n
-    - व्यापारिक स्थानांतरणों का मूल्यांकन या आयोजन, जैसे कि विलय, अधिग्रहण, या संपत्ति बिक्री।\n
-    - डेटा विश्लेषण, उपयोग के प्रवृत्तियों की पहचान, और हमारी सेवा, उत्पादों, और विपणन प्रयासों को सुधारना।\n\n
-    <b>आपकी व्यक्तिगत जानकारी का साझा करना</b>\n\n
-    हम निम्नलिखित परिस्थितियों में आपकी व्यक्तिगत जानकारी को साझा कर सकते हैं:\n
-    - सेवा प्रदाताओं के साथ सेवा उपयोग का विश्लेषण करने या आपसे संपर्क करने के लिए।\n
-    - व्यापारिक स्थानांतरणों में, जैसे कि विलय या अधिग्रहण।\n
-    - संबंधितों के साथ, जिन्हें इस गोपनीयता नीति का पालन करना होगा।\n
-    - व्यापारिक साथियों के साथ, आपको कुछ विशेष उत्पादों, सेवाओं, या प्रोमोशन की पेशकश के लिए।\n
-    - सेवा के सार्वजनिक क्षेत्रों में अन्य उपयोगकर्ताओं के साथ।\n
-    - किसी अन्य उद्देश्य के लिए आपकी सहमति के साथ।\n\n
-    <b>आपकी व्यक्तिगत डेटा की रिटेंशन</b>\n\n
-    हम आपकी व्यक्तिगत डेटा को केवल उन उद्देश्यों के लिए रखेंगे जो इस गोपनीयता नीति में उल्लेख किए गए हैं। उपयोग डेटा को आंतरिक विश्लेषण के लिए रखा जा सकता है, लेकिन केवल सुरक्षा या सेवा सुधार के उद्देश्यों के लिए या कानून द्वारा निर्धारित समयावधि तक।\n\n
-    <b>आपकी व्यक्तिगत डेटा की स्थानांतरण</b>\n\n
-    आपका व्यक्तिगत डेटा, संग्रहित जानकारी सहित, हमारे संचालन कार्यालयों या उन अन्य स्थानों पर प्रसंस्कृत और रखा जा सकता है जहाँ प्रसंस्कृति में शामिल व्यक्तियों की स्थिति होती है। अपनी जानकारी प्रदान करके, आप इसके स्थानांतरण की सहमति देते हैं, जिसमें डेटा संरक्षण कानून आपके क्षेत्र से भिन्न हो सकते हैं। हम आपके डेटा की सुरक्षा और इस गोपनीयता नीति का पालन सुनिश्चित करने के लिए उचित कदम उठाएंगे।\n\n
-    <b>अपने व्यक्तिगत डेटा को हटाएं</b>\n\n
-    आपको हमने आपके बारे में संग्रहित व्यक्तिगत डेटा को हटाने का अधिकार है। आप अपनी जानकारी को अपडेट, संशोधित या हटा सकते हैं, अपने खाते में साइन इन करके या हमसे संपर्क करके। हालांकि, कुछ जानकारी को कानूनी अधिबासों या कानूनी आधारों को पूरा करने के लिए रखा जा सकता है।\n\n
-    <b>आपके व्यक्तिगत डेटा का खुलासा</b>\n\n
-    हम निम्नलिखित परिस्थितियों में आपकी व्यक्तिगत डेटा का खुलासा कर सकते हैं:\n
-    - व्यापारिक लेन-देनों में, जहां व्यक्तिगत डेटा स्थानांतरित किया जा सकता है।\n
-    - कानून द्वारा आवश्यकता होने पर या सार्वजनिक प्राधिकरणों द्वारा मान्य अनुरोधों के लिए।\n
-    - कानूनी अधिबासों को पूरा करने, हमारे अधिकार या संपत्ति की सुरक्षा, दुर्व्यवहार की जाँच, उपयोगकर्ताओं या सार्वजनिक की सुरक्षा सुनिश्चित करने या कानूनी जिम्मेदारी से बचने के लिए।\n\n
-    <b>आपके व्यक्तिगत डेटा की सुरक्षा</b>\n\n
-    हालांकि हम व्यक्तिगत डेटा की सुरक्षा के लिए व्यावसायिक रूप से स्वीकार्य उपायों का उपयोग करने का प्रयास करते हैं, लेकिन इंटरनेट या इलेक्ट्रॉनिक भंडारण के माध्यम से जानकारी के प्रेषण का कोई भी तरीका पूरी तरह सुरक्षित नहीं है। हम पूरी सुरक्षा की कोई भी गारंटी नहीं दे सकते, लेकिन हम आपके डेटा की सुरक्षा के लिए उचित कदम उठाएंगे।\n\n
-    <b>बच्चों की गोपनीयता</b>\n\n
-    हमारी सेवा का निर्देशन 13 वर्ष से कम उम्र के व्यक्तियों को नहीं है, और हम जानते हुए भी 13 वर्ष से कम उम्र के बच्चों से व्यक्तिगत पहचानी जाने वाली जानकारी को नहीं जमा करते हैं। यदि आप माता-पिता या अभिभावक हैं और यह जान जाते हैं कि आपका बच्चा आपकी सहमति के बिना व्यक्तिगत डेटा प्रदान कर रहा है, तो कृपया हमसे संपर्क करें, और हम ऐसी जानकारी को हटाने के लिए कदम उठाएंगे। यदि लागू कानून के तहत माता-पिता की सहमति की आवश्यकता हो, तो हम बच्चों से जानकारी को जमा करने से पहले ऐसी सहमति का अनुरोध कर सकते हैं।\n\n
-    <b>अन्य वेबसाइटों के लिंक</b>\n\n
-    हमारी सेवा में तृतीय-पक्ष वेबसाइटों के लिंक हो सकते हैं जो हमारे द्वारा संचालित नहीं हैं। हम आपको प्रत्येक साइट की गोपनीयता नीतियों की समीक्षा करने की मजबूर करते हैं। हमारे पास किसी भी तृतीय-पक्ष साइटों या सेवाओं की सामग्री, गोपनीयता नीतियां या अभ्यासों पर कोई नियंत्रण नहीं होता, और हम किसी भी तृतीय-पक्ष साइटों या सेवाओं की सामग्री, गोपनीयता नीतियां या अभ्यासों के लिए कोई जिम्मेदारी नहीं लेते।\n\n
-    <b>इस गोपनीयता नीति में परिवर्तन</b>\n\n
-    हम अपनी गोपनीयता नीति को समय-समय पर अपडेट कर सकते हैं। हम आपको अपडेटेड गोपनीयता नीति को इस पृष्ठ पर पोस्ट करके किसी भी परिवर्तन की सूचना देंगे। हम आपको ईमेल या हमारी सेवा पर सूचना के माध्यम से भी सूचित कर सकते हैं। आपको सिफारिश की जाती है कि आप इस गोपनीयता नीति की नियमित जांच करें। परिवर्तन इस पृष्ठ पर पोस्ट किए जाने पर प्रभावी होते हैं।\n\n
-    यदि आपके पास हमारी गोपनीयता नीति के बारे में कोई सवाल या सुझाव हो, तो हमसे संपर्क करने में हिचकिचाएं नहीं।
+    For the purposes of this Privacy Policy:\n\n
+    - "Account" signifies a unique account created for accessing our service or specific parts thereof.\n
+    - "Affiliate" refers to an entity controlling, controlled by, or under common control with us, where control implies ownership of 50% or more of the shares, equity interest, or other securities with voting rights.\n
+    - "Application" refers to the software program, namely, Emi Loan Calculator, provided by us.\n
+    - "Company," "We," "Us," or "Our" refers to Emi Loan Calculator.\n
+    - "Country" pertains to Gujarat, India, unless otherwise specified.\n
+    - "Device" denotes any device capable of accessing our service, such as a computer, mobile phone, or tablet.\n
+    - "Personal Data" encompasses any information relating to an identified or identifiable individual.\n
+    - "Service" pertains to the Emi Loan Calculator Application.\n
+
+    - "Service Provider" signifies any natural or legal entity processing data on our behalf. This may include third-party companies or individuals assisting us in providing, analyzing, or enhancing our service.\n
+    - "Usage Data" refers to data automatically collected, either generated by the use of the service or from the service infrastructure itself, including page visit duration, browser type, IP address, and device identifiers.\n
+    - "You" refers to the individual accessing or using our service, or the legal entity on whose behalf such individual accesses or uses the service.\n\n
+    <b>Collecting and Using Your Personal Data</b>\n\n
+    <b>Types of Data Collected</b>\n\n
+    <b>Personal Data</b>\n\n
+
+    While using our service, we may request certain personally identifiable information from you, which may include but is not limited to:\n
+    - Usage Data: Automatically collected data includes your device\'s IP address, browser type, pages visited, time spent on those pages, and other diagnostic data.\n
+    - Information collected from mobile devices: When accessing our service via a mobile device, we may collect device information such as type, unique ID, IP address, operating system, and mobile browser type.\n
+    - Browser Information: We may collect information that your browser sends whenever you visit our service.\n\n
+    <b>Information Collected while Using the Application</b>\n\n
+    When using our application, we may collect location information with your prior permission. This information is used to provide and enhance our service and may be stored on our servers or your device.\n
+    You have the option to enable or disable access to this information at any time through your device settings.\n\n
+    <b>Use of Your Personal Data</b>\n\n
+
+    We may use your personal data for the following purposes:\n
+    - Providing and maintaining our service, including monitoring service usage.\n
+    - Managing your account and registration as a user.\n
+    - Fulfilling contractual obligations, including purchase contracts for products or services.\n
+    - Contacting you via email, phone calls, SMS, or push notifications regarding updates or service-related communications.\n
+    - Providing news, special offers, and information about products or services, unless you opt-out.\n
+    - Managing your requests and inquiries.\n
+    - Evaluating or conducting business transfers such as mergers, acquisitions, or asset sales.\n
+    - Data analysis, identifying usage trends, and improving our service, products, and marketing efforts.\n\n
+    <b>Sharing of Your Personal Information</b>\n\n
+
+    We may share your personal information under the following circumstances:\n
+    - With service providers to analyze service usage or contact you.\n
+    - In business transfers, such as mergers or acquisitions.\n
+    - With affiliates, requiring them to adhere to this Privacy Policy.\n
+    - With business partners to offer you certain products, services, or promotions.\n
+    - With other users in public areas of the service.\n
+    - With your consent for any other purpose.\n\n\
+    <b>Retention of Your Personal Data</b>\n\n
+    We will retain your personal data only as long as necessary for the purposes outlined in this Privacy Policy. Usage Data may be retained for internal analysis, but only for periods required for security or service improvement purposes, or as mandated by law.\n\n
+    <b>Transfer of Your Personal Data</b>\n\n
+
+    Your personal data, including information collected, may be processed and maintained at our operating offices or other locations where parties involved in processing are situated. By providing your information, you consent to its transfer, including to jurisdictions where data protection laws may differ from those in your jurisdiction. We will take reasonable steps to ensure your data\'s security and compliance with this Privacy Policy.\n\n
+    <b>Delete Your Personal Data</b>\n\n
+    You have the right to request deletion of the personal data we have collected about you. You may update, amend, or delete your information by signing in to your account or contacting us. However, certain information may be retained to fulfill legal obligations or lawful bases.\n\n
+    <b>Disclosure of Your Personal Data</b>\n\n
+    We may disclose your personal data in the following circumstances:\n
+    - In business transactions, where personal data may be transferred.\n
+    - When required by law or valid requests by public authorities.\n
+    - To comply with legal obligations, protect our rights or property, investigate wrongdoing, ensure the safety of users or the public, or protect against legal liability.\n\n
+    <b>Security of Your Personal Data</b>\n\n
+
+    While we strive to use commercially acceptable means to protect your personal data, no method of transmission over the internet or electronic storage is entirely secure. We cannot guarantee absolute security, but we will take reasonable measures to protect your data.\n\n
+    <b>Children\'s Privacy</b>\n\n
+       Our service is not directed at individuals under the age of 13, and we do not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian and become aware that your child has provided personal data without your consent, please contact us, and we will take steps to remove such information from our servers. If consent from a parent is required under applicable law, we may request such consent before collecting and using the information from children.\n\n
+    <b>Links to Other Websites</b>\n\n
+    Our service may contain links to third-party websites not operated by us. We strongly advise you to review the privacy policies of every site you visit. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.\n\n
+    <b>Changes to this Privacy Policy</b>\n\n
+    We may update our Privacy Policy periodically. We will notify you of any changes by posting the updated Privacy Policy on this page. We may also inform you via email or through a notice on our service. It\'s recommended that you review this Privacy Policy periodically for any changes. Changes are effective when they are posted on this page.\n\n
+    If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.\n
 </string>
+
 
 
     <string name="title_bank_services">बैंक सेवाएं</string>
