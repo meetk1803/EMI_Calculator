@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculateur EMI</string>
+    <string name="language_english">Anglais</string>
+    <string name="language_german">Allemand</string>
+    <string name="language_spanish">Espagnol</string>
+    <string name="language_french">Français</string>
+    <string name="language_hindi">Hindi</string>
+    <string name="language_italian">Italien</string>
+    <string name="language_korean">Coréen</string>
+    <string name="language_malay">Malais</string>
+    <string name="language_polish">Polonais</string>
+
+    <string name="home_1">Versement mensuel égal</string>
+    <string name="home_2">Le calculateur d\'EMI vous aide à trouver le montant de prêt immobilier qui correspond le mieux à votre budget mensuel, en vous aidant à décider de l\'EMI de prêt et de la durée les plus adaptés à votre situation financière.</string>
+
+    <string name="privacy_policy"> <b>Politique de confidentialité</b>\n\n
+    <b>Dernière mise à jour : 20 mars 2024</b>\n\n
+    Cette politique de confidentialité décrit les politiques et pratiques concernant la collecte, l'utilisation et la divulgation d'informations personnelles lors de l'utilisation de notre service. Vos droits à la confidentialité et la manière dont nous protégeons vos informations sont décrits ici.\n\n
+    En utilisant notre service, vous consentez à la collecte et à l'utilisation de vos informations telles que détaillées dans cette politique de confidentialité.\n\n
+    <b>Interprétation et Définitions</b>\n\n
+    <b>Interprétation</b>\n\n
+    Les termes en majuscules ont des significations telles que définies dans les conditions suivantes. Les définitions fournies s'appliqueront quel que soit le nombre ou la forme des mots.\n\n\n
+    <b>Définitions</b>\n\n
+
+
+
+</resources>

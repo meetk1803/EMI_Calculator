@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -22,9 +23,10 @@ import java.util.List;
 import java.util.Locale;
 
 public class LanguageActivity extends AppCompatActivity {
-     private ImageView hindi, english, german;
+     private ImageView hindi, english, german,french;
     private static final String DEFAULT_LANGUAGE = "en";
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +35,7 @@ public class LanguageActivity extends AppCompatActivity {
         hindi = findViewById(R.id.hindi);
         english = findViewById(R.id.english);
         german = findViewById(R.id.german);
+        french = findViewById(R.id.french);
 
         english.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,19 +58,23 @@ public class LanguageActivity extends AppCompatActivity {
                 LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
             }
         });
-
+        french.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                LanguageActivity.setLanguage(LanguageActivity.this, "fr");
+                LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
+            }
+        });
     }
 
     public void txt_back(View view) {
         finish();
     }
-
     @Override // androidx.activity.ComponentActivity, android.app.Activity
     public void onBackPressed() {
         super.onBackPressed();
         startActivity(new Intent(this, Home_Loan_Emi_Calc.class));
     }
-
     public static void setLanguage(Context context, String str) {
         Locale locale = new Locale(str);
         Resources resources = context.getResources();

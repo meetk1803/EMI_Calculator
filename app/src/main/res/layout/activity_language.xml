@@ -54,5 +54,11 @@
         android:layout_height="@dimen/_60sdp"
         android:layout_margin="@dimen/_5sdp"
         android:src="@drawable/german"/>
+    <ImageView
+        android:id="@+id/french"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_margin="@dimen/_5sdp"
+        android:src="@drawable/french"/>
 
 </LinearLayout>
