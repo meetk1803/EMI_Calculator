@@ -21,7 +21,7 @@
     l'utilisation et la divulgation d'informations personnelles lors de l'utilisation de notre
     service. Vos droits à la confidentialité et la manière dont nous protégeons vos informations
     sont décrits ici.\n\n
-    En utilisant notre service, vous consentez à la collecte et à l'utilisation de vos informations
+    En utilisant notre service, vous consentez à la collecte et à l\'utilisation de vos informations
     telles que détaillées dans cette politique de confidentialité.\n\n
     <b>Interprétation et Définitions</b>\n\n
     <b>Interprétation</b>\n\n
@@ -30,6 +30,91 @@
     mots.\n\n\n
     <b>Définitions</b>\n\n
 
+    <string name="title_bank_services">Services bancaires</string>
+    <string name="title_business_loan_calculator">Calculateur de prêt commercial</string>
+    <string name="header_principal_amount">Montant principal</string>
+    <string name="header_rate_of_interest">Taux d\'intérêt (%)</string>
+    <string name="header_loan_term_in_year">Durée du prêt en années</string>
+    <string name="header_monthly_emi">EMI mensuel :</string>
+    <string name="header_total_interest">Intérêts totaux :</string>
+    <string name="header_total_payment">Paiement total</string>
+    <string name="btn_reset">Réinitialiser</string>
+    <string name="btn_calculate">Calculer</string>
+    <string name="titile_compound_interest_calculator">Calculateur d\'intérêts composés</string>
+    <string name="header_period">Période</string>
+    <string name="header_compound_interest">Intérêt composé :</string>
+    <string name="header_principal_amount1">Montant principal :</string>
+    <string name="header_total_amount">Montant total :</string>
+    <string name="title_emi_calculator">Calculateur EMI</string>
+    <string name="title_fixed_deposit_calculator">Calculateur de dépôt fixe</string>
+    <string name="header_deposit_amount">Montant du dépôt</string>
+    <string name="title_period_of_deposit">Période de dépôt</string>
+    <string name="header_total_deposit">Dépôt total :</string>
+    <string name="header_total_interest_value">Valeur totale des intérêts :</string>
+    <string name="header_maturity_amount">Montant de maturité :</string>
+    <string name="title_gst_calculator">Calculateur de GST</string>
+    <string name="header_initial_amount">Montant initial</string>
+    <string name="header_rate_of_gst">Taux de GST (%)</string>
+    <string name="header_add_gst">Ajouter GST +</string>
+    <string name="header_subtract_gst">Soustraire GST -</string>
+    <string name="header_net_amount">Montant net :</string>
+    <string name="header_gst_amount">Montant de la GST :</string>
+    <string name="header_total_amount_gst_involves">Montant total (TVA incluse) :</string>
+    <string name="header_cgst">CGST :</string>
+    <string name="header_sgst">SGST :</string>
+    <string name="header_investment_amount">Montant de l\'investissement</string>
+    <string name="title_ppf_calculator">Calculateur PPF</string>
+    <string name="header_period_in_month">Période en mois</string>
+    <string name="header_total_investment">Investissement total :</string>
+    <string name="title_recurring_deposit_calculator">Calculateur de dépôt récurrent</string>
+    <string name="header_period_of_deposit">Période de dépôt</string>
+    <string name="title_salary_calculator">Calculateur de salaire</string>
+    <string name="header_ctc_annual">CTC (Annuel)</string>
+    <string name="header_bonus_included_ctc">Bonus inclus CTC%</string>
+    <string name="header_monthly_salary">Salaire mensuel :</string>
+    <string name="header_total_months">Total des mois :</string>
+    <string name="header_total_salary_per_year">Salaire total par an :</string>
+    <string name="title_simple_interest_calculator">Calculateur d\'intérêts simples</string>
+    <string name="title_fd_ncalculator">Calculatrice de dépôt fixe</string>
+    <string name="title_rd_ncalculator">Calculatrice de dépôt récurrent</string>
+    <string name="title_near_by_places">Lieux à proximité</string>
+    <string name="title_insurance">Assurance</string>
+    <string name="title_bank_service">Service bancaire</string>
+    <string name="header_call_customer_care">Appeler le service client</string>
+    <string name="header_get_mini_statement">Obtenir un mini relevé</string>
+    <string name="header_check_bank_balance">Vérifier le solde bancaire</string>
+    <string name="header_health_insurance">Assurance maladie</string>
+    <string name="header_motor_ninsurance">Assurance auto</string>
+    <string name="header_home_ninsrance">Assurance habitation</string>
+    <string name="header_fire_ninsurance">Assurance incendie</string>
+    <string name="header_travel_ninsurance">Assurance voyage</string>
+    <string name="header_property_insurance">Assurance immobilière</string>
+    <string name="header_term_life_insurance">Assurance vie temporaire</string>
+    <string name="header_whole_life_insurance">Assurance vie entière</string>
+    <string name="header_endowment_plans">Plans de dotation</string>
+    <string name="header_unit_linked_insurance">Assurance liée à l\'unité</string>
+    <string name="header_child_nplans">Plans enfant</string>
+    <string name="header_pension_nplans">Plans de pension</string>
+    <string name="header_life_insurance">Assurance vie</string>
+    <string name="title_privacy_policy">Politique de confidentialité</string>
+    <string name="title_exit_this_app">Quitter cette application !!!</string>
+    <string name="app_name_emi_calculator">Calculateur EMI</string>
+    <string name="header_are_you_sure_you_want_to_exit">Êtes-vous sûr de vouloir quitter ?</string>
+    <string name="BTN_no">Non</string>
+    <string name="BTN_yes">Oui</string>
+    <string name="title_setting">Paramètres</string>
+    <string name="header_language">Langue</string>
+    <string name="header_select_language">Sélectionner la langue</string>
+    <string name="header_select_language_for_app">Sélectionner la langue pour l\'application</string>
+    <string name="header_general">Général</string>
+    <string name="title_get_started">Commencer</string>
+    <string name="txt_share">Partager</string>
+    <string name="txt_privacy">Confidentialité</string>
+    <string name="title_app_loan_emi_calculator">Calculateur EMI de prêt</string>
+    <string name="title_calculate_your_loan_emis_with_confidence">Calculez vos EMI de prêt en toute confiance !</string>
+    <string name="txt_i_agree_with_terms_amp_conditions"><![CDATA[Je suis d\'accord avec les termes et conditions]]></string>
+    <string name="BTN_decline">Refuser</string>
+    <string name="BTN_accept">Accepter</string>
 
     //banks
     <string name="bankName_Allahabad">Banque Allahabad</string>
