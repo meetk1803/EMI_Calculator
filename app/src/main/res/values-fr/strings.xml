@@ -14,15 +14,131 @@
     <string name="home_1">Versement mensuel égal</string>
     <string name="home_2">Le calculateur d\'EMI vous aide à trouver le montant de prêt immobilier qui correspond le mieux à votre budget mensuel, en vous aidant à décider de l\'EMI de prêt et de la durée les plus adaptés à votre situation financière.</string>
 
-    <string name="privacy_policy"> <b>Politique de confidentialité</b>\n\n
+    <string name="privacy_policy">
+    <b>Politique de confidentialité</b>\n\n
     <b>Dernière mise à jour : 20 mars 2024</b>\n\n
-    Cette politique de confidentialité décrit les politiques et pratiques concernant la collecte, l'utilisation et la divulgation d'informations personnelles lors de l'utilisation de notre service. Vos droits à la confidentialité et la manière dont nous protégeons vos informations sont décrits ici.\n\n
-    En utilisant notre service, vous consentez à la collecte et à l'utilisation de vos informations telles que détaillées dans cette politique de confidentialité.\n\n
+    Cette politique de confidentialité décrit les politiques et pratiques concernant la collecte,
+    l'utilisation et la divulgation d'informations personnelles lors de l'utilisation de notre
+    service. Vos droits à la confidentialité et la manière dont nous protégeons vos informations
+    sont décrits ici.\n\n
+    En utilisant notre service, vous consentez à la collecte et à l'utilisation de vos informations
+    telles que détaillées dans cette politique de confidentialité.\n\n
     <b>Interprétation et Définitions</b>\n\n
     <b>Interprétation</b>\n\n
-    Les termes en majuscules ont des significations telles que définies dans les conditions suivantes. Les définitions fournies s'appliqueront quel que soit le nombre ou la forme des mots.\n\n\n
+    Les termes en majuscules ont des significations telles que définies dans les conditions
+    suivantes. Les définitions fournies s'appliqueront quel que soit le nombre ou la forme des
+    mots.\n\n\n
     <b>Définitions</b>\n\n
 
+
+    //banks
+    <string name="bankName_Allahabad">Banque Allahabad</string>
+    <string name="bankName_Andhra_Bank">Banque Andhra</string>
+    <string name="bankName_Axis_Bank">Banque Axis</string>
+    <string name="bankName_Bandhan_Bank">Banque Bandhan</string>
+    <string name="bankName_Bank_of_Baroda">Banque de Baroda</string>
+    <string name="bankName_Bank_of_India">Banque d\'Inde</string>
+    <string name="bankName_Bank_of_Maharashtra">Banque de Maharashtra</string>
+    <string name="bankName_Barclays_Bank">Banque Barclays</string>
+    <string name="bankName_Bharatiya_Mahila_Bank">Banque Bharatiya Mahila</string>
+    <string name="bankName_Canara_Bank">Banque Canara</string>
+    <string name="bankName_Corporation_Bank">Banque Corporation</string>
+    <string name="bankName_Citi_Bank">Banque Citi</string>
+    <string name="bankName_Dhanalaxmi_Bank">Banque Dhanalaxmi</string>
+    <string name="bankName_Deutsche_Bank">Banque Deutsche</string>
+    <string name="bankName_Federal_Bank">Banque fédérale</string>
+    <string name="bankName_HDFC_Bank">Banque HDFC</string>
+    <string name="bankName_HSBC_Bank">Banque HSBC</string>
+    <string name="bankName_ICICI_Bank">Banque ICICI</string>
+    <string name="bankName_IDFC_Bank">Banque IDFC</string>
+    <string name="bankName_SBT_Bank">Banque SBT</string>
+    <string name="bankName_Indian_Overseas_Bank">Banque d\'outre-mer indienne</string>
+    <string name="bankName_IndusInd_Bank">Banque IndusInd</string>
+    <string name="bankName_Karnataka_Bank">Banque du Karnataka</string>
+    <string name="bankName_Kotak_Mahindra_Bank">Banque Kotak Mahindra</string>
+    <string name="bankName_Citi_Union_Bank">Banque Citi Union</string>
+    <string name="bankName_Panjab_National_Bank">Banque nationale du Panjab</string>
+    <string name="bankName_Punjab_and_Sind_Bank">Banque du Pendjab et du Sind</string>
+    <string name="bankName_Saraswat_Bank">Banque Saraswat</string>
+    <string name="bankName_South_Indian_Bank">Banque sud-indienne</string>
+    <string name="bankName_Standard_Chartered_Bank">Banque Standard Chartered</string>
+    <string name="bankName_State_Bank_of_India">Banque d\'État de l\'Inde</string>
+    <string name="bankName_Syndicate_Bank">Banque Syndicate</string>
+    <string name="bankName_UCO_Bank">Banque UCO</string>
+    <string name="bankName_Union_Bank_of_India">Banque Union de l\'Inde</string>
+    <string name="bankName_United_Together_Bank">Banque Unie Ensemble</string>
+    <string name="bankName_Vijaya_Bank">Banque Vijaya</string>
+
+    //places
+    <string name="placeName_Airport">Aéroport</string>
+    <string name="placeName_Amusement">Divertissement</string>
+    <string name="placeName_Aquarium">Aquarium</string>
+    <string name="placeName_Art_Gallery">Galerie d\'art</string>
+    <string name="placeName_ATM">Distributeur automatique de billets</string>
+    <string name="placeName_Bakery">Boulangerie</string>
+    <string name="placeName_Bank">Banque</string>
+    <string name="placeName_Beauty_Salon">Salon de beauté</string>
+    <string name="placeName_Bicycle_Store">Magasin de vélos</string>
+    <string name="placeName_Book_Store">Librairie</string>
+    <string name="placeName_Bowling_Alley">Bowling</string>
+    <string name="placeName_Bus_Station">Station de bus</string>
+    <string name="placeName_Cafe">Café</string>
+    <string name="placeName_Car_Dealer">Concessionnaire automobile</string>
+    <string name="placeName_Car_Rental">Location de voitures</string>
+    <string name="placeName_Car_Repair">Réparation de voitures</string>
+    <string name="placeName_Car_Wash">Lavage de voitures</string>
+    <string name="placeName_Cemetery">Cimetière</string>
+    <string name="placeName_Church">Église</string>
+    <string name="placeName_City_Hall">Hôtel de ville</string>
+    <string name="placeName_Clothing_Store">Magasin de vêtements</string>
+    <string name="placeName_Convenience_Store">Dépanneur</string>
+    <string name="placeName_Court_House">Palais de justice</string>
+    <string name="placeName_Doctor">Docteur</string>
+    <string name="placeName_Electrician">Électricien</string>
+    <string name="placeName_Electronic_Store">Magasin électronique</string>
+    <string name="placeName_Embassy">Ambassade</string>
+    <string name="placeName_Fire_Station">Caserne de pompiers</string>
+    <string name="placeName_Furniture_Store">Magasin de meubles</string>
+    <string name="placeName_Gas_Station">Station-service</string>
+    <string name="placeName_Grocery_Store">Épicerie</string>
+    <string name="placeName_Gym">Gymnase</string>
+    <string name="placeName_Hair_Salon">Salon de coiffure</string>
+    <string name="placeName_Hardware_Store">Quincaillerie</string>
+    <string name="placeName_Hindu_Temple">Temple hindou</string>
+    <string name="placeName_Home_Goods">Articles ménagers</string>
+    <string name="placeName_Hospital">Hôpital</string>
+    <string name="placeName_Insurance_Agency">Agence d\'assurance</string>
+    <string name="placeName_Jewelry_Store">Magasin de bijoux</string>
+    <string name="placeName_Library">Bibliothèque</string>
+    <string name="placeName_Local_Government_Office">Bureau du gouvernement local</string>
+    <string name="placeName_Locksmith">Serrurier</string>
+    <string name="placeName_Meal_Delivery">Livraison de repas</string>
+    <string name="placeName_Museum">Musée</string>
+    <string name="placeName_Painter">Peintre</string>
+    <string name="placeName_Parking">Stationnement</string>
+    <string name="placeName_Park">Parc</string>
+    <string name="placeName_Pet_Store">Magasin d\'animaux</string>
+    <string name="placeName_Petrol_Pump">Pompe à essence</string>
+    <string name="placeName_Pharmacy">Pharmacie</string>
+    <string name="placeName_Physiotherapist">Physiothérapeute</string>
+    <string name="placeName_Plumber">Plombier</string>
+    <string name="placeName_Police">Police</string>
+    <string name="placeName_Real_Estate_Agency">Agence immobilière</string>
+    <string name="placeName_Roofing_Control">Contrôle de toiture</string>
+    <string name="placeName_RV_Park">Parc RV</string>
+    <string name="placeName_School">École</string>
+    <string name="placeName_Shoe_Store">Magasin de chaussures</string>
+    <string name="placeName_Shopping_Mall">Centre commercial</string>
+    <string name="placeName_Stadium">Stade</string>
+    <string name="placeName_Subway_Station">Station de métro</string>
+    <string name="placeName_Super_Market">Supermarché</string>
+    <string name="placeName_Taxi_Stand">Station de taxi</string>
+    <string name="placeName_Train_Station">Gare</string>
+    <string name="placeName_Travel_Agency">Agence de voyage</string>
+    <string name="placeName_Veterinary_Care">Soins vétérinaires</string>
+    <string name="placeName_Zoo">Zoo</string>
+
+    <string name="title_select_language">Sélectionner la langue</string>
 
 
 </resources>
