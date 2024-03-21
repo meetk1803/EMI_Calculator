@@ -1,85 +1,88 @@
 package com.encle.emicalculator;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
 
-import com.encle.emicalculator.Adapters.BankAdapter;
-import com.encle.emicalculator.Adapters.LanguageAdapter;
-import com.encle.emicalculator.Model.Bank;
-import com.encle.emicalculator.Model.Language;
 import com.example.emicalculator.R;
 import com.google.android.material.imageview.ShapeableImageView;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class LanguageActivity extends AppCompatActivity {
-    private RecyclerView recyclerView;
-    private LanguageAdapter adapter;
+     private ImageView hindi, english, german;
+    private static final String DEFAULT_LANGUAGE = "en";
 
-    public ShapeableImageView BTN_change;
-    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_language);
-        // Initialize RecyclerView
 
-        BTN_change =findViewById(R.id.BTN_change);
-        recyclerView = findViewById(R.id.recyclerView);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        hindi = findViewById(R.id.hindi);
+        english = findViewById(R.id.english);
+        german = findViewById(R.id.german);
 
-        // Create a list of
-        List<Language> languageList = createLanguageList();
+        english.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                LanguageActivity.setLanguage(LanguageActivity.this, LanguageActivity.DEFAULT_LANGUAGE);
+                LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
+            }
+        });
+        hindi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                LanguageActivity.setLanguage(LanguageActivity.this, "hi");
+                LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
+            }
+        });
+        german.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                LanguageActivity.setLanguage(LanguageActivity.this, "de");
+                LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
+            }
+        });
 
-        // Initialize and set up the adapter
-        adapter = new LanguageAdapter(this, languageList);
-        recyclerView.setAdapter(adapter);
-    }
-
-    private List<Language> createLanguageList() {
-        List<Language> languages = new ArrayList<>();
-
-        languages.add(new Language("English", R.drawable.english));
-        languages.add(new Language("German", R.drawable.german));
-        languages.add(new Language("Spanish", R.drawable.spanish));
-        languages.add(new Language("French", R.drawable.french));
-        languages.add(new Language("Hindi", R.drawable.hindi));
-        languages.add(new Language( "Italian", R.drawable.italian));
-        languages.add(new Language("Korean", R.drawable.korean));
-        languages.add(new Language("Malay", R.drawable.malay));
-        languages.add(new Language("Polish", R.drawable.polish));
-
-        return languages;
     }
 
     public void txt_back(View view) {
         finish();
     }
-    public void apply_changes(View view) {
-        // Get the selected language from adapter
-        String selectedLanguage = adapter.getSelectedLanguage();
 
-        // Store the selected language in SharedPreferences
-        SharedPreferences preferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
-        preferences.edit().putString("selected_language", selectedLanguage).apply();
-
-// Restart the Home_Loan_Emi_Calc activity to apply language changes
-        Intent restartIntent = new Intent(this, Home_Loan_Emi_Calc.class);
-        restartIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-        startActivity(restartIntent);
-        finish();
-
+    @Override // androidx.activity.ComponentActivity, android.app.Activity
+    public void onBackPressed() {
+        super.onBackPressed();
+        startActivity(new Intent(this, Home_Loan_Emi_Calc.class));
     }
 
+    public static void setLanguage(Context context, String str) {
+        Locale locale = new Locale(str);
+        Resources resources = context.getResources();
+        Configuration configuration = resources.getConfiguration();
+        configuration.setLocale(locale);
+        resources.updateConfiguration(configuration, resources.getDisplayMetrics());
+        saveSelectedLanguage(context, str);
+    }
+    public static String getSelectedLanguage(Context context) {
+        return context.getSharedPreferences("AppPreferences", 0).getString("", DEFAULT_LANGUAGE);
+    }
 
+    private static void saveSelectedLanguage(Context context, String str) {
+        SharedPreferences.Editor edit = context.getSharedPreferences("AppPreferences", 0).edit();
+        edit.putString("", str);
+        edit.apply();
+    }
 }

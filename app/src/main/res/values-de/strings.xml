@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EMI-Rechner</string>
+    <string name="language_english">Englisch</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_spanish">Spanisch</string>
+    <string name="language_french">Französisch</string>
+    <string name="language_hindi">Hindi</string>
+    <string name="language_italian">Italienisch</string>
+    <string name="language_korean">Koreanisch</string>
+    <string name="language_malay">Malaiisch</string>
+    <string name="language_polish">Polnisch</string>
+
+    <string name="home_1">Gleichbleibende monatliche Rate</string>
+    <string name="home_2">Der EMI-Rechner hilft Ihnen, den richtigen Betrag für Ihr Wohnungsbaudarlehen zu ermitteln, der am besten zu Ihrem monatlichen Budget passt, indem er Ihnen hilft, die Darlehens-EMI und die Laufzeit zu bestimmen, die am besten zu Ihrer finanziellen Situation passen.</string>
+
+    <string name="privacy_policy"> <b>Datenschutzrichtlinie</b>\n\n
+    <b>Zuletzt aktualisiert am: 20. März 2024</b>\n\n
+    Diese Datenschutzrichtlinie umreißt die Richtlinien und Praktiken bezüglich der Erhebung, Nutzung und Offenlegung personenbezogener Informationen bei der Nutzung unseres Dienstes. Ihre Datenschutzrechte und wie wir Ihre Informationen schützen, werden hier beschrieben.\n\n
+    Durch die Nutzung unseres Dienstes stimmen Sie der Erhebung und Nutzung Ihrer Informationen gemäß dieser Datenschutzrichtlinie zu.\n\n
+    <b>Auslegung und Definitionen</b>\n\n
+    <b>Auslegung</b>\n\n
+    Hierin großgeschriebene Begriffe haben Bedeutungen gemäß den folgenden Bedingungen. Die bereitgestellten Definitionen gelten unabhängig von der Anzahl oder Form der Wörter.\n\n\n
+    <b>Definitionen</b>\n\n
+
+
+    Für die Zwecke dieser Datenschutzrichtlinie:\n\n
+   - "Account" bezeichnet ein eindeutiges Konto, das für den Zugriff auf unseren Dienst oder spezifische Teile davon erstellt wurde.\n
+   - "Affiliate" bezieht sich auf eine Einheit, die von uns kontrolliert wird, die uns kontrolliert oder die unter gemeinsamer Kontrolle mit uns steht, wobei Kontrolle den Besitz von 50 % oder mehr der Aktien, Eigenkapitalbeteiligungen oder anderer Wertpapiere mit Stimmrechten impliziert.\n - "Anwendung" bezieht sich auf das von uns bereitgestellte Softwareprogramm, nämlich Emi Loan Calculator.\n
+   - "Unternehmen", "Wir", "Uns" oder "Unser" bezieht sich auf Emi Loan Calculator.\n
+   - "Land" bezieht sich auf Gujarat, Indien, sofern nicht anders angegeben.\n
+   - "Gerät" bezeichnet jedes Gerät, das in der Lage ist, auf unseren Dienst zuzugreifen, wie z.B. ein Computer, ein Mobiltelefon oder ein Tablet.\n
+   - "Personenbezogene Daten" umfassen alle Informationen, die sich auf eine identifizierte oder identifizierbare Person beziehen.\n
+   - "Dienst" bezieht sich auf die Anwendung Emi Loan Calculator.
+
+    Während der Nutzung unseres Dienstes können wir bestimmte personenbezogene Daten von Ihnen anfordern, zu denen unter anderem gehören können, jedoch nicht darauf beschränkt sind:
+   - Nutzungsdaten: Automatisch erfasste Daten umfassen die IP-Adresse Ihres Geräts, den Browsertyp, besuchte Seiten, die auf diesen Seiten verbrachte Zeit und andere diagnostische Daten.
+   - Informationen, die von mobilen Geräten gesammelt werden: Beim Zugriff auf unseren Dienst über ein Mobilgerät können wir Geräteinformationen wie Typ, eindeutige ID, IP-Adresse, Betriebssystem und den Typ des mobilen Browsers erfassen.
+   - Browserinformationen: Wir können Informationen erfassen, die Ihr Browser sendet, wenn Sie unseren Dienst besuchen.
+    <b>Informationen, die während der Nutzung der Anwendung gesammelt werden</b>
+    Bei der Verwendung unserer Anwendung können wir Standortinformationen mit Ihrer vorherigen Erlaubnis erfassen. Diese Informationen werden verwendet, um unseren Dienst bereitzustellen und zu verbessern und können auf unseren Servern oder Ihrem Gerät gespeichert werden.
+    Sie haben die Möglichkeit, den Zugriff auf diese Informationen jederzeit über die Einstellungen Ihres Geräts zu aktivieren oder zu deaktivieren.
+    <b>Verwendung Ihrer persönlichen Daten</b>
+
+    Wir können Ihre persönlichen Daten für folgende Zwecke verwenden:
+    -  Bereitstellung und Aufrechterhaltung unseres Dienstes, einschließlich der Überwachung der Nutzung des Dienstes.
+   - Verwaltung Ihres Kontos und Registrierung als Benutzer.
+   - Erfüllung vertraglicher Verpflichtungen, einschließlich Kaufverträgen für Produkte oder Dienstleistungen.
+    - Kontaktierung per E-Mail, Telefonanrufe, SMS oder Push-Benachrichtigungen bezüglich Updates oder servicebezogener Kommunikationen.
+   - Bereitstellung von Nachrichten, Sonderangeboten und Informationen zu Produkten oder Dienstleistungen, sofern Sie nicht widersprechen.
+   - Verwaltung Ihrer Anfragen und Anfragen.
+   - Auswertung oder Durchführung von Geschäftsübertragungen wie Fusionen, Übernahmen oder Verkäufe von Vermögenswerten.
+   - Datenanalyse, Identifizierung von Nutzungstrends und Verbesserung unseres Dienstes, unserer Produkte und Marketingbemühungen.
+    <b>Freigabe Ihrer persönlichen Informationen</b>
+
+    Wir können Ihre persönlichen Informationen unter folgenden Umständen weitergeben:
+   - Mit Dienstleistern, um die Nutzung des Dienstes zu analysieren oder Sie zu kontaktieren.
+   - Bei Geschäftsübertragungen wie Fusionen oder Übernahmen.
+   - Mit verbundenen Unternehmen, die verpflichtet sind, sich an diese Datenschutzrichtlinie zu halten.
+   - Mit Geschäftspartnern, um Ihnen bestimmte Produkte, Dienstleistungen oder Aktionen anzubieten.
+   - Mit anderen Benutzern in öffentlichen Bereichen des Dienstes.
+   - Mit Ihrer Zustimmung für jeden anderen Zweck.
+    <b>Aufbewahrung Ihrer persönlichen Daten</b>
+    Wir werden Ihre persönlichen Daten nur so lange aufbewahren, wie dies für die in dieser Datenschutzrichtlinie festgelegten Zwecke erforderlich ist. Nutzungsdaten können für interne Analysen aufbewahrt werden, jedoch nur für die zur Sicherheit oder Verbesserung des Dienstes erforderlichen Zeiträume oder wie gesetzlich vorgeschrieben.
+    <b>Übertragung Ihrer persönlichen Daten</b>
+
+    Ihre persönlichen Daten, einschließlich gesammelter Informationen, können in unseren Betriebsbüros oder an anderen Standorten verarbeitet und aufbewahrt werden, an denen sich Parteien befinden, die an der Verarbeitung beteiligt sind. Indem Sie Ihre Informationen bereitstellen, stimmen Sie deren Übertragung zu, einschließlich in Rechtsgebiete, in denen Datenschutzgesetze von denen in Ihrer Gerichtsbarkeit abweichen können. Wir werden angemessene Schritte unternehmen, um die Sicherheit Ihrer Daten und die Einhaltung dieser Datenschutzrichtlinie zu gewährleisten.
+    <b>Löschen Ihrer persönlichen Daten</b>
+    Sie haben das Recht, die Löschung der persönlichen Daten zu beantragen, die wir über Sie gesammelt haben. Sie können Ihre Informationen aktualisieren, ändern oder löschen, indem Sie sich in Ihr Konto einloggen oder uns kontaktieren. Einige Informationen können jedoch aufbewahrt werden, um rechtliche Verpflichtungen oder gesetzliche Grundlagen zu erfüllen.
+    <b>Offenlegung Ihrer persönlichen Daten</b>
+    Wir können Ihre persönlichen Daten in folgenden Situationen offenlegen:
+   - Bei Geschäftstransaktionen, bei denen personenbezogene Daten übertragen werden können.
+   - Wenn dies gesetzlich vorgeschrieben ist oder öffentliche Behörden gültige Anfragen stellen.
+   - Um rechtliche Verpflichtungen zu erfüllen, unsere Rechte oder unser Eigentum zu schützen, Fehlverhalten zu untersuchen, die Sicherheit von Benutzern oder der Öffentlichkeit zu gewährleisten oder sich vor rechtlicher Haftung zu schützen.
+    <b>Sicherheit Ihrer persönlichen Daten</b>
+
+    Obwohl wir uns bemühen, kommerziell akzeptable Mittel zum Schutz Ihrer persönlichen Daten zu verwenden, ist keine Übertragungsmethode über das Internet oder die elektronische Speicherung vollständig sicher. Wir können keine absolute Sicherheit garantieren, aber wir werden angemessene Maßnahmen ergreifen, um Ihre Daten zu schützen.
+    <b>Datenschutz für Kinder</b>
+    Unser Service richtet sich nicht an Personen unter 13 Jahren, und wir sammeln nicht wissentlich personenbezogene Daten von Kindern unter 13 Jahren. Wenn Sie Elternteil oder Vormund sind und feststellen, dass Ihr Kind ohne Ihre Zustimmung personenbezogene Daten bereitgestellt hat, kontaktieren Sie uns bitte, und wir werden Schritte unternehmen, um solche Informationen von unseren Servern zu entfernen. Wenn gemäß geltendem Recht die Zustimmung eines Elternteils erforderlich ist, können wir eine solche Zustimmung vor der Erfassung und Verwendung von Informationen von Kindern anfordern.
+    <b>Links zu anderen Websites</b>
+    Unser Service kann Links zu Websites von Drittanbietern enthalten, die nicht von uns betrieben werden. Wir empfehlen Ihnen dringend, die Datenschutzrichtlinien jeder Website zu überprüfen, die Sie besuchen. Wir haben keine Kontrolle über und übernehmen keine Verantwortung für den Inhalt, die Datenschutzrichtlinien oder Praktiken von Websites oder Diensten von Drittanbietern.
+    <b>Änderungen an dieser Datenschutzrichtlinie</b>
+    Wir können unsere Datenschutzrichtlinie regelmäßig aktualisieren. Wir werden Sie über etwaige Änderungen informieren, indem wir die aktualisierte Datenschutzrichtlinie auf dieser Seite veröffentlichen. Wir können Sie auch per E-Mail oder durch eine Benachrichtigung in unserem Service informieren. Es wird empfohlen, diese Datenschutzrichtlinie regelmäßig auf Änderungen zu überprüfen. Änderungen werden wirksam, wenn sie auf dieser Seite veröffentlicht werden.
+    Wenn Sie Fragen oder Vorschläge zu unserer Datenschutzrichtlinie haben, zögern Sie nicht, uns zu kontaktieren.
+</string>
+
+    <string name="title_bank_services">Bankdienstleistungen</string>
+    <string name="title_business_loan_calculator">Geschäftskreditrechner</string>
+    <string name="header_principal_amount">Hauptbetrag</string>
+    <string name="header_rate_of_interest">Zinssatz (%)</string>
+    <string name="header_loan_term_in_year">Kreditlaufzeit in Jahren</string>
+    <string name="header_monthly_emi">Monatliche EMI :</string>
+    <string name="header_total_interest">Gesamtzinsen :</string>
+    <string name="header_total_payment">Gesamtzahlung</string>
+    <string name="btn_reset">Zurücksetzen</string>
+    <string name="btn_calculate">Berechnen</string>
+    <string name="titile_compound_interest_calculator">Zinseszinsrechner</string>
+    <string name="header_period">Zeitraum</string>
+    <string name="header_compound_interest">Zinseszins :</string>
+    <string name="header_principal_amount1">Hauptbetrag :</string>
+    <string name="header_total_amount">Gesamtbetrag :</string>
+    <string name="title_emi_calculator">EMI-Rechner</string>
+    <string name="title_fixed_deposit_calculator">Festgeldrechner</string>
+    <string name="header_deposit_amount">Einzahlungsbetrag</string>
+    <string name="title_period_of_deposit">Einzahlungsfrist</string>
+    <string name="header_total_deposit">Gesamteinzahlung :</string>
+    <string name="header_total_interest_value">Gesamtwert der Zinsen :</string>
+    <string name="header_maturity_amount">Fälligkeitsbetrag :</string>
+    <string name="title_gst_calculator">GST-Rechner</string>
+    <string name="header_initial_amount">Anfangsbetrag</string>
+    <string name="header_rate_of_gst">GST-Satz (%)</string>
+    <string name="header_add_gst">GST hinzufügen +</string>
+    <string name="header_subtract_gst">GST abziehen -</string>
+    <string name="header_net_amount">Nettobetrag :</string>
+    <string name="header_gst_amount">GST-Betrag :</string>
+    <string name="header_total_amount_gst_involves">Gesamtbetrag (GST einbeziehen) :</string>
+
+    <string name="header_cgst">CGST :</string>
+    <string name="header_sgst">SGST :</string>
+    <string name="header_investment_amount">Investitionsbetrag</string>
+    <string name="title_ppf_calculator">PPF-Rechner</string>
+    <string name="header_period_in_month">Zeitraum in Monaten</string>
+    <string name="header_total_investment">Gesamtinvestition :</string>
+    <string name="title_recurring_deposit_calculator">Wiederkehrender Einzahlungsrechner</string>
+    <string name="header_period_of_deposit">Einzahlungsfrist</string>
+    <string name="title_salary_calculator">Gehaltsrechner</string>
+    <string name="header_ctc_annual">CTC (Jährlich)</string>
+    <string name="header_bonus_included_ctc">Bonus enthalten CTC%</string>
+    <string name="header_monthly_salary">Monatsgehalt :</string>
+    <string name="header_total_months">Gesamtmonate :</string>
+    <string name="header_total_salary_per_year">Gesamtgehalt pro Jahr :</string>
+    <string name="title_simple_interest_calculator">Einfacher Zinsrechner</string>
+    <string name="title_fd_ncalculator">FD-Rechner</string>
+    <string name="title_rd_ncalculator">RD-Rechner</string>
+    <string name="title_near_by_places">In der Nähe liegende Orte</string>
+    <string name="title_insurance">Versicherung</string>
+    <string name="title_bank_service">Bankdienstleistung</string>
+    <string name="header_call_customer_care">Kundendienst anrufen</string>
+    <string name="header_get_mini_statement">Mini-Auszug erhalten</string>
+    <string name="header_check_bank_balance">Bankguthaben prüfen</string>
+    <string name="header_health_insurance">Krankenversicherung</string>
+    <string name="header_motor_ninsurance">Motor \nVersicherung</string>
+    <string name="header_home_ninsrance">Haus \nVersicherung</string>
+    <string name="header_fire_ninsurance">Feuer \nVersicherung</string>
+    <string name="header_travel_ninsurance">Reise \nVersicherung</string>
+    <string name="header_property_insurance">Gebäudeversicherung</string>
+    <string name="header_term_life_insurance">Hauptzeit Lebensversicherung</string>
+    <string name="header_whole_life_insurance">Ganzes Leben Versicherung</string>
+    <string name="header_endowment_plans">Stiftungspläne</string>
+    <string name="header_unit_linked_insurance">Einheitlich verknüpfte Versicherung</string>
+    <string name="header_child_nplans">Kinder \nPläne</string>
+    <string name="header_pension_nplans">Renten \nPläne</string>
+    <string name="header_life_insurance">Lebensversicherung</string>
+    <string name="title_privacy_policy">Datenschutzrichtlinie</string>
+    <string name="title_exit_this_app">Diese App verlassen !!!</string>
+    <string name="app_name_emi_calculator">EMI-Rechner</string>
+    <string name="header_are_you_sure_you_want_to_exit">Sind Sie sicher, dass Sie die App verlassen möchten?</string>
+    <string name="BTN_no">Nein</string>
+    <string name="BTN_yes">Ja</string>
+    <string name="title_setting">Einstellungen</string>
+    <string name="header_language">Sprache</string>
+    <string name="header_select_language">Sprache auswählen</string>
+    <string name="header_select_language_for_app">Sprache für die App auswählen</string>
+    <string name="header_general">Allgemein</string>
+    <string name="title_get_started">Loslegen</string>
+    <string name="txt_share">Teilen</string>
+    <string name="txt_privacy">Datenschutz</string>
+    <string name="title_app_loan_emi_calculator">Darlehens-EMI-Rechner</string>
+    <string name="title_calculate_your_loan_emis_with_confidence">Berechnen Sie Ihre Darlehens-EMIs mit Vertrauen!</string>
+    <string name="txt_i_agree_with_terms_amp_conditions">Ich stimme den Nutzungsbedingungen zu</string>
+    <string name="BTN_decline">Ablehnen</string>
+    <string name="BTN_accept">Akzeptieren</string>
+
+    //banks
+
+    <string name="bankName_Allahabad">Allahabad Bank</string>
+    <string name="bankName_Andhra_Bank">Andhra Bank</string>
+    <string name="bankName_Axis_Bank">Axis Bank</string>
+    <string name="bankName_Bandhan_Bank">Bandhan Bank</string>
+    <string name="bankName_Bank_of_Baroda">Bank of Baroda</string>
+    <string name="bankName_Bank_of_India">Bank of India</string>
+    <string name="bankName_Bank_of_Maharashtra">Bank of Maharashtra</string>
+    <string name="bankName_Barclays_Bank">Barclays Bank</string>
+    <string name="bankName_Bharatiya_Mahila_Bank">Bharatiya Mahila Bank</string>
+    <string name="bankName_Canara_Bank">Canara Bank</string>
+    <string name="bankName_Corporation_Bank">Corporation Bank</string>
+    <string name="bankName_Citi_Bank">Citi Bank</string>
+    <string name="bankName_Dhanalaxmi_Bank">Dhanalaxmi Bank</string>
+    <string name="bankName_Deutsche_Bank">Deutsche Bank</string>
+    <string name="bankName_Federal_Bank">Federal Bank</string>
+    <string name="bankName_HDFC_Bank">HDFC Bank</string>
+    <string name="bankName_HSBC_Bank">HSBC Bank</string>
+    <string name="bankName_ICICI_Bank">ICICI Bank</string>
+    <string name="bankName_IDFC_Bank">IDFC Bank</string>
+    <string name="bankName_SBT_Bank">SBT Bank</string>
+    <string name="bankName_Indian_Overseas_Bank">Indian Overseas Bank</string>
+    <string name="bankName_IndusInd_Bank">IndusInd Bank</string>
+    <string name="bankName_Karnataka_Bank">Karnataka Bank</string>
+    <string name="bankName_Kotak_Mahindra_Bank">Kotak Mahindra Bank</string>
+    <string name="bankName_Citi_Union_Bank">Citi Union Bank</string>
+    <string name="bankName_Panjab_National_Bank">Panjab National Bank</string>
+    <string name="bankName_Punjab_and_Sind_Bank">Punjab &amp; Sind Bank</string>
+    <string name="bankName_Saraswat_Bank">Saraswat Bank</string>
+    <string name="bankName_South_Indian_Bank">South Indian Bank</string>
+    <string name="bankName_Standard_Chartered_Bank">Standard Chartered Bank</string>
+    <string name="bankName_State_Bank_of_India">State Bank of India</string>
+    <string name="bankName_Syndicate_Bank">Syndicate Bank</string>
+    <string name="bankName_UCO_Bank">UCO Bank</string>
+    <string name="bankName_Union_Bank_of_India">Union Bank of India</string>
+    <string name="bankName_United_Together_Bank">United Together Bank</string>
+    <string name="bankName_Vijaya_Bank">Vijaya Bank</string>
+
+    //places
+    <string name="placeName_Airport">Flughafen</string>
+    <string name="placeName_Amusement">Vergnügungspark</string>
+    <string name="placeName_Aquarium">Aquarium</string>
+    <string name="placeName_Art_Gallery">Kunstgalerie</string>
+    <string name="placeName_ATM">Geldautomat</string>
+    <string name="placeName_Bakery">Bäckerei</string>
+    <string name="placeName_Bank">Bank</string>
+    <string name="placeName_Beauty_Salon">Schönheitssalon</string>
+    <string name="placeName_Bicycle_Store">Fahrradgeschäft</string>
+    <string name="placeName_Book_Store">Buchhandlung</string>
+    <string name="placeName_Bowling_Alley">Bowlingbahn</string>
+    <string name="placeName_Bus_Station">Busbahnhof</string>
+    <string name="placeName_Cafe">Café</string>
+    <string name="placeName_Car_Dealer">Autohändler</string>
+    <string name="placeName_Car_Rental">Autovermietung</string>
+    <string name="placeName_Car_Repair">Autowerkstatt</string>
+    <string name="placeName_Car_Wash">Autowaschanlage</string>
+    <string name="placeName_Cemetery">Friedhof</string>
+    <string name="placeName_Church">Kirche</string>
+    <string name="placeName_City_Hall">Rathaus</string>
+    <string name="placeName_Clothing_Store">Bekleidungsgeschäft</string>
+    <string name="placeName_Convenience_Store">Tante-Emma-Laden</string>
+    <string name="placeName_Court_House">Gerichtsgebäude</string>
+    <string name="placeName_Doctor">Arzt</string>
+    <string name="placeName_Electrician">Elektriker</string>
+    <string name="placeName_Electronic_Store">Elektronikgeschäft</string>
+    <string name="placeName_Embassy">Botschaft</string>
+    <string name="placeName_Fire_Station">Feuerwache</string>
+    <string name="placeName_Furniture_Store">Möbelgeschäft</string>
+    <string name="placeName_Gas_Station">Tankstelle</string>
+    <string name="placeName_Grocery_Store">Lebensmittelgeschäft</string>
+    <string name="placeName_Gym">Fitnessstudio</string>
+
+    <string name="placeName_Hair_Salon">Friseursalon</string>
+    <string name="placeName_Hardware_Store">Baumarkt</string>
+    <string name="placeName_Hindu_Temple">Hindu-Tempel</string>
+    <string name="placeName_Home_Goods">Haushaltswaren</string>
+    <string name="placeName_Hospital">Krankenhaus</string>
+    <string name="placeName_Insurance_Agency">Versicherungsagentur</string>
+    <string name="placeName_Jewelry_Store">Schmuckgeschäft</string>
+    <string name="placeName_Library">Bibliothek</string>
+    <string name="placeName_Local_Government_Office">Örtliches Regierungsamt</string>
+    <string name="placeName_Locksmith">Schlosserei</string>
+    <string name="placeName_Meal_Delivery">Essenslieferung</string>
+    <string name="placeName_Museum">Museum</string>
+    <string name="placeName_Painter">Maler</string>
+    <string name="placeName_Parking">Parkplatz</string>
+    <string name="placeName_Park">Park</string>
+    <string name="placeName_Pet_Store">Tierhandlung</string>
+    <string name="placeName_Petrol_Pump">Tankstelle</string>
+    <string name="placeName_Pharmacy">Apotheke</string>
+    <string name="placeName_Physiotherapist">Physiotherapeut</string>
+    <string name="placeName_Plumber">Installateur</string>
+    <string name="placeName_Police">Polizei</string>
+    <string name="placeName_Real_Estate_Agency">Immobilienagentur</string>
+    <string name="placeName_Roofing_Control">Dachdecker</string>
+    <string name="placeName_RV_Park">Wohnmobilpark</string>
+    <string name="placeName_School">Schule</string>
+    <string name="placeName_Shoe_Store">Schuhgeschäft</string>
+    <string name="placeName_Shopping_Mall">Einkaufszentrum</string>
+    <string name="placeName_Stadium">Stadion</string>
+    <string name="placeName_Subway_Station">U-Bahn-Station</string>
+    <string name="placeName_Super_Market">Supermarkt</string>
+    <string name="placeName_Taxi_Stand">Taxistand</string>
+    <string name="placeName_Train_Station">Bahnhof</string>
+    <string name="placeName_Travel_Agency">Reisebüro</string>
+    <string name="placeName_Veterinary_Care">Tierarztpraxis</string>
+    <string name="placeName_Zoo">Zoo</string>
+
+    <string name="title_select_language">Sprache auswählen</string>
+
+</resources>

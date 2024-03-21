@@ -17,6 +17,7 @@ public class Splash_Screen_main extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen_main);
+        LanguageActivity.setLanguage(this, LanguageActivity.getSelectedLanguage(this));
 
 
         loadingAnimationView = findViewById(R.id.loadingAnimationView);

@@ -8,12 +8,13 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
 import com.example.emicalculator.R;
 
 public class Settings extends AppCompatActivity {
 
-    public AppCompatTextView language;
+    public ImageView language;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,7 +27,7 @@ public class Settings extends AppCompatActivity {
     private void updateLanguageText() {
         SharedPreferences preferences = getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
         String selectedLanguage = preferences.getString("selected_language", "English");
-        language.setText(selectedLanguage);
+       // language.setText(selectedLanguage);
     }
 
     public void open_language(View view) {

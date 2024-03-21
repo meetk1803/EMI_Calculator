@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ईएमआई कैलकुलेटर</string>
+
+    <string name="language_english">अंग्रेज़ी</string>
+    <string name="language_german">जर्मन</string>
+    <string name="language_spanish">स्पेनिश</string>
+    <string name="language_french">फ्रेंच</string>
+    <string name="language_hindi">हिंदी</string>
+    <string name="language_italian">इतालवी</string>
+    <string name="language_korean">कोरियाई</string>
+    <string name="language_malay">मलय</string>
+    <string name="language_polish">पोलिश</string>
+    <!-- Add more translations as needed -->
+
+    <string name="home_1">मासिक समान भुगतान किस्त</string>
+    <string name="home_2">ईएमआई कैलकुलेटर आपको आपके मासिक बजट के अनुसार सबसे उपयुक्त गृह ऋण राशि तय करने में मदद करता है, आपको आपकी वित्तीय स्थिति के अनुसार सबसे उपयुक्त ऋण ईएमआई और कार्यकाल का निर्णय लेने में सहायक होता है</string>
+
+
+    <string name="privacy_policy"> <b>गोपनीयता नीति</b>\n\n
+    <b>अंतिम अपडेट: 20 मार्च, 2024</b>\n\n
+    यह गोपनीयता नीति हमारी सेवा का उपयोग करते समय व्यक्तिगत जानकारी के संग्रह, उपयोग, और खुलासा के बारे में नीतियों और अभ्यासों को स्पष्ट करती है। आपके गोपनीयता के अधिकार और हम आपकी जानकारी की सुरक्षा कैसे करते हैं, यहाँ विवरणित है।\n\n
+    हमारी सेवा का उपयोग करके, आप इस गोपनीयता नीति में विस्तृत रूप से आपकी जानकारी के संग्रह और उपयोग को स्वीकार करते हैं।\n\n
+    <b>व्याख्या और परिभाषाएँ</b>\n\n
+    <b>व्याख्या</b>\n\n
+    यहाँ प्रमुख शब्दों का अर्थ निम्नलिखित शर्तों के तहत परिभाषित है। प्रदान की गई परिभाषाएँ शब्दों की संख्या या रूप के बिना लागू होंगी।\n\n\n
+    <b>परिभाषाएँ</b>\n\n
+    इस गोपनीयता नीति के उद्देश्यों के लिए:\n\n
+    - "खाता" हमारी सेवा या उसके विशिष्ट भागों तक पहुँच के लिए बनाए गए एक अद्वितीय खाता का संकेत करता है।\n
+    - "संबंधी" हमारे साथ नियंत्रण करने वाले, हमारे अधीन रहने वाले, या सामान्य नियंत्रण के अधीन रहने वाले किसी एंटिटी को संदर्भित करता है, जहां नियंत्रण का अर्थ 50% या उससे अधिक शेयरों, पूंजी ब्याज, या अन्य मतदान अधिकारों के स्वामित्व को सूचित करता है।\n
+    - "एप्लिकेशन" हमारी द्वारा प्रदान किए गए सॉफ़्टवेयर प्रोग्राम को संदर्भित करता है, जिसे "Emi Loan Calculator" नाम से जाना जाता है।\n
+    - "कंपनी," "हम," "हम," या "हमारा" "Emi Loan Calculator" को संदर्भित करता है।\n
+    - "देश" गुजरात, भारत से संबंधित है, यदि अन्यथा निर्दिष्ट नहीं किया गया हो।\n
+    - "उपकरण" किसी भी उपकरण को संदर्भित करता है जो हमारी सेवा तक पहुंचने की क्षमता रखता है, जैसे कंप्यूटर, मोबाइल फोन, या टैबलेट।\n
+    - "व्यक्तिगत डेटा" किसी भी पहचानी या पहचाने जाने वाले व्यक्ति से संबंधित कोई भी जानकारी को समाहित करता है।\n
+    - "सेवा" "Emi Loan Calculator" एप्लिकेशन से संबंधित होता है।\n
+
+    - "सेवा प्रदाता" किसी भी प्राकृतिक या कानूनी एंटिटी का संकेत करता है जो हमारे पक्ष में डेटा प्रसंस्करण करता है। इसमें तीसरे पक्ष कंपनियों या व्यक्तियों को शामिल किया जा सकता है जो हमें हमारी सेवा प्रदान, विश्लेषण, या सेवा को बेहतर बनाने में सहायक हों।\n
+    - "उपयोग डेटा" सेवा का उपयोग करने या सेवा के ढांचे से स्वचालित रूप से जनरेट किए गए डेटा को संदर्भित करता है, जिसमें पृष्ठ यात्रा की अवधि, ब्राउज़र प्रकार, आईपी पता, और उपकरण पहचानकर्ता शामिल हैं।\n
+    - "आप" व्यक्ति को संदर्भित करता है जो हमारी सेवा का उपयोग कर रहा है या हमारी सेवा का उपयोग करने वाले व्यक्ति के लिए कानूनी एंटिटी।\n\n
+    <b>आपके व्यक्तिगत डेटा को एकत्र करना और उपयोग करना</b>\n\n
+    <b>एकत्रित डेटा के प्रकार</b>\n\n
+    <b>व्यक्तिगत डेटा</b>\n\n
+    हमारी सेवा का उपयोग करते समय, हम आपसे कुछ व्यक्तिगत पहचाननीय जानकारी का अनुरोध कर सकते हैं, जिसमें शामिल हो सकता है, लेकिन इससे सीमित नहीं है:\n
+    - उपयोग डेटा: स्वचालित रूप से एकत्रित डेटा में आपके उपकरण का आईपी पता, ब्राउज़र प्रकार, दौरे की गई पृष्ठ, उन पृष्ठों पर बिताए गए समय, और अन्य नैदानिक डेटा शामिल हो सकता है।\n
+    - मोबाइल उपकरणों से संग्रहित जानकारी: मोबाइल उपकरण के माध्यम से हमारी सेवा तक पहुंचते समय, हम उपकरण के जानकारी जैसे प्रकार, अद्वितीय आईडी, आईपी पता, ऑपरेटिंग सिस्टम, और मोबाइल ब्राउज़र प्रकार को संग्रहित कर सकते हैं।\n
+    - ब्राउज़र जानकारी: हम जान सकते हैं कि आपका ब्राउज़र हमारी सेवा पर दौरा करते समय आपके ब्राउज़र द्वारा भेजी गई जानकारी को।\n\n
+    <b>एप्लिकेशन का उपयोग करते समय संग्रहित जानकारी</b>\n\n
+    हमारे एप्लिकेशन का उपयोग करते समय, हम आपकी पूर्व सहमति के साथ स्थान जानकारी को संग्रहित कर सकते हैं। यह जानकारी हमारी सेवा प्रदान और बेहतर बनाने के लिए उपयोग की जाती है और इसे हमारे सर्वरों या आपके उपकरण में संग्रहित किया जा सकता है।\n
+    आपको अपने उपकरण की सेटिंग के माध्यम से किसी भी समय इस जानकारी का उपयोग सक्षम या अक्षम करने का विकल्प है।\n\n
+    <b>आपके व्यक्तिगत डेटा का उपयोग</b>\n\n
+    हम आपके व्यक्तिगत डेटा का निम्नलिखित उद्देश्यों के लिए उपयोग कर सकते हैं:\n
+    - हमारी सेवा प्रदान और बनाए रखना, सेवा के उपयोग की निगरानी सहित।\n
+    - आपके खाते का प्रबंधन और उपयोगकर्ता के रूप में पंजीकरण।\n
+    - अनुबंधित कर्तव्यों का पूरा करना, उत्पादों या सेवाओं के लिए खरीद के अनुबंध।\n
+    - अपडेट या सेवा संबंधित संचार के बारे में ईमेल, फोन कॉल, एसएमएस, या पुश सूचनाओं के माध्यम से आपसे संपर्क करना।\n
+    - समाचार, विशेष प्रस्ताव, और उत्पादों या सेवाओं के बारे में जानकारी प्रदान करना, जब तक आप ऑप्ट-आउट नहीं करते।\n
+    - आपके अनुरोधों और पूछताछों का प्रबंधन।\n
+    - व्यापारिक स्थानांतरणों का मूल्यांकन या आयोजन, जैसे कि विलय, अधिग्रहण, या संपत्ति बिक्री।\n
+    - डेटा विश्लेषण, उपयोग के प्रवृत्तियों की पहचान, और हमारी सेवा, उत्पादों, और विपणन प्रयासों को सुधारना।\n\n
+    <b>आपकी व्यक्तिगत जानकारी का साझा करना</b>\n\n
+    हम निम्नलिखित परिस्थितियों में आपकी व्यक्तिगत जानकारी को साझा कर सकते हैं:\n
+    - सेवा प्रदाताओं के साथ सेवा उपयोग का विश्लेषण करने या आपसे संपर्क करने के लिए।\n
+    - व्यापारिक स्थानांतरणों में, जैसे कि विलय या अधिग्रहण।\n
+    - संबंधितों के साथ, जिन्हें इस गोपनीयता नीति का पालन करना होगा।\n
+    - व्यापारिक साथियों के साथ, आपको कुछ विशेष उत्पादों, सेवाओं, या प्रोमोशन की पेशकश के लिए।\n
+    - सेवा के सार्वजनिक क्षेत्रों में अन्य उपयोगकर्ताओं के साथ।\n
+    - किसी अन्य उद्देश्य के लिए आपकी सहमति के साथ।\n\n
+    <b>आपकी व्यक्तिगत डेटा की रिटेंशन</b>\n\n
+    हम आपकी व्यक्तिगत डेटा को केवल उन उद्देश्यों के लिए रखेंगे जो इस गोपनीयता नीति में उल्लेख किए गए हैं। उपयोग डेटा को आंतरिक विश्लेषण के लिए रखा जा सकता है, लेकिन केवल सुरक्षा या सेवा सुधार के उद्देश्यों के लिए या कानून द्वारा निर्धारित समयावधि तक।\n\n
+    <b>आपकी व्यक्तिगत डेटा की स्थानांतरण</b>\n\n
+    आपका व्यक्तिगत डेटा, संग्रहित जानकारी सहित, हमारे संचालन कार्यालयों या उन अन्य स्थानों पर प्रसंस्कृत और रखा जा सकता है जहाँ प्रसंस्कृति में शामिल व्यक्तियों की स्थिति होती है। अपनी जानकारी प्रदान करके, आप इसके स्थानांतरण की सहमति देते हैं, जिसमें डेटा संरक्षण कानून आपके क्षेत्र से भिन्न हो सकते हैं। हम आपके डेटा की सुरक्षा और इस गोपनीयता नीति का पालन सुनिश्चित करने के लिए उचित कदम उठाएंगे।\n\n
+    <b>अपने व्यक्तिगत डेटा को हटाएं</b>\n\n
+    आपको हमने आपके बारे में संग्रहित व्यक्तिगत डेटा को हटाने का अधिकार है। आप अपनी जानकारी को अपडेट, संशोधित या हटा सकते हैं, अपने खाते में साइन इन करके या हमसे संपर्क करके। हालांकि, कुछ जानकारी को कानूनी अधिबासों या कानूनी आधारों को पूरा करने के लिए रखा जा सकता है।\n\n
+    <b>आपके व्यक्तिगत डेटा का खुलासा</b>\n\n
+    हम निम्नलिखित परिस्थितियों में आपकी व्यक्तिगत डेटा का खुलासा कर सकते हैं:\n
+    - व्यापारिक लेन-देनों में, जहां व्यक्तिगत डेटा स्थानांतरित किया जा सकता है।\n
+    - कानून द्वारा आवश्यकता होने पर या सार्वजनिक प्राधिकरणों द्वारा मान्य अनुरोधों के लिए।\n
+    - कानूनी अधिबासों को पूरा करने, हमारे अधिकार या संपत्ति की सुरक्षा, दुर्व्यवहार की जाँच, उपयोगकर्ताओं या सार्वजनिक की सुरक्षा सुनिश्चित करने या कानूनी जिम्मेदारी से बचने के लिए।\n\n
+    <b>आपके व्यक्तिगत डेटा की सुरक्षा</b>\n\n
+    हालांकि हम व्यक्तिगत डेटा की सुरक्षा के लिए व्यावसायिक रूप से स्वीकार्य उपायों का उपयोग करने का प्रयास करते हैं, लेकिन इंटरनेट या इलेक्ट्रॉनिक भंडारण के माध्यम से जानकारी के प्रेषण का कोई भी तरीका पूरी तरह सुरक्षित नहीं है। हम पूरी सुरक्षा की कोई भी गारंटी नहीं दे सकते, लेकिन हम आपके डेटा की सुरक्षा के लिए उचित कदम उठाएंगे।\n\n
+    <b>बच्चों की गोपनीयता</b>\n\n
+    हमारी सेवा का निर्देशन 13 वर्ष से कम उम्र के व्यक्तियों को नहीं है, और हम जानते हुए भी 13 वर्ष से कम उम्र के बच्चों से व्यक्तिगत पहचानी जाने वाली जानकारी को नहीं जमा करते हैं। यदि आप माता-पिता या अभिभावक हैं और यह जान जाते हैं कि आपका बच्चा आपकी सहमति के बिना व्यक्तिगत डेटा प्रदान कर रहा है, तो कृपया हमसे संपर्क करें, और हम ऐसी जानकारी को हटाने के लिए कदम उठाएंगे। यदि लागू कानून के तहत माता-पिता की सहमति की आवश्यकता हो, तो हम बच्चों से जानकारी को जमा करने से पहले ऐसी सहमति का अनुरोध कर सकते हैं।\n\n
+    <b>अन्य वेबसाइटों के लिंक</b>\n\n
+    हमारी सेवा में तृतीय-पक्ष वेबसाइटों के लिंक हो सकते हैं जो हमारे द्वारा संचालित नहीं हैं। हम आपको प्रत्येक साइट की गोपनीयता नीतियों की समीक्षा करने की मजबूर करते हैं। हमारे पास किसी भी तृतीय-पक्ष साइटों या सेवाओं की सामग्री, गोपनीयता नीतियां या अभ्यासों पर कोई नियंत्रण नहीं होता, और हम किसी भी तृतीय-पक्ष साइटों या सेवाओं की सामग्री, गोपनीयता नीतियां या अभ्यासों के लिए कोई जिम्मेदारी नहीं लेते।\n\n
+    <b>इस गोपनीयता नीति में परिवर्तन</b>\n\n
+    हम अपनी गोपनीयता नीति को समय-समय पर अपडेट कर सकते हैं। हम आपको अपडेटेड गोपनीयता नीति को इस पृष्ठ पर पोस्ट करके किसी भी परिवर्तन की सूचना देंगे। हम आपको ईमेल या हमारी सेवा पर सूचना के माध्यम से भी सूचित कर सकते हैं। आपको सिफारिश की जाती है कि आप इस गोपनीयता नीति की नियमित जांच करें। परिवर्तन इस पृष्ठ पर पोस्ट किए जाने पर प्रभावी होते हैं।\n\n
+    यदि आपके पास हमारी गोपनीयता नीति के बारे में कोई सवाल या सुझाव हो, तो हमसे संपर्क करने में हिचकिचाएं नहीं।
+</string>
+
+
+    <string name="title_bank_services">बैंक सेवाएं</string>
+    <string name="title_business_loan_calculator">व्यापार ऋण कैलकुलेटर</string>
+    <string name="header_principal_amount">मूल राशि</string>
+    <string name="header_rate_of_interest">ब्याज की दर (%)</string>
+    <string name="header_loan_term_in_year">वर्ष में ऋण की अवधि</string>
+    <string name="header_monthly_emi">मासिक ईएमआई :</string>
+    <string name="header_total_interest">कुल ब्याज :</string>
+    <string name="header_total_payment">कुल भुगतान</string>
+    <string name="btn_reset">रीसेट</string>
+    <string name="btn_calculate">गणना करें</string>
+    <string name="titile_compound_interest_calculator">द्विघटित ब्याज कैलकुलेटर</string>
+    <string name="header_period">अवधि</string>
+    <string name="header_compound_interest">द्विघटित ब्याज :</string>
+    <string name="header_principal_amount1">मूल राशि :</string>
+    <string name="header_total_amount">कुल राशि :</string>
+    <string name="title_emi_calculator">ईएमआई कैलकुलेटर</string>
+    <string name="title_fixed_deposit_calculator">नियत जमा कैलकुलेटर</string>
+    <string name="header_deposit_amount">जमा राशि</string>
+    <string name="title_period_of_deposit">जमा की अवधि</string>
+    <string name="header_total_deposit">कुल जमा :</string>
+    <string name="header_total_interest_value">कुल ब्याज मूल्य :</string>
+    <string name="header_maturity_amount">परिपक्व राशि :</string>
+    <string name="title_gst_calculator">जीएसटी कैलकुलेटर</string>
+    <string name="header_initial_amount">प्रारंभिक राशि</string>
+    <string name="header_rate_of_gst">जीएसटी दर (%)</string>
+    <string name="header_add_gst">जीएसटी जोड़ें +</string>
+    <string name="header_subtract_gst">जीएसटी कम करें -</string>
+    <string name="header_net_amount">नेट राशि :</string>
+    <string name="header_gst_amount">जीएसटी राशि :</string>
+    <string name="header_total_amount_gst_involves">कुल राशि (जीएसटी शामिल है) :</string>
+    <string name="header_cgst">सीजीएसटी :</string>
+    <string name="header_sgst">एसजीएसटी :</string>
+    <string name="header_investment_amount">निवेश राशि</string>
+    <string name="title_ppf_calculator">पीपीएफ कैलकुलेटर</string>
+    <string name="header_period_in_month">माह में अवधि</string>
+    <string name="header_total_investment">कुल निवेश :</string>
+    <string name="title_recurring_deposit_calculator">पुनःप्राप्त जमा कैलकुलेटर</string>
+    <string name="header_period_of_deposit">जमा की अवधि</string>
+    <string name="title_salary_calculator">वेतन कैलकुलेटर</string>
+    <string name="header_ctc_annual">सीटीसी (वार्षिक)</string>
+    <string name="header_bonus_included_ctc">बोनस शामिल सीटीसी%</string>
+    <string name="header_monthly_salary">मासिक वेतन :</string>
+    <string name="header_total_months">कुल महीने :</string>
+    <string name="header_total_salary_per_year">वार्षिक कुल वेतन :</string>
+    <string name="title_simple_interest_calculator">साधारण ब्याज कैलकुलेटर</string>
+    <string name="title_fd_ncalculator">एफडी \nकैलकुलेटर</string>
+    <string name="title_rd_ncalculator">आरडी \nकैलकुलेटर</string>
+    <string name="title_near_by_places">पास के स्थान</string>
+    <string name="title_insurance">बीमा</string>
+    <string name="title_bank_service">बैंक सेवा</string>
+    <string name="header_call_customer_care">ग्राहक सेवा को फोन करें</string>
+    <string name="header_get_mini_statement">मिनी स्टेटमेंट प्राप्त करें</string>
+    <string name="header_check_bank_balance">बैंक शेष जाँचें</string>
+    <string name="header_health_insurance">स्वास्थ्य बीमा</string>
+    <string name="header_motor_ninsurance">मोटर \nबीमा</string>
+    <string name="header_home_ninsrance">घर \nबीमा</string>
+    <string name="header_fire_ninsurance">आग \nबीमा</string>
+    <string name="header_travel_ninsurance">यात्रा \nबीमा</string>
+    <string name="header_property_insurance">संपत्ति बीमा</string>
+    <string name="header_term_life_insurance">अवधि जीवन बीमा</string>
+    <string name="header_whole_life_insurance">पूर्ण जीवन बीमा</string>
+    <string name="header_endowment_plans">एंडोवमेंट योजनाएं</string>
+    <string name="header_unit_linked_insurance">यूनिट-लिंक्ड बीमा</string>
+    <string name="header_child_nplans">बच्चा \nयोजनाएं</string>
+    <string name="header_pension_nplans">पेंशन \nयोजनाएं</string>
+    <string name="header_life_insurance">जीवन बीमा</string>
+    <string name="title_privacy_policy">गोपनीयता नीति</string>
+    <string name="title_exit_this_app">इस ऐप को बंद करें !!!</string>
+    <string name="app_name_emi_calculator">ईएमआई कैलकुलेटर</string>
+    <string name="header_are_you_sure_you_want_to_exit">क्या आप वाकई बाहर निकलना चाहते हैं ?</string>
+    <string name="BTN_no">नहीं</string>
+    <string name="BTN_yes">हां</string>
+    <string name="title_setting">सेटिंग</string>
+    <string name="header_language">भाषा</string>
+    <string name="header_select_language">भाषा चुनें</string>
+    <string name="header_select_language_for_app">ऐप के लिए भाषा चुनें</string>
+    <string name="header_general">सामान्य</string>
+    <string name="title_get_started">शुरू करें</string>
+    <string name="txt_share">शेयर करें</string>
+    <string name="txt_privacy">गोपनीयता</string>
+    <string name="title_app_loan_emi_calculator">ऋण ईएमआई कैलकुलेटर</string>
+    <string name="title_calculate_your_loan_emis_with_confidence">विश्वसनीयता के साथ अपने ऋण ईएमआई की गणना करें!</string>
+    <string name="txt_i_agree_with_terms_amp_conditions"><![CDATA[मैं नियम और शर्तों से सहमत हूँ]]></string>
+    <string name="BTN_decline">अस्वीकार</string>
+    <string name="BTN_accept">स्वीकार</string>
+
+
+    //banks
+    <string name="bankName_Allahabad">इलाहाबाद बैंक</string>
+    <string name="bankName_Andhra_Bank">आंध्रा बैंक</string>
+    <string name="bankName_Axis_Bank">एक्सिस बैंक</string>
+    <string name="bankName_Bandhan_Bank">बंधन बैंक</string>
+    <string name="bankName_Bank_of_Baroda">बैंक ऑफ बड़ौदा</string>
+    <string name="bankName_Bank_of_India">बैंक ऑफ इंडिया</string>
+    <string name="bankName_Bank_of_Maharashtra">बैंक ऑफ महाराष्ट्र</string>
+    <string name="bankName_Barclays_Bank">बार्क्लेज बैंक</string>
+    <string name="bankName_Bharatiya_Mahila_Bank">भारतीय महिला बैंक</string>
+    <string name="bankName_Canara_Bank">कैनरा बैंक</string>
+    <string name="bankName_Corporation_Bank">कॉर्पोरेशन बैंक</string>
+    <string name="bankName_Citi_Bank">सिटी बैंक</string>
+    <string name="bankName_Dhanalaxmi_Bank">धनलक्ष्मी बैंक</string>
+    <string name="bankName_Deutsche_Bank">डोच बैंक</string>
+    <string name="bankName_Federal_Bank">फेडरल बैंक</string>
+    <string name="bankName_HDFC_Bank">एचडीएफसी बैंक</string>
+    <string name="bankName_HSBC_Bank">एचएसबीसी बैंक</string>
+    <string name="bankName_ICICI_Bank">आईसीआईसीआई बैंक</string>
+    <string name="bankName_IDFC_Bank">आईडीएफसी बैंक</string>
+    <string name="bankName_SBT_Bank">एसबीटी बैंक</string>
+    <string name="bankName_Indian_Overseas_Bank">इंडियन ओवरसीज बैंक</string>
+    <string name="bankName_IndusInd_Bank">इंडसइंड बैंक</string>
+    <string name="bankName_Karnataka_Bank">कर्नाटका बैंक</string>
+    <string name="bankName_Kotak_Mahindra_Bank">कोटक महिंद्रा बैंक</string>
+    <string name="bankName_Citi_Union_Bank">सिटी यूनियन बैंक</string>
+    <string name="bankName_Panjab_National_Bank">पंजाब नेशनल बैंक</string>
+    <string name="bankName_Punjab_and_Sind_Bank">पंजाब और सिंध बैंक</string>
+    <string name="bankName_Saraswat_Bank">सारस्वत बैंक</string>
+    <string name="bankName_South_Indian_Bank">साउथ इंडियन बैंक</string>
+    <string name="bankName_Standard_Chartered_Bank">स्टैंडर्ड चार्टर्ड बैंक</string>
+    <string name="bankName_State_Bank_of_India">स्टेट बैंक ऑफ इंडिया</string>
+    <string name="bankName_Syndicate_Bank">सिंडिकेट बैंक</string>
+    <string name="bankName_UCO_Bank">यूसीओ बैंक</string>
+    <string name="bankName_Union_Bank_of_India">यूनियन बैंक ऑफ इंडिया</string>
+    <string name="bankName_United_Together_Bank">यूनाइटेड टूगेदर बैंक</string>
+    <string name="bankName_Vijaya_Bank">विजया बैंक</string>
+
+
+    //places
+    <string name="placeName_Airport">हवाई अड्डा</string>
+    <string name="placeName_Amusement">मनोरंजन</string>
+    <string name="placeName_Aquarium">एक्वेरियम</string>
+    <string name="placeName_Art_Gallery">कला गैलरी</string>
+    <string name="placeName_ATM">एटीएम</string>
+    <string name="placeName_Bakery">बेकरी</string>
+    <string name="placeName_Bank">बैंक</string>
+    <string name="placeName_Beauty_Salon">सौंदर्य सैलून</string>
+    <string name="placeName_Bicycle_Store">साइकिल स्टोर</string>
+    <string name="placeName_Book_Store">पुस्तक स्टोर</string>
+    <string name="placeName_Bowling_Alley">बोलिंग अड्डा</string>
+    <string name="placeName_Bus_Station">बस स्टेशन</string>
+    <string name="placeName_Cafe">कैफे</string>
+    <string name="placeName_Car_Dealer">कार डीलर</string>
+    <string name="placeName_Car_Rental">कार किराया</string>
+    <string name="placeName_Car_Repair">कार मरम्मत</string>
+    <string name="placeName_Car_Wash">कार धोने की जगह</string>
+    <string name="placeName_Cemetery">कब्रिस्तान</string>
+    <string name="placeName_Church">चर्च</string>
+    <string name="placeName_City_Hall">नगर हाल</string>
+    <string name="placeName_Clothing_Store">कपड़ा स्टोर</string>
+    <string name="placeName_Convenience_Store">सुविधा स्टोर</string>
+    <string name="placeName_Court_House">अदालत का भवन</string>
+    <string name="placeName_Doctor">डॉक्टर</string>
+    <string name="placeName_Electrician">इलेक्ट्रीशियन</string>
+    <string name="placeName_Electronic_Store">इलेक्ट्रॉनिक स्टोर</string>
+    <string name="placeName_Embassy">दूतावास</string>
+    <string name="placeName_Fire_Station">अग्निशमन स्टेशन</string>
+    <string name="placeName_Furniture_Store">फर्नीचर स्टोर</string>
+    <string name="placeName_Gas_Station">गैस स्टेशन</string>
+    <string name="placeName_Grocery_Store">किराना स्टोर</string>
+    <string name="placeName_Gym">जिम</string>
+    <string name="placeName_Hair_Salon">बाल सैलून</string>
+    <string name="placeName_Hardware_Store">हार्डवेयर स्टोर</string>
+    <string name="placeName_Hindu_Temple">हिन्दू मंदिर</string>
+    <string name="placeName_Home_Goods">घर के सामान</string>
+    <string name="placeName_Hospital">अस्पताल</string>
+    <string name="placeName_Insurance_Agency">बीमा एजेंसी</string>
+    <string name="placeName_Jewelry_Store">ज्वेलरी स्टोर</string>
+    <string name="placeName_Library">पुस्तकालय</string>
+    <string name="placeName_Local_Government_Office">स्थानीय सरकारी कार्यालय</string>
+    <string name="placeName_Locksmith">लॉकस्मिथ</string>
+    <string name="placeName_Meal_Delivery">भोजन डिलिवरी</string>
+    <string name="placeName_Museum">संग्रहालय</string>
+    <string name="placeName_Painter">पेंटर</string>
+    <string name="placeName_Parking">पार्किंग</string>
+    <string name="placeName_Park">पार्क</string>
+    <string name="placeName_Pet_Store">पालतू जानवर स्टोर</string>
+    <string name="placeName_Petrol_Pump">पेट्रोल पंप</string>
+    <string name="placeName_Pharmacy">फार्मेसी</string>
+    <string name="placeName_Physiotherapist">फिजियोथेरेपिस्ट</string>
+    <string name="placeName_Plumber">प्लंबर</string>
+    <string name="placeName_Police">पुलिस</string>
+    <string name="placeName_Real_Estate_Agency">रियल एस्टेट एजेंसी</string>
+    <string name="placeName_Roofing_Control">रूफिंग कंट्रोल</string>
+    <string name="placeName_RV_Park">आरवी पार्क</string>
+    <string name="placeName_School">स्कूल</string>
+    <string name="placeName_Shoe_Store">जूते की दुकान</string>
+    <string name="placeName_Shopping_Mall">शॉपिंग मॉल</string>
+    <string name="placeName_Stadium">स्टेडियम</string>
+    <string name="placeName_Subway_Station">सबवे स्टेशन</string>
+    <string name="placeName_Super_Market">सुपर मार्केट</string>
+    <string name="placeName_Taxi_Stand">टैक्सी स्टैंड</string>
+    <string name="placeName_Train_Station">रेलवे स्टेशन</string>
+    <string name="placeName_Travel_Agency">यात्रा एजेंसी</string>
+    <string name="placeName_Veterinary_Care">पशु चिकित्सा सेवा</string>
+    <string name="placeName_Zoo">चिड़ियाघर</string>
+
+    <string name="title_select_language">भाषा चुनें</string>
+
+
+</resources>

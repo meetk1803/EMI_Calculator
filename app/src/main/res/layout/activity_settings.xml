@@ -109,21 +109,18 @@
                 android:onClick="open_language"
                 android:orientation="horizontal">
 
-                <androidx.appcompat.widget.AppCompatTextView
+                <ImageView
                     android:id="@+id/language"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="center_vertical"
-                    android:drawableEnd="@drawable/baseline_arrow"
-                    android:drawableTint="@color/white"
+                    android:src="@drawable/baseline_arrow"
                     android:fontFamily="@font/inter_regular"
                     android:gravity="center_vertical"
                     android:paddingEnd="@dimen/_15sdp"
-                    android:text="English"
-                    android:textColor="#67D0FF"
-                    android:textColorLink="@color/white"
                     android:textSize="@dimen/_15sdp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    app:tint="@color/white" />
             </LinearLayout>
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
