@@ -143,7 +143,7 @@
     <string name="header_are_you_sure_you_want_to_exit">Are You Sure You Want To Exit ?</string>
     <string name="BTN_no">No</string>
     <string name="BTN_yes">Yes</string>
-    <string name="title_setting">Setting</string>
+    <string name="title_setting">Settings</string>
     <string name="header_language">Language</string>
     <string name="header_select_language">Select Language</string>
     <string name="header_select_language_for_app">Select Language For App</string>
@@ -195,7 +195,7 @@
     <string name="bankName_United_Together_Bank">United Together Bank</string>
     <string name="bankName_Vijaya_Bank">Vijaya Bank</string>
 
-//places
+    //places
     <string name="placeName_Airport">Airport</string>
     <string name="placeName_Amusement">Amusement</string>
     <string name="placeName_Aquarium">Aquarium</string>
@@ -263,5 +263,8 @@
     <string name="placeName_Travel_Agency">Travel Agency</string>
     <string name="placeName_Veterinary_Care">Veterinary Care</string>
     <string name="placeName_Zoo">Zoo</string>
+
+
+    <string name="title_select_language">Select Language</string>
 
 </resources>

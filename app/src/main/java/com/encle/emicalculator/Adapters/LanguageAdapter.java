@@ -2,6 +2,7 @@ package com.encle.emicalculator.Adapters;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.widget.AppCompatTextView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.encle.emicalculator.LanguageActivity;
 import com.encle.emicalculator.Model.Language;
 import com.example.emicalculator.R;
 import com.google.android.material.imageview.ShapeableImageView;
@@ -58,11 +60,24 @@ public class LanguageAdapter extends RecyclerView.Adapter<LanguageAdapter.ViewHo
                     languageList.get(position).setSelected(true);
                     lastCheckedPosition = position;
                     notifyDataSetChanged(); // Refresh the RecyclerView to reflect changes
+
+                    // Store the selected language in SharedPreferences
+                    SharedPreferences preferences = context.getSharedPreferences("MyPrefs", Context.MODE_PRIVATE);
+                    preferences.edit().putString("selected_language", languageList.get(position).getName()).apply();
+
+                    // Enable the BTN_change
+                    ((LanguageActivity) context).BTN_change.setVisibility(View.VISIBLE);
                 }
-            }
+
+        }
         });
     }
-
+    public String getSelectedLanguage() {
+        if (lastCheckedPosition != -1 && lastCheckedPosition < languageList.size()) {
+            return languageList.get(lastCheckedPosition).getName();
+        }
+        return ""; // Default language
+    }
     @Override
     public int getItemCount() {
         return languageList.size();
@@ -79,6 +94,7 @@ public class LanguageAdapter extends RecyclerView.Adapter<LanguageAdapter.ViewHo
             languageLogoImageView = itemView.findViewById(R.id.languageLogoImageView);
             languageRadioButton = itemView.findViewById(R.id.chk__privacy);
             languageNameTextView = itemView.findViewById(R.id.languageNameTextView);
+
         }
     }
 }

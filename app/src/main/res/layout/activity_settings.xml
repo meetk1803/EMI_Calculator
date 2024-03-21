@@ -34,9 +34,8 @@
             android:layout_marginBottom="@dimen/_15sdp"
             android:gravity="center"
             android:text="@string/title_setting"
-            android:fontFamily="@font/opensans_semibold"
             android:textColor="@color/white"
-            android:textSize="@dimen/_15sdp"
+            android:textSize="@dimen/_20sdp"
             android:textStyle="bold" />
     </FrameLayout>
 
@@ -141,11 +140,13 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/_60sdp"
         android:layout_marginTop="@dimen/_10sdp"
+        android:onClick="share_app"
         android:src="@drawable/shareapp"/>
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="@dimen/_60sdp"
         android:layout_marginTop="@dimen/_10sdp"
+        android:onClick="open_privacy"
         android:src="@drawable/privacy_policy"/>
     <ImageView
         android:layout_width="match_parent"
