@@ -14,13 +14,13 @@
         android:background="@drawable/home_shadow_gradient_top">
 
         <com.google.android.material.textview.MaterialTextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
+            android:layout_marginStart="@dimen/_20sdp"
             android:layout_marginBottom="@dimen/_10sdp"
             android:gravity="start"
-            android:layout_marginStart="@dimen/_20sdp"
-            android:text="Loan EMI Calculator"
+            android:text="@string/title_loan_emi_calculator"
             android:textColor="@color/white"
             android:textSize="@dimen/_20sdp"
             android:textStyle="bold" />
@@ -30,9 +30,9 @@
             android:layout_width="@dimen/_25sdp"
             android:layout_height="@dimen/_25sdp"
             android:layout_gravity="bottom|end"
+            android:layout_marginEnd="@dimen/_15sdp"
             android:layout_marginBottom="@dimen/_10sdp"
             android:onClick="open_settings"
-            android:layout_marginEnd="@dimen/_15sdp"
             android:src="@drawable/round_settings_24" />
 
     </FrameLayout>
@@ -72,9 +72,9 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom"
+                            android:layout_marginHorizontal="@dimen/_5sdp"
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
-                            android:layout_marginHorizontal="@dimen/_5sdp"
                             android:gravity="center"
                             android:text="@string/title_emi_calculator"
                             android:textColor="@color/black"
@@ -149,7 +149,6 @@
                             android:text="@string/title_fd_ncalculator"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_13sdp"
-
                             android:textStyle="bold" />
                     </com.google.android.material.card.MaterialCardView>
 
@@ -257,10 +256,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom"
+                            android:layout_marginHorizontal="@dimen/_5sdp"
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:layout_marginHorizontal="@dimen/_5sdp"
                             android:text="@string/title_gst_calculator"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_13sdp"
@@ -302,10 +301,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom"
+                            android:layout_marginHorizontal="@dimen/_5sdp"
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:layout_marginHorizontal="@dimen/_5sdp"
                             android:text="@string/title_ppf_calculator"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_13sdp"
@@ -338,10 +337,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom"
+                            android:layout_marginHorizontal="@dimen/_5sdp"
                             android:layout_marginBottom="@dimen/_1sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:layout_marginHorizontal="@dimen/_5sdp"
                             android:text="@string/title_simple_interest_calculator"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp"
@@ -453,10 +452,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom"
+                            android:layout_marginHorizontal="@dimen/_10sdp"
                             android:layout_marginBottom="@dimen/_10sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:layout_marginHorizontal="@dimen/_10sdp"
                             android:text="@string/title_bank_service"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_13sdp"
@@ -489,10 +488,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="bottom"
+                            android:layout_marginHorizontal="@dimen/_5sdp"
                             android:layout_marginBottom="@dimen/_9sdp"
                             android:fontFamily="sans-serif"
                             android:gravity="center"
-                            android:layout_marginHorizontal="@dimen/_5sdp"
                             android:text="@string/title_near_by_places"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp"
@@ -506,14 +505,7 @@
                         android:layout_gravity="top|center"
                         android:src="@drawable/near_by_places" />
                 </FrameLayout>
-
-
             </LinearLayout>
-
-
         </GridLayout>
-
     </ScrollView>
-
-
 </LinearLayout>

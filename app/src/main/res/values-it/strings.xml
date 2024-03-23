@@ -282,8 +282,8 @@
     <string name="placeName_Train_Station">Stazione Ferroviaria</string>
     <string name="placeName_Travel_Agency">Agenzia di Viaggi</string>
     <string name="placeName_Veterinary_Care">Cura Veterinaria</string>
-    <string name="placeName_Zoo">Zoo</string>21
+    <string name="placeName_Zoo">Zoo</string>
 
-<!--
-    <title_select_language>Seleziona Lingua</title_select_language>-->
+    <string name="title_select_language">Seleziona Lingua</string>
+    <string name="title_loan_emi_calculator">Calcolatrice EMI del prestito</string>
 </resources>

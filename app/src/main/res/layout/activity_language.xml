@@ -101,22 +101,6 @@
         android:onClick="korean"
         android:clickable="true"
         android:src="@drawable/korean"/>
-    <ImageView
-        android:id="@+id/malay"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_60sdp"
-        android:layout_margin="@dimen/_5sdp"
-        android:onClick="malay"
-        android:clickable="true"
-        android:src="@drawable/malay"/>
-    <ImageView
-        android:id="@+id/polish"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_60sdp"
-        android:layout_margin="@dimen/_5sdp"
-        android:onClick="polish"
-        android:clickable="true"
-        android:src="@drawable/polish"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

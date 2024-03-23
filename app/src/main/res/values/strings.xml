@@ -285,5 +285,6 @@
     <string name="placeName_Zoo">Zoo</string>
 
     <string name="title_select_language">Select Language</string>
+    <string name="title_loan_emi_calculator">Loan EMI Calculator</string>
 
 </resources>

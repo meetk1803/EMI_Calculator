@@ -289,5 +289,7 @@
     <string name="placeName_Zoo">Zoo</string>
 
     <string name="title_select_language">Sprache auswählen</string>
+    <string name="title_loan_emi_calculator">Darlehens-EMI-Rechner</string>
+
 
 </resources>

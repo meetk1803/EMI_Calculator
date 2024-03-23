@@ -54,19 +54,11 @@ public class LanguageActivity extends AppCompatActivity {
     }
     //
     public void italian(View view) {
-        LanguageActivity.setLanguage(LanguageActivity.this, "fr");
+        LanguageActivity.setLanguage(LanguageActivity.this, "it");
         LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
     }
     public void korean(View view) {
-        LanguageActivity.setLanguage(LanguageActivity.this, "fr");
-        LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
-    }
-    public void malay(View view) {
-        LanguageActivity.setLanguage(LanguageActivity.this, "fr");
-        LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
-    }
-    public void polish(View view) {
-        LanguageActivity.setLanguage(LanguageActivity.this, "fr");
+        LanguageActivity.setLanguage(LanguageActivity.this, "ko");
         LanguageActivity.this.startActivity(new Intent(LanguageActivity.this, Home_Loan_Emi_Calc.class));
     }
 

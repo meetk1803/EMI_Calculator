@@ -286,4 +286,5 @@
     <string name="placeName_Zoo">Zoológico</string>
 
     <string name="title_select_language">Seleccionar Idioma</string>
+    <string name="title_loan_emi_calculator">Calculadora de EMI de préstamo</string>
 </resources>
