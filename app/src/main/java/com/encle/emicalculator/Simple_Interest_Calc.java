@@ -26,6 +26,7 @@ public class Simple_Interest_Calc extends AppCompatActivity {
     private MaterialAutoCompleteTextView periodSpinner;
 
     private boolean isPeriodInYears = true;
+
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,6 +73,7 @@ public class Simple_Interest_Calc extends AppCompatActivity {
         });
 
     }
+
     private void reset() {
         // Clear the text of all TextInputEditText fields
         edt_investment_amount.setText("");
@@ -137,7 +139,8 @@ public class Simple_Interest_Calc extends AppCompatActivity {
 
         // Display the results
         txt_simple_investment.setText(formattedInterest);
-        txt_principal_interest_value.setText(formattedInterest);
+        String formattedPrincipal = "₹" + decimalFormat.format(principal);
+        txt_principal_interest_value.setText(formattedPrincipal);
         txt_total_amount.setText(formattedTotalAmount);
     }
 

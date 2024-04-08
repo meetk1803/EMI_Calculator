@@ -30,7 +30,6 @@ public class Home_Loan_Emi_Calc extends AppCompatActivity {
         CardView card_bank_service =findViewById(R.id.bank_service);
         CardView card_near_by_places =findViewById(R.id.near_by_places);
 
-
         card_emi_calc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

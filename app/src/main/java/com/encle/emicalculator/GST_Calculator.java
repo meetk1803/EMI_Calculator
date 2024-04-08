@@ -110,8 +110,6 @@ public class GST_Calculator extends AppCompatActivity {
         }
     }
 
-
-
     // Method to reset all input fields
     private void resetFields() {
         initialAmountEditText.setText("");
@@ -122,6 +120,7 @@ public class GST_Calculator extends AppCompatActivity {
     }
 
     // Method to handle back button click
+
     public void txt_back(View view) {
         finish();
     }
